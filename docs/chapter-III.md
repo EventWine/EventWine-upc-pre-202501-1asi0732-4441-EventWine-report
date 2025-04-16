@@ -18,3 +18,116 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
 
 ## 3.3 Impact Mapping
 ![ToBe](/assets/img/chapter-III/RFIM.png)
+
+## 3.4 Product Backlog
+<table border="1">
+  <thead>
+    <tr>
+      <th>Orden</th>
+      <th>User Story Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Story Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>US-001</td>
+      <td>Hipervínculos en el encabezado</td>
+      <td>Como visitante de la landing page, quiero que las opciones del encabezado me dirijan a las diferentes secciones de la Landing Page para poder navegar de forma rápida y fluida.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>US-002</td>
+      <td>Información sobre beneficios de la aplicación</td>
+      <td>Como usuario, quiero saber más sobre los beneficios de la aplicación web para considerar ser miembro de la aplicación.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>US-004</td>
+      <td>Información útil en el footer</td>
+      <td>Como usuario, quiero que el footer contenga información útil, como datos de contacto y enlaces a políticas, para facilitar mi navegación.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>US-005</td>
+      <td>Gestión del proceso de Clarificación</td>
+      <td>Como vinicultor, quiero registrar la etapa de clarificación para asegurar que el vino se filtra y estabiliza, cumpliendo con los estándares de calidad requeridos.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>US-006</td>
+      <td>Gestión del proceso de Prensado</td>
+      <td>Como vinicultor, quiero documentar el proceso de prensado para optimizar la extracción de jugo y mejorar la eficiencia en la producción del vino.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>US-006</td>
+      <td>Registro de Entrada de Insumos</td>
+      <td>Como encargado de bodega, quiero registrar la entrada de insumos para mantener actualizado el inventario.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>US-008</td>
+      <td>Gestión del proceso de Embotellado</td>
+      <td>Como vinicultor, quiero documentar la fase de embotellado para garantizar la trazabilidad y calidad del producto final listo para la comercialización.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>US-016</td>
+      <td>Visualizar Home de la Plataforma</td>
+      <td>Como usuario, quiero visualizar la página de inicio de la plataforma para acceder fácilmente a las principales funcionalidades.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>US-004</td>
+      <td>Gestión del proceso de Fermentación</td>
+      <td>Como vinicultor, quiero monitorear y documentar la fermentación para garantizar que el proceso se realiza bajo condiciones óptimas y mantener la calidad del vino.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>US-007</td>
+      <td>Gestión del proceso de Añejamiento</td>
+      <td>Como vinicultor, quiero controlar la etapa de añejamiento para asegurar el desarrollo correcto de aromas y sabores, permitiendo intervenciones oportunas si son necesarias.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>US-019</td>
+      <td>Integración de Validadores en Formularios</td>
+      <td>Como usuario, quiero que los formularios de la aplicación web tengan validadores para asegurar que los datos ingresados sean correctos.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>US-021</td>
+      <td>Mejora de la Experiencia del Usuario</td>
+      <td>Como usuario, quiero que la aplicación sea intuitiva y fácil de navegar para mejorar mi experiencia general.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>US-022</td>
+      <td>Implementación de Funcionalidad de Búsqueda</td>
+      <td>Como usuario, quiero poder realizar búsquedas en la aplicación para encontrar rápidamente la información que necesito.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>US-028</td>
+      <td>Reportes Personalizados</td>
+      <td>Como usuario de producción, quiero poder crear reportes personalizados para analizar datos específicos de producción.</td>
+      <td>8</td>
+    </tr>
+  </tbody>
+</table>
