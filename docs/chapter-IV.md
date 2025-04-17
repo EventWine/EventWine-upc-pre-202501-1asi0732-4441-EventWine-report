@@ -999,10 +999,32 @@ A continuación se presenta el código en formato markdown con las clases, atrib
 
 ## 4.10. Database Design.
 
+El diseño de la base de datos es un aspecto crucial en el desarrollo de software, ya que define cómo se estructuran y almacenan los datos. A continuación se presenta el diagrama de la base de datos, que ilustra las tablas, sus atributos y las relaciones entre ellas.
 
 ### 4.10.1. Database Diagram
 
+**Data Base de la sección de Usuarios**
 
+<p> <img width="800" alt="Database Diagram" src="../assets/img/chapter-IV/ClassDiagram_Users.png"> </p>
+
+**Data Base de la sección de Clientes**
+
+<p> <img width="800" alt="Database Diagram" src="../assets/img/chapter-IV/ClassDiagram_Clients.png"> </p>
+
+**Data Base de la sección de Pedidos**
+
+<p> <img width="800" alt="Database Diagram" src="../assets/img/chapter-IV/ClassDiagram_Order.png"> </p>
+
+**Data Base de la sección del Proceso de Vinificación**
+
+<p> <img width="800" alt="Database Diagram" src="../assets/img/chapter-IV/ClassDiagram_ProcessWinification.png"> </p>
+
+**Data Base de la sección de Inventario**
+
+<p> <img width="800" alt="Database Diagram" src="../assets/img/chapter-IV/ClassDiagram_Inventory.png"> </p>
+
+**Despliegue total del Data Base Diagram de EventWine**
+<p> <img width="800" alt="Database Diagram" src="../assets/img/chapter-IV/Class_Diagram_EventWine.png"> </p>
 
 
  
