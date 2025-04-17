@@ -65,7 +65,7 @@ Nos enfocamos en ofrecer soluciones personalizadas que se ajusten a las necesida
         </tr>
         <tr>
             <td>
-                <img src="../assets/img/chapter-I/july_paico.png" height="120" alt="July Paico"><br>
+                <img src="../assets/img/chapter-I/foto-july.png" height="120" alt="July Paico"><br>
                 July Zelmira Paico Calderon - U20211D760
             </td>
             <td>
