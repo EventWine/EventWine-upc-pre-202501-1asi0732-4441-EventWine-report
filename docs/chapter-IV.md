@@ -499,7 +499,7 @@ En esta sección se muestra los detalles de un pedido específico, con la opció
 
 El prototipado de aplicaciones web es esencial porque permite visualizar y probar el diseño y la funcionalidad de una aplicación antes de su desarrollo completo. Este proceso es clave para detectar posibles problemas de usabilidad y asegurar que el producto final cumpla con las expectativas de los usuarios y clientes.
 
-![prototype-evenWwine-v1.png](../assets/img/chapter-IV/v1-prototype-eventWine.png)
+![prototype-evenWine-v1.png](../assets/img/chapter-IV/v1-prototype-eventWine.png)
 
 Enlace del video:
 [Prototype EventWine - MetaSoft](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923571_upc_edu_pe/EQ3ShXzJBlJAllrQ9SJ3yY8Bacs6SF9dXo-7o_dXhgiZYw?e=6Lgnwd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
@@ -513,7 +513,7 @@ Se trata de un enfoque en el diseño de software que pone énfasis en la compren
 
 ## 4.8.1. Software Architecture Context Diagram.
 
-El esquema de contexto ofrece una perspectiva general de las interacciones entre el sistema de software ElixirControl, los usuarios y sistemas externos.
+El esquema de contexto ofrece una perspectiva general de las interacciones entre el sistema de software EventWine, los usuarios y sistemas externos.
 
 <p align = "center"> <img width="800" alt="Lean UX Canvas (v2)" src="../assets/img/chapter-IV/structurizr-94964-SystemContext-001 (2).png"> </p>
 
@@ -522,17 +522,483 @@ El esquema de contexto ofrece una perspectiva general de las interacciones entre
 
 ### 4.8.2. Software Architecture Container Diagrams.
 
+El diagrama de contenedores ofrece una visión general de las conexiones entre aplicaciones y fuentes de datos en el sistema ElixirControl. Muestra cómo interactúan y dependen entre sí para su funcionamiento.
+
+<p align = "center"> <img width="800" alt="Lean UX Canvas (v2)" src="../assets/img/chapter-IV/structurizr-94964-Container-001 (1).png"> </p>
+
+<p align = "center"> <em> Fuente: Elaboración propia. </em> </p>
+
 
 ### 4.8.3. Software Architecture Components Diagrams.
 
+El diagrama de componentes proporciona una visión detallada de los componentes individuales dentro de cada contenedor del sistema ElixirControl. Muestra cómo se organizan y cómo interactúan entre sí.
+
+<p align = "center"> <img width="800" alt="Lean UX Canvas (v2)" src="../assets/img/chapter-IV/structurizr-94964-Component-001 (1).png"> </p>
+
+<p align = "center"> <em> Fuente: Elaboración propia. </em> </p>
 
 ## 4.9. Software Object-Oriented Design.
 
+El diseño orientado a objetos es un enfoque de programación que utiliza objetos y clases para estructurar el código. Este enfoque permite una mejor organización, reutilización y mantenimiento del software.
+A continuación se presenta el diagrama de clases y el diccionario de clases, que describen la estructura y los atributos de las clases utilizadas en el sistema.
+
 ### 4.9.1. Class Diagrams.
+**Despliegue del diagrama de clase de "Usuarios"**
+
+<p> <img width="800" alt="Class Diagram UML" src="../assets/img/chapter-IV/UML_Users.png"> </p>
+
+**Despliegue del diagrama de clase de "Inventario"**
+
+<p> <img width="800" alt="Class Diagram UML" src="../assets/img/chapter-IV/UML_Inventory.png"> </p>
+
+**Despliegue del diagrama de clase de "Pedidos"**
+
+<p> <img width="800" alt="Class Diagram UML" src="../assets/img/chapter-IV/UML_Order.png"> </p>
+
+**Despliegue del diagrama de clase de "Proceso de Vinificacion"**
+
+<p> <img width="800" alt="Class Diagram UML" src="../assets/img/chapter-IV/UML_ProcessWinification.png"> </p>
+
+**Despliegue del diagrama de clase del "Cliente"**
+
+<p> <img width="800" alt="Class Diagram UML" src="../assets/img/chapter-IV/UML_Client.png"> </p>
+
+**Despliegue del diagrama de clase de EventWine**
+
+<p> <img width="800" alt="Class Diagram UML" src="../assets/img/chapter-IV/Class_Diagram_UML.png"> </p>
 
 ### 4.9.2. Class Dictionary.
 
+A continuación se presenta el código en formato markdown con las clases, atributos y métodos correspondientes:
+
+### User
+| Atributos           | Tipos    |
+|---------------------|----------|
+| id                  | Integer  |
+| firstName           | String   |
+| lastName            | String   |
+| password            | String   |
+| status              | Char     |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| login(username, password) | Verifica las credenciales del usuario. Devuelve true si la autenticación es exitosa. |
+| register()         | Registra un nuevo usuario con la información proporcionada. |
+| updateProfile()    | Actualiza la información del perfil del usuario. |
+| changePassword(oldPassword, newPassword) | Cambia la contraseña del usuario si la contraseña antigua es correcta. |
+
+---
+
+### Client
+| Atributos           | Tipos    |
+|---------------------|----------|
+| id                  | Integer  |
+| firstName           | String   |
+| lastName            | String   |
+| dni                 | String   |
+| email               | String   |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| createClient(firstName, lastName, dni, email) | Crea un nuevo cliente con la información proporcionada. |
+| updateClient(id, firstName, lastName, dni, email) | Actualiza la información de un cliente existente. |
+| deleteClient(id)   | Elimina un cliente identificado por su ID. |
+| getClient(id)      | Recupera los detalles de un cliente por su ID. |
+| searchClient(criteria) | Busca clientes según un criterio específico (ej. nombre o DNI). |
+| listClients()      | Lista todos los clientes registrados. |
+
+---
+
+### ClientList
+| Atributos           | Tipos    |
+|---------------------|----------|
+| id                  | Integer  |
+| firstName           | String   |
+| lastName            | String   |
+| dni                 | String   |
+| email               | String   |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| addClient(firstName, lastName, dni, email) | Agrega un nuevo cliente a la lista. |
+| updateClient(id, firstName, lastName, dni, email) | Actualiza la información de un cliente existente. |
+| deleteClient(id)   | Elimina un cliente identificado por su ID. |
+| getClient(id)      | Recupera los detalles de un cliente por su ID. |
+| searchClient(criteria) | Busca clientes según un criterio específico (ej. nombre o DNI). |
+| listClients()      | Lista todos los clientes registrados. |
+
+---
+
+### Order
+| Atributos           | Tipos    |
+|---------------------|----------|
+| id                  | Integer  |
+| clientId            | Integer  |
+| orderDate           | DateTime |
+| totalAmount         | Decimal  |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| createOrder(clientId, orderDate, totalAmount) | Crea un nuevo pedido con la información proporcionada. |
+| updateOrder(id, clientId, orderDate, totalAmount) | Actualiza la información de un pedido existente. |
+| deleteOrder(id)    | Elimina un pedido identificado por su ID. |
+| getOrder(id)       | Recupera los detalles de un pedido por su ID. |
+| listOrdersByClient(clientId) | Lista todos los pedidos asociados a un cliente específico. |
+
+---
+
+### OrderHistory
+| Atributos           | Tipos    |
+|---------------------|----------|
+| id                  | Integer  |
+| orderId             | Integer  |
+| changeDate          | DateTime |
+| status              | String   |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| addHistory(orderId, changeDate, status) | Agrega un nuevo registro al historial de pedidos. |
+| getHistory(id)     | Recupera los detalles del historial de un pedido por su ID. |
+| deleteHistory(id)  | Elimina un registro del historial identificado por su ID. |
+---
+
+### Product
+| Atributos           | Tipos    |
+|---------------------|----------|
+| id                  | Integer  |
+| name                | String   |
+| description         | String   |
+| price               | Decimal  |
+| stockQuantity       | Integer  |
+| productTypeId       | Integer  |
+| supplierId          | Integer  |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| createProduct(name, description, price, stockQuantity, productTypeId, supplierId) | Crea un nuevo producto con la información proporcionada. |
+| updateProduct(id, name, description, price, stockQuantity, productTypeId, supplierId) | Actualiza la información de un producto existente. |
+| deleteProduct(id)   | Elimina un producto identificado por su ID. |
+| getProduct(id)      | Recupera los detalles de un producto por su ID. |
+
+---
+
+### ProductType
+| Atributos           | Tipos    |
+|---------------------|----------|
+| id                  | Integer  |
+| typeName            | String   |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| createProductType(typeName) | Crea un nuevo tipo de producto. |
+| updateProductType(id, typeName) | Actualiza la información de un tipo de producto existente. |
+| deleteProductType(id)   | Elimina un tipo de producto identificado por su ID. |
+| getProductType(id)      | Recupera los detalles de un tipo de producto por su ID. |
+
+---
+
+### Supplier
+| Atributos           | Tipos    |
+|---------------------|----------|
+| id                  | Integer  |
+| name                | String   |
+| contactInformation   | String   |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| addSupplier(name, contactInformation) | Agrega un nuevo proveedor con la información proporcionada. |
+| updateSupplier(id, name, contactInformation) | Actualiza la información de un proveedor existente. |
+| deleteSupplier(id)   | Elimina un proveedor identificado por su ID. |
+| getSupplier(id)      | Recupera los detalles de un proveedor por su ID. |
+
+---
+
+### Inventory
+| Atributos           | Tipos    |
+|---------------------|----------|
+| id                  | Integer  |
+| productId           | Integer  |
+| quantityAvailable    | Integer  |
+| entryDate           | DateTime |
+| location            | String   |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| addInventory(productId, quantityAvailable, entryDate, location) | Agrega un nuevo registro de inventario. |
+| updateInventory(id, quantityAvailable) | Actualiza la cantidad disponible de un inventario existente. |
+| deleteInventory(id)   | Elimina un registro de inventario identificado por su ID. |
+| getInventoryDetails(productId) | Recupera los detalles del inventario asociado a un producto específico. |
+
+---
+
+### Support
+| Atributos           | Tipos    |
+|---------------------|----------|
+| id                  | Integer  |
+| clientId            | Integer  |
+| requestDate         | DateTime |
+| issueDescription    | String   |
+| status              | String   |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| createSupportRequest(clientId, requestDate, issueDescription) | Crea una nueva solicitud de soporte. |
+| updateSupportRequest(id, status) | Actualiza el estado de una solicitud de soporte existente. |
+| deleteSupportRequest(id)   | Elimina una solicitud de soporte identificada por su ID. |
+| getSupportRequest(id)      | Recupera los detalles de una solicitud de soporte por su ID. |
+
+---
+
+### Subscription
+| Atributos           | Tipos    |
+|---------------------|----------|
+| id                  | Integer  |
+| clientId            | Integer  |
+| startDate           | DateTime |
+| endDate             | DateTime |
+| subscriptionType    | String   |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| createSubscription(clientId, startDate, endDate, subscriptionType) | Crea una nueva suscripción para un cliente. |
+| updateSubscription(id, startDate, endDate, subscriptionType) | Actualiza la información de una suscripción existente. |
+| deleteSubscription(id)   | Elimina una suscripción identificada por su ID. |
+| getSubscription(id)      | Recupera los detalles de una suscripción por su ID. |
+---
+
+### FreeFeature
+| Atributos           | Tipos   |
+|---------------------|---------|
+| id                  | int     |
+| access              | Boolean |
+| viewReports         | Boolean |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| enable()            | Activa las funcionalidades gratuitas.  |
+| disable()           | Desactiva las funcionalidades gratuitas. |
+
+---
+
+### BasicFeature
+| Atributos           | Tipos   |
+|---------------------|---------|
+| id                  | int     |
+| access              | Boolean |
+| viewReports         | Boolean |
+| manageInventory     | Boolean |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| enable()            | Activa las funcionalidades básicas.    |
+| disable()           | Desactiva las funcionalidades básicas. |
+
+---
+
+### PremiumFeature
+| Atributos           | Tipos   |
+|---------------------|---------|
+| id                  | int     |
+| access              | Boolean |
+| viewReports         | Boolean |
+| manageInventory     | Boolean |
+| advancedAnalysis    | Boolean |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| enable()            | Activa las funcionalidades premium.    |
+| disable()           | Desactiva las funcionalidades premium. |
+
+---
+
+### Proceso de Vinificación
+| Atributos           | Tipos           |
+|---------------------|-----------------|
+| id                  | Integer         |
+| grapeVariety        | String          |
+| harvestDate         | DateTime        |
+| fermentationDate     | DateTime        |
+| agingDate           | DateTime        |
+| bottlingDate        | DateTime        |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| startVinification() | Inicia el proceso de vinificación.     |
+| monitorFermentation()| Monitorea el proceso de fermentación.  |
+| racking()           | Realiza el trasiego del vino.         |
+| bottleWine()        | Embotella el vino terminado.          |
+
+---
+
+### Distributor
+| Atributos           | Tipos           |
+|---------------------|-----------------|
+| id                  | Integer         |
+| name                | String          |
+| contactInformation   | String          |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| addDistributor(name, contactInformation) | Agrega un nuevo distribuidor. |
+| updateDistributor(id, name, contactInformation) | Actualiza la información de un distribuidor existente. |
+| deleteDistributor(id)   | Elimina un distribuidor identificado por su ID. |
+| getDistributor(id)      | Recupera los detalles de un distribuidor por su ID. |
+
+---
+
+### Producer
+| Atributos           | Tipos           |
+|---------------------|-----------------|
+| id                  | Integer         |
+| name                | String          |
+| location            | String          |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| addProducer(name, location) | Agrega un nuevo productor.        |
+| updateProducer(id, name, location) | Actualiza la información de un productor existente. |
+| deleteProducer(id)   | Elimina un productor identificado por su ID. |
+| getProducer(id)      | Recupera los detalles de un productor por su ID. |
+
+---
+
+### Lot
+| Atributos           | Tipos    |
+|---------------------|----------|
+| idLot               | Integer  |
+| grapeVariety        | String   |
+| harvestDate         | DateTime |
+| grapeQuantity       | Integer  |
+| vineyardOrigin      | String   |
+| currentStatus       | String   |
+| processStartDate    | DateTime |
+| finalVolume         | Decimal  |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| createLot(grapeVariety, harvestDate, grapeQuantity, vineyardOrigin, currentStatus, processStartDate, finalVolume) | Crea un nuevo lote con la información proporcionada. |
+| updateLot(idLot, grapeVariety, harvestDate, grapeQuantity, vineyardOrigin, currentStatus, processStartDate, finalVolume) | Actualiza la información de un lote existente. |
+| deleteLot(idLot)   | Elimina un lote identificado por su ID. |
+| getLot(idLot)      | Recupera los detalles de un lote por su ID. |
+
+---
+
+### Fermentation
+| Atributos           | Tipos    |
+|---------------------|----------|
+| idFermentation       | Integer  |
+| idLot                | Integer  |
+| startDate            | DateTime |
+| endDate              | DateTime |
+| averageTemperature    | Decimal  |
+| initialDensity       | Decimal  |
+| finalDensity         | Decimal  |
+| initialPH            | Decimal  |
+| finalPH              | Decimal  |
+| residualSugar        | Decimal  |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| startFermentation(idLot, startDate) | Inicia el proceso de fermentación para un lote específico. |
+| endFermentation(idFermentation, endDate) | Finaliza el proceso de fermentación. |
+| getFermentationDetails(idFermentation) | Recupera los detalles de la fermentación por su ID. |
+
+---
+
+### Pressing
+| Atributos           | Tipos    |
+|---------------------|----------|
+| idPressing          | Integer  |
+| idLot               | Integer  |
+| pressingDate        | DateTime |
+| mustVolume          | Decimal  |
+| pressType           | String   |
+| appliedPressure      | Decimal  |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| performPressing(idLot, pressingDate, mustVolume, pressType, appliedPressure) | Realiza el proceso de prensado para un lote específico. |
+| getPressingDetails(idPressing)   | Recupera los detalles del prensado por su ID. |
+
+---
+
+### ClarificationAndFiltration
+| Atributos           | Tipos    |
+|---------------------|----------|
+| idClarification     | Integer  |
+| idLot               | Integer  |
+| clarificationDate   | DateTime |
+| productsUsed        | String   |
+| clarificationMethod  | String   |
+| filtrationDate      | DateTime |
+| clarityLevel        | Decimal  |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| startClarification(idLot, clarificationDate, productsUsed, clarificationMethod) | Inicia el proceso de clarificación para un lote específico. |
+| performFiltration(idClarification, filtrationDate, clarityLevel)   | Realiza el proceso de filtración y actualiza el nivel de claridad. |
+
+---
+
+### Aging
+| Atributos           | Tipos    |
+|---------------------|----------|
+| idAging             | Integer  |
+| idLot               | Integer  |
+| barrelType          | String   |
+| startDate           | DateTime |
+| endDate             | DateTime |
+| agingTimeInMonths   | Integer  |
+| inspectionsPerformed  | Integer  |
+| inspectionResults    | String   |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| startAging(idLot, barrelType, startDate)   | Inicia el proceso de envejecimiento para un lote específico. |
+| endAging(idAging, endDate)                 | Finaliza el proceso de envejecimiento. |
+| recordInspection(idAging, inspectionResults)      | Registra los resultados de una inspección durante el envejecimiento. |
+
+---
+
+### Bottling
+| Atributos           | Tipos    |
+|---------------------|----------|
+| idBottling          | Integer  |
+| idLot               | Integer  |
+| bottlingDate        | DateTime |
+| bottleQuantity      | Integer  |
+| bottleType          | String   |
+| closureType         | String   |
+| totalVolume         | Decimal  |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| performBottling(idLot, bottlingDate, bottleQuantity, bottleType, closureType)   | Realiza el proceso de embotellado para un lote específico. |
+| getBottlingDetails(idBottling)            | Recupera los detalles del embotellado por su ID. |
+
+---
+
+### ProductionHistory
+| Atributos           | Tipos    |
+|---------------------|----------|
+| idHistory           | Integer  |
+| idLot               | Integer  |
+| harvestDate         | DateTime |
+| fermentationDate     | DateTime |
+| pressingDate        | DateTime |
+| clarificationDate   | DateTime |
+| agingDate           | DateTime |
+| bottlingDate        | DateTime |
+
+| Métodos             | Descripción                            |
+|---------------------|----------------------------------------|
+| createProductionHistory(idLot, harvestDate, fermentationDate, pressingDate, clarificationDate, agingDate, bottlingDate) | Crea un nuevo historial de producción para un lote específico. |
+| getProductionHistory(idHistory)            | Recupera los detalles del historial de producción por su ID. |
+
+---
+
 ## 4.10. Database Design.
+
 
 ### 4.10.1. Database Diagram
 
