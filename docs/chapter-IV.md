@@ -497,9 +497,27 @@ En esta sección se muestra los detalles de un pedido específico, con la opció
 
 ## 4.7. Web Applications Prototyping.
 
+El prototipado de aplicaciones web es esencial porque permite visualizar y probar el diseño y la funcionalidad de una aplicación antes de su desarrollo completo. Este proceso es clave para detectar posibles problemas de usabilidad y asegurar que el producto final cumpla con las expectativas de los usuarios y clientes.
+
+![prototype-evenWwine-v1.png](../assets/img/chapter-IV/v1-prototype-eventWine.png)
+
+Enlace del video:
+[Prototype EventWine - MetaSoft](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923571_upc_edu_pe/EQ3ShXzJBlJAllrQ9SJ3yY8Bacs6SF9dXo-7o_dXhgiZYw?e=6Lgnwd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Enlace figma: https://www.figma.com/proto/Y3N76wEYD84NW2D4C51ezz/2190&node-type=CANVAS&t=qUWLH78JsfTLa3Pl-1&scaling=min-zoom&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=352%3A2190
+
+
 ## 4.8. Domain-Driven Software Architecture.
 
+Se trata de un enfoque en el diseño de software que pone énfasis en la comprensión y diseño profundo del área de aplicación. Su objetivo es desarrollar software que satisfaga las necesidades del negocio de manera precisa. 
+
 ## 4.8.1. Software Architecture Context Diagram.
+
+El esquema de contexto ofrece una perspectiva general de las interacciones entre el sistema de software ElixirControl, los usuarios y sistemas externos.
+
+<p align = "center"> <img width="800" alt="Lean UX Canvas (v2)" src="../assets/img/chapter-IV/structurizr-94964-SystemContext-001 (2).png"> </p>
+
+<p align = "center"> <em> Fuente: Elaboración propia. </em> </p>
 
 
 ### 4.8.2. Software Architecture Container Diagrams.
