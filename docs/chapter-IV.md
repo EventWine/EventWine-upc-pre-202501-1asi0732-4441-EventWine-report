@@ -321,41 +321,202 @@ En el footer de nuestra landing page encontrarás enlaces útiles y recursos adi
 
 ![footer-landing-page.png](../assets/img/chapter-IV/footer-landing-page.png)
 
-## 4.4. Web Applications UX/UI Design.
-
-### 4.4.1. Web Applications Wireframes.
-
-### 4.4.2. Web Applications Wireflow Diagrams.
-
-### 4.4.2. Web Applications Mock-ups.
-
-### Mock-ups Version Mobile
-
-### 4.4.3. Web Applications User Flow Diagrams.
+### 4.4. Mobile Applications UX/UI Design.
+### 4.4.1. Mobile Applications Wireframes.
+### 4.4.2. Mobile Applications Wireflow Diagrams.
+### 4.4.3. Mobile Applications Mock-ups.
+### 4.4.4. Mobile Applications User Flow Diagrams.
+### 4.5. Mobile Applications Prototyping.
+### 4.5.1. Android Mobile Applications Prototyping.
+### 4.5.2. iOS Mobile Applications Prototyping.
 
 
-## 4.5. Web Applications Prototyping.
+## 4.6. Web Applications UX/UI Design.
 
-## 4.6. Domain-Driven Software Architecture.
+El objetivo de esta sección Web Applications UX/UI Design es detallar el enfoque y las estrategias utilizadas en el diseño de la experiencia y la interfaz de usuario para la aplicación web. Se busca explicar cómo las decisiones tomadas en términos de diseño visual y funcionalidad contribuyen a mejorar la usabilidad, accesibilidad y satisfacción del usuario final. Además, se pretende mostrar cómo estos elementos de diseño ayudan a cumplir los objetivos comerciales del proyecto, asegurando una interacción fluida y eficiente para los usuarios en diferentes dispositivos.
 
-## 4.6.1. Software Architecture Context Diagram.
+### 4.6.1. Web Applications Wireframes.
+
+En esta sección se muestran los wireframes realizados para nuestro Web Application.
+
+**Login - EventWine**
+
+En este apartado se deberá mostrar opciones de inicio de sesión, las dos formas de inicio de sesión son como productor y asistente.
+
+![text](../assets/img/chapter-IV/1.png)
 
 
-### 4.6.2. Software Architecture Container Diagrams.
+**Inicio de sesión - Productor EventWine**
+
+En el caso del login de productor de vinos y piscos artesanales, se deberá mostrar un formulario de inicio de sesión con los campos email y contraseña.
+
+![text](../assets/img/chapter-IV/5.png) 
+
+**Login - Asistente - EventWine**
+
+En el caso del login de asistente, se deberá mostrar un formulario de inicio de sesión con los campos negocio al que se encuentra asociado y código de usuario.
+
+![text](../assets/img/chapter-IV/2.png)
+
+**Registrar - Productor  - EventWine**
+
+En esta sección se deberá mostrar un formulario para registrar nuevos productores de vinos y piscos artesanales, con campos para ingresar información personal, de contacto y de la empresa.
+
+![text](../assets/img/chapter-IV/6.png)
+
+**Historial Pedido - EventWine**
+
+Este apartado deberá mostrar el historial de pedidos realizados por los distribuidores asociados, con la opción de ver detalles de cada pedido, actualizar el estado del mismo y eliminar pedidos.
+
+![text](../assets/img/chapter-IV/3.png)
+
+**Registrar pedidos - EventWine**
+
+En este apartado se deberá mostrar un formulario para registrar nuevos pedidos, con campos para ingresar información del cliente, productos solicitados y detalles de entrega.
 
 
-### 4.6.3. Software Architecture Components Diagrams.
+![text](../assets/img/chapter-IV/4.png)
 
 
-## 4.7. Software Object-Oriented Design.
+**Inventario - EventWine**
 
-### 4.7.1. Class Diagrams.
+En este apartado el productor podrá visualizar el inventario de productos disponibles, con la opción de agregar, editar o eliminar productos, así como ver detalles de cada producto.
 
-### 4.7.2. Class Dictionary.
+![text](../assets/img/chapter-IV/8.png)
 
-## 4.8. Database Design.
+**Mis Clientes - EventWine**
 
-### 4.8.1. Database Diagram
+En esta sección se deberá mostrar una lista de clientes asociados al productor, con la opción de ver detalles de cada cliente, editar la información y eliminar clientes.
+
+![text](../assets/img/chapter-IV/11.png)
+
+**Agregar - Editar - Clientes - EventWine**
+
+En esta sección se deberá mostrar un formulario para agregar o editar clientes, con campos para ingresar información personal, de contacto y de la empresa.
+
+![text](../assets/img/chapter-IV/9.png)
+
+**Detalle Clientes - EventWine**
+
+En este apartado se deberá mostrar los detalles de un cliente específico, con la opción de editar la información, ver historial de pedidos y eliminar el cliente.
+
+![text](../assets/img/chapter-IV/10.png)
+
+**Detalle del Pedido - EventWine**
+
+En esta sección se deberá mostrar los detalles de un pedido específico, con la opción de actualizar el estado del pedido, ver información del cliente y productos solicitados.
+
+![text](../assets/img/chapter-IV/12.png)
+
+<!-- falta wireframe version mobile-->
+
+### 4.6.2. Web Applications Wireflow Diagrams.
+
+Los Wireflows se emplean principalmente en el diseño de la experiencia de usuario (UX) y son especialmente útiles para aplicaciones que incluyen flujos de trabajo e interacciones complejas.
+
+![alt text](<../assets/img/MetaSoft-App-Web-SV51 (1).png>)
+
+### 4.6.3. Web Applications Mock-ups.
+
+En esta sección se muestran los mock-ups realizados para nuestro Web Application.
+
+**Login - EventWine**
+
+En esta sección se muestra el diseño del login de la aplicación web, con opciones para iniciar sesión como asistente o productor de vinos y piscos artesanales.
+
+![alt text](../assets/img/chapter-IV/14.png)
+
+**Login -Distribuidor - EventWine**
+
+En el caso del login de distribuidor, se muestra un formulario de inicio de sesión con los campos negocio al que se encuentra asociado y código de usuario.
+
+![alt text](../assets/img/chapter-IV/15.png)
+
+**Historial Pedido - EventWine**
+
+En esta sección se muestra el historial de pedidos realizados por los distribuidores asociados, con la opción de ver detalles de cada pedido, actualizar el estado del mismo y eliminar pedidos.
+
+![alt text](../assets/img/chapter-IV/16.png)
+
+**Realizar pedidos - EventWine**
+
+Aquí se muestra el formulario para realizar pedidos de productos, con la opción de seleccionar el producto, cantidad y fecha de entrega, forma de transporte, medio de pago, etc.
+
+![alt text](../assets/img/chapter-IV/17.png)
+
+**Inicio de sesión- Productor EventWine**
+
+En el caso del login de productor de vinos y piscos artesanales, se muestra un formulario de inicio de sesión con los campos email y contraseña.
+
+![alt text](../assets/img/chapter-IV/18.png)
+
+**Registrar - Productor  - EventWine**
+
+En esta sección se muestra un formulario para registrar nuevos productores de vinos y piscos artesanales, con campos para ingresar información personal, de contacto y de la empresa.
+
+![alt text](../assets/img/chapter-IV/19.png)
+
+**Inventario - EventWine**
+
+Aquí el productor puede visualizar el inventario de insumos disponibles para el proceso productivo, con la opción de agregar, editar o eliminar productos, así como ver detalles de cada producto.
+
+![alt text](../assets/img/chapter-IV/20.png)
+
+**Mis Clientes - EventWine**
+
+En esta sección se muestra una lista de clientes asociados al productor, con la opción de ver detalles de cada cliente, editar la información y eliminar clientes.
+
+![alt text](../assets/img/chapter-IV/21.png)
+
+**Agregar - Editar - Clientes - EventWine**
+
+En esta sección se muestra un formulario para agregar o editar clientes, con campos para ingresar información personal, de contacto y de la empresa.
+
+![alt text](../assets/img/chapter-IV/22.png)
+
+Detalle Clientes - EventWine
+
+En este apartado se muestra los detalles de un cliente específico, con la opción de editar la información, ver historial de pedidos y eliminar el cliente.
+
+![alt text](../assets/img/chapter-IV/23.png)
+
+Mis Pedidos - EventWine
+
+En esta sección se muestra el historial de pedidos realizados por los distribuidores asociados, con la opción de ver detalles de cada pedido, actualizar el estado del mismo y eliminar pedidos.
+
+![alt text](../assets/img/chapter-IV/24.png)
+
+Detalle del Pedido - EventWine
+
+En esta sección se muestra los detalles de un pedido específico, con la opción de actualizar el estado del pedido, ver información del cliente y productos solicitados.
+
+![alt text](../assets/img/chapter-IV/25.png)
+
+### 4.6.4. Web Applications User Flow Diagrams.
+
+
+## 4.7. Web Applications Prototyping.
+
+## 4.8. Domain-Driven Software Architecture.
+
+## 4.8.1. Software Architecture Context Diagram.
+
+
+### 4.8.2. Software Architecture Container Diagrams.
+
+
+### 4.8.3. Software Architecture Components Diagrams.
+
+
+## 4.9. Software Object-Oriented Design.
+
+### 4.9.1. Class Diagrams.
+
+### 4.9.2. Class Dictionary.
+
+## 4.10. Database Design.
+
+### 4.10.1. Database Diagram
 
 
 
