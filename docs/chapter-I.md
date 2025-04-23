@@ -53,7 +53,7 @@ Nos enfocamos en ofrecer soluciones personalizadas que se ajusten a las necesida
         </tr>
         <tr>
             <td>
-                <img src="../assets/img/chapter-I/deybbi_crisanto.png" height="120" alt="Deybbi Crisanto"><br>
+                <img src="../assets/img/chapter-I/foto-Deybbi.png" height="120" alt="Deybbi Crisanto"><br>
                 Deybbi Anderson Crisanto Calle - U202120569
             </td>
             <td>
