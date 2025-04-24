@@ -23,10 +23,10 @@ Se realizó un análisis competitivo de las 3 principales plataformas identifica
     <tbody style="text-align: center">
         <tr>
             <th colspan="2"></th>
-            <th> <img width="100" alt="Logo_ElixirControl" src="../assets/img/chapter-II/Logo_ExilirControl.png"> </th>
-            <th><img src="../assets/img/chapter-II/Logo_Vinotec.png" width="100" alt="Logo_Vinotec"></th>
-            <th><img src="../assets/img/chapter-II/Logo_WineManager.png" width="100" alt="Logo_WineManager"></th>
-            <th><img src="../assets/img/chapter-II/Logo_Vintrace.png" width="100" alt="Logo_Vintrace"></th>
+            <th> <img width="100" alt="Logo_ElixirControl" src="../assets/img/chapter-II/logo.jpg"> </th>
+            <th><img src="../assets/img/chapter-II/logo_vinotec.png" width="100" alt="Logo_Vinotec"></th>
+            <th><img src="../assets/img/chapter-II/logo_winemanager.png" width="100" alt="Logo_WineManager"></th>
+            <th><img src="../assets/img/chapter-II/logo_vintrace.jpg" width="100" alt="Logo_Vintrace"></th>
         </tr>
         <!-- PERFIL -->
         <tr>
