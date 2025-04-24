@@ -77,7 +77,7 @@ Nos enfocamos en ofrecer soluciones personalizadas que se ajusten a las necesida
         </tr>
         <tr>
             <td>
-                <img src="../assets/img/chapter-I/foto-Fernando.png" height="120" alt="Jesús Paucar"><br>
+                <img src="../assets/img/chapter-I/foto-Fernando.png.jpeg" height="120" alt="Jesús Paucar"><br>
                 Jesús Fernando Paucar Zenteno - U202316687
             </td>
             <td>
