@@ -324,7 +324,7 @@ Para la elaboración de los Hypothesis Statements se utilizó el formato Lean UX
 
 #### 1.2.2.4. Lean UX Canvas.
 
-<p align = "center"> <img width="800" alt="Lean UX Canvas (v2)" src="../assets/img/chapter-I/LeanUXCanvas.jpeg"> </p>
+<p align = "center"> <img width="800" alt="Lean UX Canvas (v2)" src="../assets/img/chapter-I/LeanUXCanvas.png"> </p>
 
 <p align = "center"> <em> Fuente: Elaboración propia. </em> </p>
 
