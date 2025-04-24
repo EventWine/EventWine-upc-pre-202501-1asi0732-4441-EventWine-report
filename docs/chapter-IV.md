@@ -509,33 +509,27 @@ Enlace figma: https://www.figma.com/proto/Y3N76wEYD84NW2D4C51ezz/2190&node-type=
 
 ## 4.8. Domain-Driven Software Architecture.
 
-Se trata de un enfoque en el diseño de software que pone énfasis en la comprensión y diseño profundo del área de aplicación. Su objetivo es desarrollar software que satisfaga las necesidades del negocio de manera precisa. 
-
+El sistema ElixirLine se ha construido aplicando el enfoque Domain-Driven Design (DDD), organizando su lógica en dos Bounded Contexts: InventoryManagement y WinemakingProcess. Esta arquitectura facilita la separación de responsabilidades y mejora la escalabilidad. A continuación, se presentan los diagramas de contexto, contenedores y componentes usando el modelo C4.
 ## 4.8.1. Software Architecture Context Diagram.
 
-El esquema de contexto ofrece una perspectiva general de las interacciones entre el sistema de software EventWine, los usuarios y sistemas externos.
+El diagrama de contexto representa la vista más general del sistema ElixirLine. En él se muestran los dos tipos de usuarios principales: el vinicultor, que accede a través de la plataforma web para gestionar todo el proceso de producción e inventario, y el trabajador de campo, que utiliza tanto la aplicación web como la aplicación móvil para actualizar datos y visualizar el estado de los lotes. El sistema se despliega mediante distintos servicios en la nube, utilizando Vercel para el frontend (Vue.js), Azure App Service para el backend (Spring Boot) y Azure MySQL como base de datos. Este diagrama permite identificar claramente los límites del sistema y sus principales relaciones externas.
 
-<p align = "center"> <img width="800" alt="Lean UX Canvas (v2)" src="../assets/img/chapter-IV/structurizr-94964-SystemContext-001 (2).png"> </p>
-
-<p align = "center"> <em> Fuente: Elaboración propia. </em> </p>
-
+![](../assets/img/chapter-IV/Context%20Diagram.png)
 
 ### 4.8.2. Software Architecture Container Diagrams.
 
-El diagrama de contenedores ofrece una visión general de las conexiones entre aplicaciones y fuentes de datos en el sistema ElixirControl. Muestra cómo interactúan y dependen entre sí para su funcionamiento.
+El diagrama de contenedores presenta la descomposición tecnológica interna de ElixirLine. El sistema cuenta con un frontend web desarrollado en Vue.js, una aplicación móvil creada con Flutter, un backend construido en Spring Boot y una base de datos MySQL desplegada en Azure. Tanto la aplicación móvil como la web se comunican con el backend mediante APIs REST. Esta arquitectura permite una separación de responsabilidades clara entre la interfaz de usuario, la lógica de negocio y la persistencia de datos. El diseño favorece la escalabilidad del sistema y su mantenimiento independiente por plataforma.
 
-<p align = "center"> <img width="800" alt="Lean UX Canvas (v2)" src="../assets/img/chapter-IV/structurizr-94964-Container-001 (1).png"> </p>
+![](../assets/img/chapter-IV/Container%20Diagram.png)
 
-<p align = "center"> <em> Fuente: Elaboración propia. </em> </p>
 
 
 ### 4.8.3. Software Architecture Components Diagrams.
 
-El diagrama de componentes proporciona una visión detallada de los componentes individuales dentro de cada contenedor del sistema ElixirControl. Muestra cómo se organizan y cómo interactúan entre sí.
+El backend de ElixirLine ha sido implementado siguiendo los principios de Domain-Driven Design (DDD), y se estructura en dos Bounded Contexts principales: InventoryManagement y WinemakingProcess. Cada contexto contiene sus propios componentes independientes, entre ellos controladores REST, servicios de aplicación y repositorios. En el caso del proceso de vinificación, se han modelado subdominios específicos como fermentación, clarificación, prensado y añejamiento, cada uno con su lógica aislada. Esta separación modular permite un desarrollo más enfocado, facilita las pruebas, y mejora la mantenibilidad y extensibilidad del sistema conforme evolucione el negocio.
 
-<p align = "center"> <img width="800" alt="Lean UX Canvas (v2)" src="../assets/img/chapter-IV/structurizr-94964-Component-001 (1).png"> </p>
+![](../assets/img/chapter-IV/component%20diagram.png)
 
-<p align = "center"> <em> Fuente: Elaboración propia. </em> </p>
 
 ## 4.9. Software Object-Oriented Design.
 
