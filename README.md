@@ -55,7 +55,7 @@
 
 ## Project Report Collaboration Insights
 
-**URL del repositorio para el reporte del proyecto:** https://github.com/SV51-MetaSoft-App-Web/MetaSoft-Project-Report
+**URL del repositorio para el reporte del proyecto:** https://github.com/EventWine/EventWine-upc-pre-202501-1asi0732-4441-EventWine-report
 
 Github Collaboration Insights proporciona un cronograma que muestra las principales ramas y los procesos de fusión que han ocurrido. Todas las ramas se han generado siguiendo los principios de GitFlow, lo que garantiza una organización efectiva al utilizar un sistema de control de versiones.
 
