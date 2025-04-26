@@ -321,7 +321,7 @@ _Interés en Nuevas Herramientas_
         </tr>
         <tr>
             <td>
-                <img src="../assets/img/chapter-II/Captura de pantalla 2024-09-08 035557.png" alt="Foto de entrevista">
+                <img src="../assets/img/chapter-II/joaquin.png" alt="Foto de entrevista">
             </td>
             <td>
                 <strong>Resumen:</strong><br>
@@ -365,7 +365,7 @@ _Interés en Nuevas Herramientas_
         </tr>
         <tr>
             <td>
-                <img src="../assets/img/chapter-II/Captura de pantalla 2024-09-08 041320.png" alt="Foto de entrevista">
+                <img src="../assets/img/chapter-II/miriam.png" alt="Foto de entrevista">
             </td>
             <td>
                 <strong>Resumen:</strong><br>
@@ -409,7 +409,7 @@ _Interés en Nuevas Herramientas_
         </tr>
         <tr>
             <td>
-                <img src="../assets/img/chapter-II/Captura de pantalla 2024-09-08 064251.png" alt="Foto de entrevista">
+                <img src="../assets/img/chapter-II/fabricio.png" alt="Foto de entrevista">
             </td>
             <td>
                 <strong>Resumen:</strong><br>
@@ -451,6 +451,8 @@ La identificación profunda de las necesidades del vinicultor es crucial para el
 
 **Rubén Flores** es el vinicultor artesanal que necesita optimizar la producción sin perder la esencia de su tradición. Su objetivo es mejorar la eficiencia operacional y tener control en tiempo real de cada etapa del proceso, sin depender de métodos manuales dispersos.
 
+![](../assets/img/chapter-II/Ruben%20Flores%20(9).png)
+
 ### 2.3.2. User Task Matrix
 
 | Tarea                                  | Frecuencia | Importancia |
@@ -465,6 +467,8 @@ La identificación profunda de las necesidades del vinicultor es crucial para el
 
 ### 2.3.3. User Journey Mapping
 
+![](../assets/img/chapter-II/Ruben%20Flores-UJM.png)
+
 Desde la recepción de los lotes de uva hasta el embotellado, Rubén requiere una herramienta que le permita:
 - Planificar y ejecutar cada etapa del proceso productivo.
 - Recibir alertas en tiempo real sobre posibles incidencias.
@@ -472,14 +476,19 @@ Desde la recepción de los lotes de uva hasta el embotellado, Rubén requiere un
 
 ### 2.3.4. Empathy Mapping
 
+![](../assets/img/chapter-II/empathy.png)
+
 - **Piensa y Siente:** Preocupación por mantener la calidad del vino y la eficiencia en la producción.
 - **Escucha:** Consejos de otros productores sobre la digitalización, buscando simplificar procesos.
 - **Dice y Hace:** Actualmente utiliza Excel y cuadernos, pero está abierto a herramientas digitales que centralicen la gestión.
 - **Ve:** Procesos manuales que generan errores y una limitada integración de la información.
 
+
 ### 2.3.5. As-is Scenario Mapping
 
 Actualmente, Rubén utiliza métodos tradicionales (Excel y cuadernos) de forma fragmentada, lo que ocasiona duplicación de esfuerzos, errores en el registro de datos y una visibilidad limitada del proceso completo.
+
+![](../assets/img/chapter-II/as-is.jpg)
 
 ## 2.4. Ubiquitous Language
 
