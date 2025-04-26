@@ -191,140 +191,53 @@
 El landing page juega un papel esencial en atraer la atención de los visitantes y guiarlos hacia acciones concretas, como inscribirse, adquirir un producto o informarse sobre un servicio. En este apartado, se tratará el diseño de la interfaz de usuario del landing page, enfocándose en los elementos clave que optimizan la experiencia del usuario, creando una página interactiva y fácil de usar.
 
 ### 4.3.1. Landing Page Wireframe.
+En esta sección se presentan las representaciones de bajo nivel (wireframes) del landing page, diseñadas para dispositivos móviles y de escritorio.  [Wireframe - EvenWine](https://www.figma.com/design/8Z5H7EbcYVg6pBjgebw6eW/Sin-t%C3%ADtulo?node-id=2-29)
 
-El wireframe de la página de aterrizaje es una representación visual básica que muestra la estructura y el diseño fundamental de la página. Actúa como un esquema inicial para guiar el desarrollo del diseño final, asegurando una disposición clara de los elementos principales.
+**Desktop Web Browser**
 
-Este wireframe incluirá las siguientes secciones:
+![eventwine-landing-wireframe.png](../assets/img/chapter-IV/eventwine-landing-wireframe.png)
 
+Seccion "Sobre Nosotros"
 
-**Nav y Hero:**
+![eventwine-aboutus-wireframe.png](../assets/img/chapter-IV/eventwine-aboutus-wireframe.png)
 
-Incluirá el logotipo de la empresa junto con un eslogan o mensaje breve para captar la atención de los usuarios desde el primer momento. También puede incorporar un menú de navegación que permita un acceso fácil a las diferentes secciones de la página.
+**Mobile Web Browser**
 
-Esta sección brindará una breve descripción del producto o servicio principal, acompañada de un llamado a la acción destacado. Puede incluir imágenes o videos que refuercen el valor de lo que se ofrece.
+![eventwine-landing-mobile-wireframe 1.png](../assets/img/chapter-IV/eventwine-landing-mobile-wireframe%201.png)
 
-![nav-hero-wireframe-landing-page.png](../assets/img/chapter-IV/nav-hero-wireframe-landing-page.png)
+Seccion "Sobre Nosotros"
 
-
-
-**Servicios:**
-
-Aquí se describirán los servicios proporcionados, con una breve explicación de cada uno. Se pueden agregar iconos o elementos gráficos para hacer más comprensible y visual la oferta de servicios.
-
-![services-wireframe-landing-page.png](../assets/img/chapter-IV/services-wireframe-landing-page.png)
-
-
-
-**Acerca de la aplicación:**
-
-En esta sección te presentamos lo que hace única a nuestra aplicación dedicada a la gestión de la producción de vinos artesanales. Nuestra plataforma ha sido diseñada pensando en las necesidades de pequeños productores, ofreciendo herramientas intuitivas y eficientes para mejorar la organización y el control de todo el proceso.
-
-![about-the-app-wireframe-landing-page.png](../assets/img/chapter-IV/about-the-app-wireframe-landing-page.png)
-
-**Precios:**
-
-En esta sección se mostrarán los diferentes planes y tarifas disponibles, destacando las características de cada opción para ayudar a los usuarios a tomar decisiones más informadas.
-
-![plans-wireframe-landing-page.png](../assets/img/chapter-IV/plans-wireframe-landing-page.png)
-
-**Testimonios:**
-
-Incluirá reseñas o comentarios de clientes satisfechos, mostrando experiencias positivas. Incluir fotos o nombres puede agregar un toque personal y aumentar la credibilidad.
-
-![testimonials-wireframe-landing-page.png](../assets/img/chapter-IV/testimonials-wireframe-landing-page.png)
-
-**Contacto:**
-
-Proporcionará un formulario de contacto simple, con campos para el nombre, correo electrónico y mensaje. También puede ofrecer información adicional, como enlaces a redes sociales o un número de teléfono.
-
-![contact-us-wireframe-landing-page.png](../assets/img/chapter-IV/contact-us-wireframe-landing-page.png)
-
-**Sobre el Equipo:**
-
-En esta sección se presentará al equipo detrás del proyecto, con fotos, nombres y descripciones breves de sus roles, para humanizar la marca y generar una mayor conexión con los usuarios.
-
-![about-the-team-wireframe-landing-page.png](../assets/img/chapter-IV/about-the-team-wireframe-landing-page.png)
-
-**Footer:**
-
-El pie de página contendrá enlaces esenciales como "Términos y Condiciones", "Contacto de la Empresa" y una sección titulada "Más", donde se podrán incluir enlaces adicionales a recursos relevantes o páginas secundarias. Este footer proporcionará un acceso rápido a información clave sin sobrecargar la interfaz, ofreciendo un final limpio y funcional para la página de destino.
-
-![footer-wireframe-landing-page.png](../assets/img/chapter-IV/footer-wireframe-landing-page.png)
-
-
-Este wireframe será el punto de partida para la creación del diseño visual y facilitará una experiencia de usuario cohesiva y efectiva.
+![eventwine-aboutus-mobile-wireframe 1.png](../assets/img/chapter-IV/eventwine-aboutus-mobile-wireframe%201.png)
 
 ### 4.3.2. Landing Page Mock-up.
-
 **Landing Page Mock-up de nuestra Web Application**
+<br>
 
-**Hero de la aplicación** El hero de nuestra plataforma de vinos artesanales presenta una imagen de
-fondo que resalta una botella de vino cuidadosamente seleccionada, junto a un botón de llamado a
-la acción "¡Empieza ahora!", que invita a los usuarios a explorar. Con un título atractivo
-y una breve descripción, el hero captura la esencia de nuestra propuesta, mientras que una barra
-de navegación permite acceder fácilmente a las diferentes secciones de la app, ofreciendo una experiencia
-inmersiva y fluida.
+En esta sección se muestran los mock-ups del landing page, que sirven como una representación visual de alta fidelidad para anticipar cómo se verá y funcionará la interfaz final. Están diseñados tanto para dispositivos móviles como para escritorio.  [Wireframe - EvenWine](https://www.figma.com/design/8Z5H7EbcYVg6pBjgebw6eW/Sin-t%C3%ADtulo?node-id=2-29)
 
-![section hero](../assets/img/chapter-IV/hero-english.png)
+**Desktop Web Browser**
 
+![eventwine-landing.png](../assets/img/chapter-IV/eventwine-landing.png)
 
+Seccion "**Sobre Nosotros**"
 
-**Services - EventWine**
+![eventwine-aboutus.png](../assets/img/chapter-IV/eventwine-aboutus.png)
+<br>
 
-En esta sección de la landing page te mostramos los principales servicios de nuestra web app, diseñada para productores de vinos artesanales:
+**Mobile Web Browser**
 
-![services-landing-page.png](../assets/img/chapter-IV/services-landing-page.png)
+![eventwine-landing-mobile-mockup 1.png](../assets/img/chapter-IV/eventwine-landing-mobile-mockup%201.png)
+<br>
+Seccion "**Sobre Nosotros**"
 
+![eventwine-aboutus-mobile-mockup 1.png](../assets/img/chapter-IV/eventwine-aboutus-mobile-mockup%201.png)
 
-
-**About the App - EventWine**
-
-En esta sección te presentamos lo que hace única a nuestra aplicación dedicada a la gestión de la producción de vinos artesanales. Nuestra plataforma ha sido diseñada pensando en las necesidades de pequeños productores, ofreciendo herramientas intuitivas y eficientes para mejorar la organización y el control de todo el proceso.
-
-![services-landing-page.png](../assets/img/chapter-IV/about-the-app-landing-page.png)
-
-
-
-**Our Plans - EventWine**
-
-En esta sección te mostramos los diferentes planes que ofrecemos, diseñados para adaptarse a las necesidades de todo tipo de productores de vinos artesanales, desde pequeños viñedos hasta operaciones más grandes:
-
-![plans-landing-page.png](../assets/img/chapter-IV/plans-landing-page.png)
-
-**Testimonials - EventWine**
-
-En esta sección compartimos las experiencias de nuestros usuarios, productores de vinos artesanales, que han transformado la gestión de sus negocios gracias a nuestra app:
-
-![testimonials-landing-page.png](../assets/img/chapter-IV/testimonials-landing-page.png)
-
-
-
-**Contact Us - EventWine**
-
-En esta sección te ofrecemos la posibilidad de ponerte en contacto con nosotros para obtener más información sobre nuestra app o resolver cualquier duda que tengas:
-
-![contact-us-landing-page.png](../assets/img/chapter-IV/contact-us-landing-page.png)
-
-
-
-**About the Team - EventWine**
-
-En esta sección te presentamos al equipo detrás de la app, un grupo de profesionales apasionados por el mundo del vino y la tecnología:
-
-![about-the-team-landing-page.png](../assets/img/chapter-IV/about-the-team-landing-page.png)
-
-
-
-**Footer - EventWine**
-
-En el footer de nuestra landing page encontrarás enlaces útiles y recursos adicionales para que puedas explorar más sobre nuestra app y los servicios que ofrecemos:
-
-![footer-landing-page.png](../assets/img/chapter-IV/footer-landing-page.png)
 
 ### 4.4. Mobile Applications UX/UI Design.
 ### 4.4.1. Mobile Applications Wireframes.
 ### 4.4.2. Mobile Applications Wireflow Diagrams.
 ### 4.4.3. Mobile Applications Mock-ups.
+
 ### 4.4.4. Mobile Applications User Flow Diagrams.
 ### 4.5. Mobile Applications Prototyping.
 ### 4.5.1. Android Mobile Applications Prototyping.
@@ -339,70 +252,31 @@ El objetivo de esta sección Web Applications UX/UI Design es detallar el enfoqu
 
 En esta sección se muestran los wireframes realizados para nuestro Web Application.
 
-**Login - EventWine**
+![Wireframe-Login.png](../assets/img/chapter-IV/Wireframe-Login.png)
 
-En este apartado se deberá mostrar opciones de inicio de sesión, las dos formas de inicio de sesión son como productor y asistente.
+![Wireframe-registrar-productor.png](../assets/img/chapter-IV/Wireframe-registrar-productor.png)
 
-![text](../assets/img/chapter-IV/1.png)
+![Wireframes-Home - Productor.png](../assets/img/chapter-IV/Wireframes-Home%20-%20Productor.png)
 
+![Wireframes-Home - Productor - menu.png](../assets/img/chapter-IV/Wireframes-Home%20-%20Productor%20-%20menu.png)
 
-**Inicio de sesión - Productor EventWine**
+![Wireframes-Login -Asistente - Elixir Control.png](../assets/img/chapter-IV/Wireframes-Login%20-Asistente%20-%20Elixir%20Control.png)
 
-En el caso del login de productor de vinos y piscos artesanales, se deberá mostrar un formulario de inicio de sesión con los campos email y contraseña.
+![Wireframes-Registrar - Asistente- Event-Wine.png](../assets/img/chapter-IV/Wireframes-Registrar%20-%20Asistente-%20Event-Wine.png)
+![Wireframes-Registrar - Productor  - Event-Wine.png](../assets/img/chapter-IV/Wireframes-Registrar%20-%20Productor%20%20-%20Event-Wine.png)
 
-![text](../assets/img/chapter-IV/5.png) 
+![Wireframes-Event-Wine Management-Aging.png](../assets/img/chapter-IV/Wireframes-Event-Wine%20Management-Aging.png)
 
-**Login - Asistente - EventWine**
+![Wireframes-Event-Wine Management-Batches.png](../assets/img/chapter-IV/Wireframes-Event-Wine%20Management-Batches.png)
 
-En el caso del login de asistente, se deberá mostrar un formulario de inicio de sesión con los campos negocio al que se encuentra asociado y código de usuario.
+![Wireframes-Event-Wine Management-Bottling.png](../assets/img/chapter-IV/Wireframes-Event-Wine%20Management-Bottling.png)
 
-![text](../assets/img/chapter-IV/2.png)
+![Wireframes-Event-Wine Management-Clarification.png](../assets/img/chapter-IV/Wireframes-Event-Wine%20Management-Clarification.png)
 
-**Registrar - Productor  - EventWine**
+![Wireframes-Event-Wine Management-Fermentation.png](../assets/img/chapter-IV/Wireframes-Event-Wine%20Management-Fermentation.png)
 
-En esta sección se deberá mostrar un formulario para registrar nuevos productores de vinos y piscos artesanales, con campos para ingresar información personal, de contacto y de la empresa.
+![Wireframes-Event-Wine Management-Pressing.png](../assets/img/chapter-IV/Wireframes-Event-Wine%20Management-Pressing.png)
 
-![text](../assets/img/chapter-IV/6.png)
-
-**Historial Pedido - EventWine**
-
-Este apartado deberá mostrar el historial de pedidos realizados por los distribuidores asociados, con la opción de ver detalles de cada pedido, actualizar el estado del mismo y eliminar pedidos.
-
-![text](../assets/img/chapter-IV/3.png)
-
-**Registrar pedidos - EventWine**
-
-En este apartado se deberá mostrar un formulario para registrar nuevos pedidos, con campos para ingresar información del cliente, productos solicitados y detalles de entrega.
-
-
-![text](../assets/img/chapter-IV/4.png)
-
-
-**Mis Clientes - EventWine**
-
-En esta sección se deberá mostrar una lista de clientes asociados al productor, con la opción de ver detalles de cada cliente, editar la información y eliminar clientes.
-
-![text](../assets/img/chapter-IV/11.png)
-
-**Agregar - Editar - Clientes - EventWine**
-
-En esta sección se deberá mostrar un formulario para agregar o editar clientes, con campos para ingresar información personal, de contacto y de la empresa.
-
-![text](../assets/img/chapter-IV/9.png)
-
-**Detalle Clientes - EventWine**
-
-En este apartado se deberá mostrar los detalles de un cliente específico, con la opción de editar la información, ver historial de pedidos y eliminar el cliente.
-
-![text](../assets/img/chapter-IV/10.png)
-
-**Detalle del Pedido - EventWine**
-
-En esta sección se deberá mostrar los detalles de un pedido específico, con la opción de actualizar el estado del pedido, ver información del cliente y productos solicitados.
-
-![text](../assets/img/chapter-IV/12.png)
-
-<!-- falta wireframe version mobile-->
 
 ### 4.6.2. Web Applications Wireflow Diagrams.
 
