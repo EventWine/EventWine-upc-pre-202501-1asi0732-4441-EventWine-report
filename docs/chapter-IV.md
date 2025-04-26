@@ -201,17 +201,37 @@ Seccion "Sobre Nosotros"
 
 ![eventwine-aboutus-wireframe.png](../assets/img/chapter-IV/eventwine-aboutus-wireframe.png)
 
+**Mobile Web Browser**
+
+![eventwine-landing-mobile-wireframe 1.png](../assets/img/chapter-IV/eventwine-landing-mobile-wireframe%201.png)
+
+Seccion "Sobre Nosotros"
+
+![eventwine-aboutus-mobile-wireframe 1.png](../assets/img/chapter-IV/eventwine-aboutus-mobile-wireframe%201.png)
+
 ### 4.3.2. Landing Page Mock-up.
 **Landing Page Mock-up de nuestra Web Application**
 <br>
 
 En esta sección se muestran los mock-ups del landing page, que sirven como una representación visual de alta fidelidad para anticipar cómo se verá y funcionará la interfaz final. Están diseñados tanto para dispositivos móviles como para escritorio.  [Wireframe - EvenWine](https://www.figma.com/design/8Z5H7EbcYVg6pBjgebw6eW/Sin-t%C3%ADtulo?node-id=2-29)
 
+**Desktop Web Browser**
+
 ![eventwine-landing.png](../assets/img/chapter-IV/eventwine-landing.png)
 
 Seccion "**Sobre Nosotros**"
 
 ![eventwine-aboutus.png](../assets/img/chapter-IV/eventwine-aboutus.png)
+<br>
+
+**Mobile Web Browser**
+
+![eventwine-landing-mobile-mockup 1.png](../assets/img/chapter-IV/eventwine-landing-mobile-mockup%201.png)
+<br>
+Seccion "**Sobre Nosotros**"
+
+![eventwine-aboutus-mobile-mockup 1.png](../assets/img/chapter-IV/eventwine-aboutus-mobile-mockup%201.png)
+
 
 ### 4.4. Mobile Applications UX/UI Design.
 ### 4.4.1. Mobile Applications Wireframes.
