@@ -435,9 +435,7 @@ _Interés en Nuevas Herramientas_
 
 #### Análisis del segmento: Productores de Vinos Artesanales
 
-- **100%** de los entrevistados utiliza herramientas básicas (Excel y cuadernos) para gestionar inventarios y registros.
-- **66.7%** manifestó interés en una solución digital integral que automatice y optimice la gestión de sus datos.
-- El **100%** mostró receptividad hacia una plataforma que centralice el proceso productivo de vinos, proporcionando mayor control y eficiencia.
+A partir de las entrevistas realizadas a productores de vinos artesanales, se identificó un uso predominante de herramientas básicas como Excel y registros manuales en cuadernos para la gestión de inventarios y control de procesos productivos. Todos los entrevistados demostraron receptividad hacia la adopción de una solución digital que permita centralizar, automatizar y optimizar sus operaciones, destacando como necesidades principales la facilidad de uso, la visibilidad en tiempo real y la reducción de errores asociados a métodos tradicionales. Además, dos de los tres entrevistados manifestaron explícito interés en adoptar nuevas herramientas tecnológicas, evidenciando una oportunidad clara para introducir soluciones digitales adaptadas a sus contextos productivos y culturales.
 
 ## 2.3. Needfinding
 
