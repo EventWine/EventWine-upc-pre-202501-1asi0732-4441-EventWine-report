@@ -252,70 +252,31 @@ El objetivo de esta sección Web Applications UX/UI Design es detallar el enfoqu
 
 En esta sección se muestran los wireframes realizados para nuestro Web Application.
 
-**Login - EventWine**
+![Wireframe-Login.png](../assets/img/chapter-IV/Wireframe-Login.png)
 
-En este apartado se deberá mostrar opciones de inicio de sesión, las dos formas de inicio de sesión son como productor y asistente.
+![Wireframe-registrar-productor.png](../assets/img/chapter-IV/Wireframe-registrar-productor.png)
 
-![text](../assets/img/chapter-IV/1.png)
+![Wireframes-Home - Productor.png](../assets/img/chapter-IV/Wireframes-Home%20-%20Productor.png)
 
+![Wireframes-Home - Productor - menu.png](../assets/img/chapter-IV/Wireframes-Home%20-%20Productor%20-%20menu.png)
 
-**Inicio de sesión - Productor EventWine**
+![Wireframes-Login -Asistente - Elixir Control.png](../assets/img/chapter-IV/Wireframes-Login%20-Asistente%20-%20Elixir%20Control.png)
 
-En el caso del login de productor de vinos y piscos artesanales, se deberá mostrar un formulario de inicio de sesión con los campos email y contraseña.
+![Wireframes-Registrar - Asistente- Event-Wine.png](../assets/img/chapter-IV/Wireframes-Registrar%20-%20Asistente-%20Event-Wine.png)
+![Wireframes-Registrar - Productor  - Event-Wine.png](../assets/img/chapter-IV/Wireframes-Registrar%20-%20Productor%20%20-%20Event-Wine.png)
 
-![text](../assets/img/chapter-IV/5.png) 
+![Wireframes-Event-Wine Management-Aging.png](../assets/img/chapter-IV/Wireframes-Event-Wine%20Management-Aging.png)
 
-**Login - Asistente - EventWine**
+![Wireframes-Event-Wine Management-Batches.png](../assets/img/chapter-IV/Wireframes-Event-Wine%20Management-Batches.png)
 
-En el caso del login de asistente, se deberá mostrar un formulario de inicio de sesión con los campos negocio al que se encuentra asociado y código de usuario.
+![Wireframes-Event-Wine Management-Bottling.png](../assets/img/chapter-IV/Wireframes-Event-Wine%20Management-Bottling.png)
 
-![text](../assets/img/chapter-IV/2.png)
+![Wireframes-Event-Wine Management-Clarification.png](../assets/img/chapter-IV/Wireframes-Event-Wine%20Management-Clarification.png)
 
-**Registrar - Productor  - EventWine**
+![Wireframes-Event-Wine Management-Fermentation.png](../assets/img/chapter-IV/Wireframes-Event-Wine%20Management-Fermentation.png)
 
-En esta sección se deberá mostrar un formulario para registrar nuevos productores de vinos y piscos artesanales, con campos para ingresar información personal, de contacto y de la empresa.
+![Wireframes-Event-Wine Management-Pressing.png](../assets/img/chapter-IV/Wireframes-Event-Wine%20Management-Pressing.png)
 
-![text](../assets/img/chapter-IV/6.png)
-
-**Historial Pedido - EventWine**
-
-Este apartado deberá mostrar el historial de pedidos realizados por los distribuidores asociados, con la opción de ver detalles de cada pedido, actualizar el estado del mismo y eliminar pedidos.
-
-![text](../assets/img/chapter-IV/3.png)
-
-**Registrar pedidos - EventWine**
-
-En este apartado se deberá mostrar un formulario para registrar nuevos pedidos, con campos para ingresar información del cliente, productos solicitados y detalles de entrega.
-
-
-![text](../assets/img/chapter-IV/4.png)
-
-
-**Mis Clientes - EventWine**
-
-En esta sección se deberá mostrar una lista de clientes asociados al productor, con la opción de ver detalles de cada cliente, editar la información y eliminar clientes.
-
-![text](../assets/img/chapter-IV/11.png)
-
-**Agregar - Editar - Clientes - EventWine**
-
-En esta sección se deberá mostrar un formulario para agregar o editar clientes, con campos para ingresar información personal, de contacto y de la empresa.
-
-![text](../assets/img/chapter-IV/9.png)
-
-**Detalle Clientes - EventWine**
-
-En este apartado se deberá mostrar los detalles de un cliente específico, con la opción de editar la información, ver historial de pedidos y eliminar el cliente.
-
-![text](../assets/img/chapter-IV/10.png)
-
-**Detalle del Pedido - EventWine**
-
-En esta sección se deberá mostrar los detalles de un pedido específico, con la opción de actualizar el estado del pedido, ver información del cliente y productos solicitados.
-
-![text](../assets/img/chapter-IV/12.png)
-
-<!-- falta wireframe version mobile-->
 
 ### 4.6.2. Web Applications Wireflow Diagrams.
 
