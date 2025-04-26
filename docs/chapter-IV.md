@@ -191,140 +191,23 @@
 El landing page juega un papel esencial en atraer la atención de los visitantes y guiarlos hacia acciones concretas, como inscribirse, adquirir un producto o informarse sobre un servicio. En este apartado, se tratará el diseño de la interfaz de usuario del landing page, enfocándose en los elementos clave que optimizan la experiencia del usuario, creando una página interactiva y fácil de usar.
 
 ### 4.3.1. Landing Page Wireframe.
+En esta sección se presentan las representaciones de bajo nivel (wireframes) del landing page, diseñadas para dispositivos móviles y de escritorio.  [Wireframe - EvenWine](https://www.figma.com/design/8Z5H7EbcYVg6pBjgebw6eW/Sin-t%C3%ADtulo?node-id=2-29)
 
-El wireframe de la página de aterrizaje es una representación visual básica que muestra la estructura y el diseño fundamental de la página. Actúa como un esquema inicial para guiar el desarrollo del diseño final, asegurando una disposición clara de los elementos principales.
+**Desktop Web Browser**
 
-Este wireframe incluirá las siguientes secciones:
+![eventwine-landing-wireframe.png](../assets/img/chapter-IV/eventwine-landing-wireframe.png)
 
+Seccion "Sobre Nosotros"
 
-**Nav y Hero:**
-
-Incluirá el logotipo de la empresa junto con un eslogan o mensaje breve para captar la atención de los usuarios desde el primer momento. También puede incorporar un menú de navegación que permita un acceso fácil a las diferentes secciones de la página.
-
-Esta sección brindará una breve descripción del producto o servicio principal, acompañada de un llamado a la acción destacado. Puede incluir imágenes o videos que refuercen el valor de lo que se ofrece.
-
-![nav-hero-wireframe-landing-page.png](../assets/img/chapter-IV/nav-hero-wireframe-landing-page.png)
-
-
-
-**Servicios:**
-
-Aquí se describirán los servicios proporcionados, con una breve explicación de cada uno. Se pueden agregar iconos o elementos gráficos para hacer más comprensible y visual la oferta de servicios.
-
-![services-wireframe-landing-page.png](../assets/img/chapter-IV/services-wireframe-landing-page.png)
-
-
-
-**Acerca de la aplicación:**
-
-En esta sección te presentamos lo que hace única a nuestra aplicación dedicada a la gestión de la producción de vinos artesanales. Nuestra plataforma ha sido diseñada pensando en las necesidades de pequeños productores, ofreciendo herramientas intuitivas y eficientes para mejorar la organización y el control de todo el proceso.
-
-![about-the-app-wireframe-landing-page.png](../assets/img/chapter-IV/about-the-app-wireframe-landing-page.png)
-
-**Precios:**
-
-En esta sección se mostrarán los diferentes planes y tarifas disponibles, destacando las características de cada opción para ayudar a los usuarios a tomar decisiones más informadas.
-
-![plans-wireframe-landing-page.png](../assets/img/chapter-IV/plans-wireframe-landing-page.png)
-
-**Testimonios:**
-
-Incluirá reseñas o comentarios de clientes satisfechos, mostrando experiencias positivas. Incluir fotos o nombres puede agregar un toque personal y aumentar la credibilidad.
-
-![testimonials-wireframe-landing-page.png](../assets/img/chapter-IV/testimonials-wireframe-landing-page.png)
-
-**Contacto:**
-
-Proporcionará un formulario de contacto simple, con campos para el nombre, correo electrónico y mensaje. También puede ofrecer información adicional, como enlaces a redes sociales o un número de teléfono.
-
-![contact-us-wireframe-landing-page.png](../assets/img/chapter-IV/contact-us-wireframe-landing-page.png)
-
-**Sobre el Equipo:**
-
-En esta sección se presentará al equipo detrás del proyecto, con fotos, nombres y descripciones breves de sus roles, para humanizar la marca y generar una mayor conexión con los usuarios.
-
-![about-the-team-wireframe-landing-page.png](../assets/img/chapter-IV/about-the-team-wireframe-landing-page.png)
-
-**Footer:**
-
-El pie de página contendrá enlaces esenciales como "Términos y Condiciones", "Contacto de la Empresa" y una sección titulada "Más", donde se podrán incluir enlaces adicionales a recursos relevantes o páginas secundarias. Este footer proporcionará un acceso rápido a información clave sin sobrecargar la interfaz, ofreciendo un final limpio y funcional para la página de destino.
-
-![footer-wireframe-landing-page.png](../assets/img/chapter-IV/footer-wireframe-landing-page.png)
-
-
-Este wireframe será el punto de partida para la creación del diseño visual y facilitará una experiencia de usuario cohesiva y efectiva.
+![eventwine-aboutus-wireframe.png](../assets/img/chapter-IV/eventwine-aboutus-wireframe.png)
 
 ### 4.3.2. Landing Page Mock-up.
-
-**Landing Page Mock-up de nuestra Web Application**
-
-**Hero de la aplicación** El hero de nuestra plataforma de vinos artesanales presenta una imagen de
-fondo que resalta una botella de vino cuidadosamente seleccionada, junto a un botón de llamado a
-la acción "¡Empieza ahora!", que invita a los usuarios a explorar. Con un título atractivo
-y una breve descripción, el hero captura la esencia de nuestra propuesta, mientras que una barra
-de navegación permite acceder fácilmente a las diferentes secciones de la app, ofreciendo una experiencia
-inmersiva y fluida.
-
-![section hero](../assets/img/chapter-IV/hero-english.png)
-
-
-
-**Services - EventWine**
-
-En esta sección de la landing page te mostramos los principales servicios de nuestra web app, diseñada para productores de vinos artesanales:
-
-![services-landing-page.png](../assets/img/chapter-IV/services-landing-page.png)
-
-
-
-**About the App - EventWine**
-
-En esta sección te presentamos lo que hace única a nuestra aplicación dedicada a la gestión de la producción de vinos artesanales. Nuestra plataforma ha sido diseñada pensando en las necesidades de pequeños productores, ofreciendo herramientas intuitivas y eficientes para mejorar la organización y el control de todo el proceso.
-
-![services-landing-page.png](../assets/img/chapter-IV/about-the-app-landing-page.png)
-
-
-
-**Our Plans - EventWine**
-
-En esta sección te mostramos los diferentes planes que ofrecemos, diseñados para adaptarse a las necesidades de todo tipo de productores de vinos artesanales, desde pequeños viñedos hasta operaciones más grandes:
-
-![plans-landing-page.png](../assets/img/chapter-IV/plans-landing-page.png)
-
-**Testimonials - EventWine**
-
-En esta sección compartimos las experiencias de nuestros usuarios, productores de vinos artesanales, que han transformado la gestión de sus negocios gracias a nuestra app:
-
-![testimonials-landing-page.png](../assets/img/chapter-IV/testimonials-landing-page.png)
-
-
-
-**Contact Us - EventWine**
-
-En esta sección te ofrecemos la posibilidad de ponerte en contacto con nosotros para obtener más información sobre nuestra app o resolver cualquier duda que tengas:
-
-![contact-us-landing-page.png](../assets/img/chapter-IV/contact-us-landing-page.png)
-
-
-
-**About the Team - EventWine**
-
-En esta sección te presentamos al equipo detrás de la app, un grupo de profesionales apasionados por el mundo del vino y la tecnología:
-
-![about-the-team-landing-page.png](../assets/img/chapter-IV/about-the-team-landing-page.png)
-
-
-
-**Footer - EventWine**
-
-En el footer de nuestra landing page encontrarás enlaces útiles y recursos adicionales para que puedas explorar más sobre nuestra app y los servicios que ofrecemos:
-
-![footer-landing-page.png](../assets/img/chapter-IV/footer-landing-page.png)
 
 ### 4.4. Mobile Applications UX/UI Design.
 ### 4.4.1. Mobile Applications Wireframes.
 ### 4.4.2. Mobile Applications Wireflow Diagrams.
 ### 4.4.3. Mobile Applications Mock-ups.
+
 ### 4.4.4. Mobile Applications User Flow Diagrams.
 ### 4.5. Mobile Applications Prototyping.
 ### 4.5.1. Android Mobile Applications Prototyping.
