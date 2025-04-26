@@ -41,14 +41,14 @@ Nos enfocamos en ofrecer soluciones personalizadas que se ajusten a las necesida
         </tr>
         <tr>
             <td>
-                <img src="../assets/img/chapter-I/moises_donayre.png" height="120" alt="Moises Donayre"><br>
+                <img src="../assets/img/chapter-I/foto-moises.png" height="120" alt="Moises Donayre"><br>
                 Moises Rodolfo Donayre Peña - U202216021
             </td>
             <td>
                 Estudiante de Ingeniería de Software en la UPC. Me gusta explorar nuevas tecnologías, resolver retos complejos y aprender constantemente para crecer como profesional.
             </td>
             <td>
-                Experiencia en desarrollo con Python, HTML, CSS, JavaScript y bases de datos. Conocimiento de herramientas de control de versiones como Git y metodologías ágiles.
+                Experiencia en desarrollo web y móvil, y bases de datos. Conocimiento de herramientas de control de versiones como Git y metodologías ágiles.
             </td>
         </tr>
         <tr>
