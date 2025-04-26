@@ -117,7 +117,7 @@
 
 - **Jerarquía de Contenidos:**
     - La información se organiza en niveles jerárquicos que van de lo general a lo específico, facilitando la navegación progresiva.
-    - **Secciones Principales:** Incluyen áreas clave, como por ejemplo "Gestión del Viñedo", "Inventario", "Planificación", y "Reportes".
+    - **Secciones Principales:** Incluyen áreas clave, como por ejemplo "Gestión del Viñedo", "Planificación", y "Reportes".
     - **Subsecciones:** Cada sección principal se divide en subsecciones más específicas, por ejemplo dentro de "Gestión del Viñedo" se pueden encontrar "Mantenimiento", "Cosecha", "Riego", etc.
 
 - **Agrupación de Contenidos:**
@@ -378,12 +378,6 @@ En este apartado se deberá mostrar un formulario para registrar nuevos pedidos,
 ![text](../assets/img/chapter-IV/4.png)
 
 
-**Inventario - EventWine**
-
-En este apartado el productor podrá visualizar el inventario de productos disponibles, con la opción de agregar, editar o eliminar productos, así como ver detalles de cada producto.
-
-![text](../assets/img/chapter-IV/8.png)
-
 **Mis Clientes - EventWine**
 
 En esta sección se deberá mostrar una lista de clientes asociados al productor, con la opción de ver detalles de cada cliente, editar la información y eliminar clientes.
@@ -424,73 +418,44 @@ En esta sección se muestran los mock-ups realizados para nuestro Web Applicatio
 
 En esta sección se muestra el diseño del login de la aplicación web, con opciones para iniciar sesión como asistente o productor de vinos y piscos artesanales.
 
-![alt text](../assets/img/chapter-IV/14.png)
+![Login - Event-Wine.png](../assets/img/chapter-IV/Login%20-%20Event-Wine.png)
 
-**Login -Distribuidor - EventWine**
+**Login - Productor - EventWine**
 
-En el caso del login de distribuidor, se muestra un formulario de inicio de sesión con los campos negocio al que se encuentra asociado y código de usuario.
+En el caso del login de Productor, se muestra un formulario de inicio de sesión con los campos email y contraseña.
 
-![alt text](../assets/img/chapter-IV/15.png)
+![Inicio de sesión- Productor Event-Wine.png](../assets/img/chapter-IV/Inicio%20de%20sesi%C3%B3n-%20Productor%20Event-Wine.png)
 
-**Historial Pedido - EventWine**
+**Login - Asistente - EventWine**
 
-En esta sección se muestra el historial de pedidos realizados por los distribuidores asociados, con la opción de ver detalles de cada pedido, actualizar el estado del mismo y eliminar pedidos.
+En el caso del login de Asistente, se muestra un formulario de inicio de sesión con los campos Productor al que se encuentra asociado y nombre de usuario.
 
-![alt text](../assets/img/chapter-IV/16.png)
-
-**Realizar pedidos - EventWine**
-
-Aquí se muestra el formulario para realizar pedidos de productos, con la opción de seleccionar el producto, cantidad y fecha de entrega, forma de transporte, medio de pago, etc.
-
-![alt text](../assets/img/chapter-IV/17.png)
-
-**Inicio de sesión- Productor EventWine**
-
-En el caso del login de productor de vinos y piscos artesanales, se muestra un formulario de inicio de sesión con los campos email y contraseña.
-
-![alt text](../assets/img/chapter-IV/18.png)
+![Login -Asistente - Event-Wine.png](../assets/img/chapter-IV/Login%20-Asistente%20-%20Event-Wine.png)
 
 **Registrar - Productor  - EventWine**
 
-En esta sección se muestra un formulario para registrar nuevos productores de vinos y piscos artesanales, con campos para ingresar información personal, de contacto y de la empresa.
+En esta sección se muestra un formulario para registrar nuevos productores de vinos, con campos para ingresar información de la empresa y credenciales.
 
-![alt text](../assets/img/chapter-IV/19.png)
+![Registrar - Productor  - Event-Wine.png](../assets/img/chapter-IV/Registrar%20-%20Productor%20%20-%20Event-Wine.png)
 
-**Inventario - EventWine**
+**Registrar - Asistente - EventWine**
 
-Aquí el productor puede visualizar el inventario de insumos disponibles para el proceso productivo, con la opción de agregar, editar o eliminar productos, así como ver detalles de cada producto.
+En esta sección se muestra un formulario para registrar nuevos asistentes, con campos para ingresar datos personales y credenciales.
 
-![alt text](../assets/img/chapter-IV/20.png)
+![Registrar - Asistente-Event-Wine.png](../assets/img/chapter-IV/Registrar%20-%20Asistente-Event-Wine.png)
 
-**Mis Clientes - EventWine**
+**Home Productor**
 
-En esta sección se muestra una lista de clientes asociados al productor, con la opción de ver detalles de cada cliente, editar la información y eliminar clientes.
+![Home - Productor.png](../assets/img/chapter-IV/Home%20-%20Productor.png) 
 
-![alt text](../assets/img/chapter-IV/21.png)
+**Home Productor - Menú Lateral**
 
-**Agregar - Editar - Clientes - EventWine**
+![Home - Productor - menu.png](../assets/img/chapter-IV/Home%20-%20Productor%20-%20menu.png)
 
-En esta sección se muestra un formulario para agregar o editar clientes, con campos para ingresar información personal, de contacto y de la empresa.
+ 
+----
 
-![alt text](../assets/img/chapter-IV/22.png)
-
-Detalle Clientes - EventWine
-
-En este apartado se muestra los detalles de un cliente específico, con la opción de editar la información, ver historial de pedidos y eliminar el cliente.
-
-![alt text](../assets/img/chapter-IV/23.png)
-
-Mis Pedidos - EventWine
-
-En esta sección se muestra el historial de pedidos realizados por los distribuidores asociados, con la opción de ver detalles de cada pedido, actualizar el estado del mismo y eliminar pedidos.
-
-![alt text](../assets/img/chapter-IV/24.png)
-
-Detalle del Pedido - EventWine
-
-En esta sección se muestra los detalles de un pedido específico, con la opción de actualizar el estado del pedido, ver información del cliente y productos solicitados.
-
-![alt text](../assets/img/chapter-IV/25.png)
+----
 
 ### 4.6.4. Web Applications User Flow Diagrams.
 
@@ -504,15 +469,13 @@ El prototipado de aplicaciones web es esencial porque permite visualizar y proba
 Enlace del video:
 [Prototype EventWine - MetaSoft](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923571_upc_edu_pe/EQ3ShXzJBlJAllrQ9SJ3yY8Bacs6SF9dXo-7o_dXhgiZYw?e=6Lgnwd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-Enlace figma: https://www.figma.com/proto/Y3N76wEYD84NW2D4C51ezz/2190&node-type=CANVAS&t=qUWLH78JsfTLa3Pl-1&scaling=min-zoom&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=352%3A2190
-
-
+Enlace figma: https://www.figma.com/design/8Z5H7EbcYVg6pBjgebw6eW/Sin-t%C3%ADtulo?node-id=0-1&t=cTHuHsoqjyPNkdl2-1 
 ## 4.8. Domain-Driven Software Architecture.
 
-El sistema ElixirLine se ha construido aplicando el enfoque Domain-Driven Design (DDD), organizando su lógica en dos Bounded Contexts: InventoryManagement y WinemakingProcess. Esta arquitectura facilita la separación de responsabilidades y mejora la escalabilidad. A continuación, se presentan los diagramas de contexto, contenedores y componentes usando el modelo C4.
+El sistema ElixirLine se ha construido aplicando el enfoque Domain-Driven Design (DDD), organizando su lógica en dos Bounded Contexts: WinemakingProcess. Esta arquitectura facilita la separación de responsabilidades y mejora la escalabilidad. A continuación, se presentan los diagramas de contexto, contenedores y componentes usando el modelo C4.
 ## 4.8.1. Software Architecture Context Diagram.
 
-El diagrama de contexto representa la vista más general del sistema ElixirLine. En él se muestran los dos tipos de usuarios principales: el vinicultor, que accede a través de la plataforma web para gestionar todo el proceso de producción e inventario, y el trabajador de campo, que utiliza tanto la aplicación web como la aplicación móvil para actualizar datos y visualizar el estado de los lotes. El sistema se despliega mediante distintos servicios en la nube, utilizando Vercel para el frontend (Vue.js), Azure App Service para el backend (Spring Boot) y Azure MySQL como base de datos. Este diagrama permite identificar claramente los límites del sistema y sus principales relaciones externas.
+El diagrama de contexto representa la vista más general del sistema ElixirLine. En él se muestran los dos tipos de usuarios principales: el vinicultor, que accede a través de la plataforma web para gestionar todo el proceso de producción, y el trabajador de campo, que utiliza tanto la aplicación web como la aplicación móvil para actualizar datos y visualizar el estado de los lotes. El sistema se despliega mediante distintos servicios en la nube, utilizando Vercel para el frontend (Vue.js), Azure App Service para el backend (Spring Boot) y Azure MySQL como base de datos. Este diagrama permite identificar claramente los límites del sistema y sus principales relaciones externas.
 
 ![](../assets/img/chapter-IV/Context%20Diagram.png)
 
@@ -526,7 +489,7 @@ El diagrama de contenedores presenta la descomposición tecnológica interna de 
 
 ### 4.8.3. Software Architecture Components Diagrams.
 
-El backend de ElixirLine ha sido implementado siguiendo los principios de Domain-Driven Design (DDD), y se estructura en dos Bounded Contexts principales: InventoryManagement y WinemakingProcess. Cada contexto contiene sus propios componentes independientes, entre ellos controladores REST, servicios de aplicación y repositorios. En el caso del proceso de vinificación, se han modelado subdominios específicos como fermentación, clarificación, prensado y añejamiento, cada uno con su lógica aislada. Esta separación modular permite un desarrollo más enfocado, facilita las pruebas, y mejora la mantenibilidad y extensibilidad del sistema conforme evolucione el negocio.
+El backend de ElixirLine ha sido implementado siguiendo los principios de Domain-Driven Design (DDD), y se estructura en dos Bounded Contexts principales: WinemakingProcess. Cada contexto contiene sus propios componentes independientes, entre ellos controladores REST, servicios de aplicación y repositorios. En el caso del proceso de vinificación, se han modelado subdominios específicos como fermentación, clarificación, prensado y añejamiento, cada uno con su lógica aislada. Esta separación modular permite un desarrollo más enfocado, facilita las pruebas, y mejora la mantenibilidad y extensibilidad del sistema conforme evolucione el negocio.
 
 ![](../assets/img/chapter-IV/component%20diagram.png)
 
@@ -537,7 +500,7 @@ Esta sección presenta el diseño orientado a objetos del sistema, en el cual se
 
 
 ### 4.9.1. Class Diagrams.
-El siguiente diagrama de clases muestra las entidades centrales del sistema, sus relaciones de asociación, composición y herencia, así como los atributos principales. Está alineado con el diseño aplicado en el backend, basado en agregados de dominio como Lote, Inventario, Fermentacion, entre otros.
+El siguiente diagrama de clases muestra las entidades centrales del sistema, sus relaciones de asociación, composición y herencia, así como los atributos principales. Está alineado con el diseño aplicado en el backend, basado en agregados de dominio como Lote, Fermentación, entre otros.
 
 ![](../assets/img/chapter-IV/class%20diagram.png)
 
@@ -546,22 +509,6 @@ El siguiente diagrama de clases muestra las entidades centrales del sistema, sus
 
 A continuación, se detalla el diccionario de clases, que incluye una descripción individual de cada clase del sistema, sus atributos y responsabilidades. Este diccionario sirve como referencia técnica para comprender la estructura y funciones del modelo de dominio.
 
-## 4.9.2 Class Dictionary
-
-A continuación, se presenta el diccionario de clases que complementa el diagrama anterior.
-
----
-
-### Clase: `InventoryService`
-
-**Descripción:** Servicio de aplicación que gestiona los comandos relacionados al inventario.
-
-**Métodos:**
-- `createInventory(cmd)`
-- `updateInventory(cmd)`
-- `deleteInventory(cmd)`
-
----
 
 ### Clase: `BatchService`
 
@@ -576,16 +523,7 @@ A continuación, se presenta el diccionario de clases que complementa el diagram
 - `addPressingToBatch(cmd)`
 - `addAgingToBatch(cmd)`
 
----
 
-### Clase: `Inventory`
-
-**Descripción:** Representa un producto o insumo registrado en el inventario.
-
-**Atributos:**  
-`id`, `name`, `type`, `quantity`, `expiration`, `unit`, etc.
-
----
 
 ### Clase: `Batch`
 
@@ -659,11 +597,11 @@ El diseño de la base de datos es un aspecto crucial en el desarrollo de softwar
 
 ### 4.10.1. Database Diagram
 
-El siguiente diagrama muestra la estructura lógica de la base de datos relacional implementada. Las tablas reflejan los objetos del dominio, tales como productores, lotes, procesos de vinificación y elementos de inventario. Se incluyen las claves primarias y foráneas, así como los tipos de relaciones entre entidades.
+El siguiente diagrama muestra la estructura lógica de la base de datos relacional implementada. Las tablas reflejan los objetos del dominio, tales como productores, lotes, procesos de vinificación. Se incluyen las claves primarias y foráneas, así como los tipos de relaciones entre entidades.
 
 ![](../assets/img/chapter-IV/database%20diagram.png)
 
-El diseño se centra en la tabla batches, que actúa como entidad principal para el seguimiento del proceso vinícola. Cada batch se relaciona con etapas como fermentation, clarification, pressing y aging, permitiendo una trazabilidad completa del producto. Además, las tablas profiles y inventories vinculan la operación con los datos del productor y los insumos utilizados. Esta estructura respeta las mejores prácticas de normalización y facilita las operaciones CRUD desde la capa de aplicación.
+El diseño se centra en la tabla batches, que actúa como entidad principal para el seguimiento del proceso vinícola. Cada batch se relaciona con etapas como fermentation, clarification, pressing y aging, permitiendo una trazabilidad completa del producto. Además, la tabla profiles vincula la operación con los datos del productor y los insumos utilizados. Esta estructura respeta las mejores prácticas de normalización y facilita las operaciones CRUD desde la capa de aplicación.
 
  
 
