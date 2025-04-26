@@ -452,12 +452,38 @@ En esta sección se muestra un formulario para registrar nuevos asistentes, con 
 
 ![Home - Productor - menu.png](../assets/img/chapter-IV/Home%20-%20Productor%20-%20menu.png)
 
- 
-----
+
+**Proceso de Vinificación - EventWine**
+
+* **Batches**
+
+* ![Event-Wine Management-Batches.png](../assets/img/chapter-IV/Event-Wine%20Management-Batches.png)
+
+* **Fermentation**
+
+* ![Event-Wine Management-Fermentation.png](../assets/img/chapter-IV/Event-Wine%20Management-Fermentation.png)
+
+* **Clarification**
+
+* ![Event-Wine Management-Clarification.png](../assets/img/chapter-IV/Event-Wine%20Management-Clarification.png)
+* 
+* **Pressing**
+* 
+* ![Event-Wine Management-Pressing.png](../assets/img/chapter-IV/Event-Wine%20Management-Pressing.png)
+* **Aging**
+* 
+* ![Event-Wine Management-Aging.png](../assets/img/chapter-IV/Event-Wine%20Management-Aging.png)
+* 
+* **Bottling**
+* 
+* ![Event-Wine Management-Bottling.png](../assets/img/chapter-IV/Event-Wine%20Management-Bottling.png)
+*
 
 ----
 
 ### 4.6.4. Web Applications User Flow Diagrams.
+
+
 
 
 ## 4.7. Web Applications Prototyping.
