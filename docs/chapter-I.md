@@ -29,7 +29,7 @@ Nos enfocamos en ofrecer soluciones personalizadas que se ajusten a las necesida
     <tbody>
         <tr>
             <td>
-                <img src="../assets/img/chapter-I/gustavo_huanca.png" height="120" alt="Gustavo Huanca"><br>
+                <img src="../assets/img/chapter-I/foto-gustavo.jpg" height="120" alt="Gustavo Huanca"><br>
                 Gustavo Esau Huanca Navarro - U202215285
             </td>
             <td>
