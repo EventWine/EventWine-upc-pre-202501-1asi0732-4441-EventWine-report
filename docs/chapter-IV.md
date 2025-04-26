@@ -357,7 +357,7 @@ En esta sección se muestra un formulario para registrar nuevos asistentes, con 
 
 ### 4.6.4. Web Applications User Flow Diagrams.
 
-
+![userFlow.png](../assets/img/chapter-IV/userFlow.png)
 
 
 ## 4.7. Web Applications Prototyping.
@@ -367,21 +367,20 @@ El prototipado de aplicaciones web es esencial porque permite visualizar y proba
 ![prototype-evenWine-v1.png](../assets/img/chapter-IV/v1-prototype-eventWine.png)
 
 Enlace del video:
-[Prototype EventWine - MetaSoft](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923571_upc_edu_pe/EQ3ShXzJBlJAllrQ9SJ3yY8Bacs6SF9dXo-7o_dXhgiZYw?e=6Lgnwd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 Enlace figma: https://www.figma.com/design/8Z5H7EbcYVg6pBjgebw6eW/Sin-t%C3%ADtulo?node-id=0-1&t=cTHuHsoqjyPNkdl2-1 
 ## 4.8. Domain-Driven Software Architecture.
 
-El sistema ElixirLine se ha construido aplicando el enfoque Domain-Driven Design (DDD), organizando su lógica en dos Bounded Contexts: WinemakingProcess. Esta arquitectura facilita la separación de responsabilidades y mejora la escalabilidad. A continuación, se presentan los diagramas de contexto, contenedores y componentes usando el modelo C4.
+El sistema Event Wine se ha construido aplicando el enfoque Domain-Driven Design (DDD), organizando su lógica en dos Bounded Contexts: WinemakingProcess. Esta arquitectura facilita la separación de responsabilidades y mejora la escalabilidad. A continuación, se presentan los diagramas de contexto, contenedores y componentes usando el modelo C4.
 ## 4.8.1. Software Architecture Context Diagram.
 
-El diagrama de contexto representa la vista más general del sistema ElixirLine. En él se muestran los dos tipos de usuarios principales: el vinicultor, que accede a través de la plataforma web para gestionar todo el proceso de producción, y el trabajador de campo, que utiliza tanto la aplicación web como la aplicación móvil para actualizar datos y visualizar el estado de los lotes. El sistema se despliega mediante distintos servicios en la nube, utilizando Vercel para el frontend (Vue.js), Azure App Service para el backend (Spring Boot) y Azure MySQL como base de datos. Este diagrama permite identificar claramente los límites del sistema y sus principales relaciones externas.
+El diagrama de contexto representa la vista más general del sistema Event wine. En él se muestran los dos tipos de usuarios principales: el vinicultor, que accede a través de la plataforma web para gestionar todo el proceso de producción, y el trabajador de campo, que utiliza tanto la aplicación web como la aplicación móvil para actualizar datos y visualizar el estado de los lotes. El sistema se despliega mediante distintos servicios en la nube, utilizando Vercel para el frontend (Vue.js), Azure App Service para el backend (Spring Boot) y Azure MySQL como base de datos. Este diagrama permite identificar claramente los límites del sistema y sus principales relaciones externas.
 
 ![](../assets/img/chapter-IV/Context%20Diagram.png)
 
 ### 4.8.2. Software Architecture Container Diagrams.
 
-El diagrama de contenedores presenta la descomposición tecnológica interna de ElixirLine. El sistema cuenta con un frontend web desarrollado en Vue.js, una aplicación móvil creada con Flutter, un backend construido en Spring Boot y una base de datos MySQL desplegada en Azure. Tanto la aplicación móvil como la web se comunican con el backend mediante APIs REST. Esta arquitectura permite una separación de responsabilidades clara entre la interfaz de usuario, la lógica de negocio y la persistencia de datos. El diseño favorece la escalabilidad del sistema y su mantenimiento independiente por plataforma.
+El diagrama de contenedores presenta la descomposición tecnológica interna de Event wine. El sistema cuenta con un frontend web desarrollado en Vue.js, una aplicación móvil creada con Flutter, un backend construido en Spring Boot y una base de datos MySQL desplegada en Azure. Tanto la aplicación móvil como la web se comunican con el backend mediante APIs REST. Esta arquitectura permite una separación de responsabilidades clara entre la interfaz de usuario, la lógica de negocio y la persistencia de datos. El diseño favorece la escalabilidad del sistema y su mantenimiento independiente por plataforma.
 
 ![](../assets/img/chapter-IV/Container%20Diagram.png)
 
@@ -389,7 +388,7 @@ El diagrama de contenedores presenta la descomposición tecnológica interna de 
 
 ### 4.8.3. Software Architecture Components Diagrams.
 
-El backend de ElixirLine ha sido implementado siguiendo los principios de Domain-Driven Design (DDD), y se estructura en dos Bounded Contexts principales: WinemakingProcess. Cada contexto contiene sus propios componentes independientes, entre ellos controladores REST, servicios de aplicación y repositorios. En el caso del proceso de vinificación, se han modelado subdominios específicos como fermentación, clarificación, prensado y añejamiento, cada uno con su lógica aislada. Esta separación modular permite un desarrollo más enfocado, facilita las pruebas, y mejora la mantenibilidad y extensibilidad del sistema conforme evolucione el negocio.
+El backend de Event wine ha sido implementado siguiendo los principios de Domain-Driven Design (DDD), y se estructura en dos Bounded Contexts principales: WinemakingProcess. Cada contexto contiene sus propios componentes independientes, entre ellos controladores REST, servicios de aplicación y repositorios. En el caso del proceso de vinificación, se han modelado subdominios específicos como fermentación, clarificación, prensado y añejamiento, cada uno con su lógica aislada. Esta separación modular permite un desarrollo más enfocado, facilita las pruebas, y mejora la mantenibilidad y extensibilidad del sistema conforme evolucione el negocio.
 
 ![](../assets/img/chapter-IV/component%20diagram.png)
 
