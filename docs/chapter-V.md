@@ -343,6 +343,58 @@ Link del Landing Page: https://eventwine.github.io/EventWine-Landing-Page/index.
 
 ### 5.2.4. Acuerdo de Servicio - SaaS
 
+**Objetivo y Alcance**
+El presente Acuerdo de Servicio SaaS establece los términos y condiciones legales que rigen el uso de la plataforma EventWine, un software como servicio (SaaS) especializado en la gestión de procesos de vinificación. Este documento constituye un contrato legalmente vinculante entre EventWine (en adelante, "el Proveedor") y cualquier persona o entidad que acceda o utilice la plataforma (en adelante, "el Usuario").
+**1. Descripción del Servicio**
+   EventWine proporciona una plataforma de software como servicio (SaaS) para la gestión integral de procesos de vinificación. El servicio incluye herramientas para seguimiento de lotes, fermentación, clarificación, prensado, añejamiento y embotellado. La plataforma se proporciona "tal cual" y el Proveedor se reserva el derecho de modificar las funcionalidades ofrecidas, previa notificación a los Usuarios.
+**2. Términos de Suscripción**
+   **2.1 Planes y Facturación**
+   El servicio EventWine se ofrece mediante planes de suscripción con diferentes características y limitaciones. La facturación se realiza mensualmente, con la opción de pago anual con un descuento del 10%. Los precios están sujetos a modificaciones, con un preaviso mínimo de 30 días.
+   **2.2 Período de Prueba**
+   Los nuevos usuarios pueden acceder a un período de prueba de 14 días sin compromiso. Una vez finalizado este período, se requerirá la selección de un plan de suscripción para continuar utilizando la plataforma.
+   **2.3 Modificación y Cancelación**
+   Los Usuarios pueden cambiar de plan o cancelar su suscripción en cualquier momento. Los cambios de plan se aplicarán a partir del siguiente período de facturación. En caso de cancelación, el acceso a la plataforma se mantendrá hasta el final del período facturado.
+**3. Privacidad y Datos**
+   **3.1 Confidencialidad**
+   El Proveedor se compromete a mantener la confidencialidad de los datos proporcionados por los Usuarios. La información no será compartida con terceros sin consentimiento expreso, excepto cuando sea requerido por ley.
+   **3.2 Propiedad de los Datos**
+   Los datos ingresados por el Usuario en la plataforma son y permanecen propiedad del Usuario. El Proveedor no adquiere ningún derecho sobre dichos datos más allá de los necesarios para prestar el servicio.
+   **3.3 Seguridad**
+   El Proveedor implementa medidas de seguridad de nivel empresarial, incluyendo encriptación de 256 bits para todas las transmisiones de datos y copias de seguridad diarias. Sin embargo, ningún sistema puede garantizar una seguridad absoluta, por lo que se recomienda a los Usuarios mantener copias de seguridad de su información crítica.
+**4. Responsabilidades del Usuario**
+   **4.1 Acceso y Credenciales**
+   Los Usuarios son responsables de mantener la confidencialidad de sus credenciales de acceso y de todas las actividades realizadas bajo su cuenta. Cualquier uso no autorizado debe ser reportado inmediatamente al Proveedor.
+   **4.2 Uso Autorizado**
+   El Usuario se compromete a utilizar la plataforma de manera ética y legal, sin intentar acceder a funcionalidades no autorizadas o interferir con el funcionamiento normal del servicio.
+   **4.3 Cumplimiento Normativo**
+   El Usuario es responsable de asegurar que su uso de la plataforma cumple con todas las leyes y regulaciones aplicables en su jurisdicción, particularmente aquellas relacionadas con la industria vitivinícola.
+**5. Propiedad Intelectual**
+   **5.1 Derechos del Proveedor**
+   Todos los derechos de propiedad intelectual relacionados con la plataforma, incluyendo pero no limitado a software, diseño, logotipos y documentación, son propiedad exclusiva del Proveedor.
+   **5.2 Licencia de Uso**
+   El Proveedor otorga al Usuario una licencia no exclusiva, no transferible y revocable para utilizar la plataforma durante la vigencia de la suscripción, únicamente para los fines descritos en este Acuerdo.
+**6. Limitación de Responsabilidad**
+   **6.1 Disponibilidad del Servicio**
+   El Proveedor se esfuerza por mantener una disponibilidad del servicio del 99.9%, excluyendo mantenimientos programados. Sin embargo, no se garantiza el funcionamiento ininterrumpido de la plataforma.
+   **6.2 Exención de Garantías**
+   El servicio se proporciona "tal cual", sin garantías de ningún tipo, expresas o implícitas. El Proveedor no garantiza que el servicio satisfará los requisitos específicos del Usuario o que funcionará libre de errores.
+   **6.3 Limitación de Daños**
+   En ningún caso el Proveedor será responsable por daños indirectos, incidentales, especiales o consecuentes, incluyendo pérdida de beneficios o datos, incluso si ha sido advertido de la posibilidad de tales daños.
+**7. Terminación**
+   **7.1 Por el Usuario**
+   El Usuario puede terminar este Acuerdo en cualquier momento cancelando su suscripción desde su panel de control.
+   **7.2 Por el Proveedor**
+   El Proveedor puede suspender o terminar el acceso del Usuario a la plataforma sin previo aviso en caso de violación de los términos de este Acuerdo o por falta de pago.
+   **7.3 Consecuencias**
+   Tras la terminación, el Usuario perderá el acceso a la plataforma y a sus datos. El Proveedor mantendrá los datos por un período de 30 días, durante el cual el Usuario podrá solicitar una copia.
+**8. Misceláneos**
+   **8.1 Ley Aplicable**
+   Este Acuerdo se regirá e interpretará de acuerdo con las leyes del país donde el Proveedor tiene su sede principal, sin dar efecto a principios de conflicto de leyes.
+   **8.2 Resolución de Disputas**
+   Cualquier disputa derivada de este Acuerdo se resolverá mediante negociación de buena fe. Si no se alcanza una solución, las partes acuerdan someterse a mediación antes de iniciar acciones legales.
+   **8.3 Modificaciones al Acuerdo**
+   El Proveedor se reserva el derecho de modificar este Acuerdo en cualquier momento. Los cambios sustanciales serán notificados a los Usuarios con al menos 30 días de antelación. El uso continuado de la plataforma tras dicha notificación constituirá la aceptación de los nuevos términos.
+
 
 ### 5.2.5. Implemented Native-Mobile Application Evidence
 
