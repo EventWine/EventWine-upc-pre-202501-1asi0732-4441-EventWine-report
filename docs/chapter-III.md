@@ -164,21 +164,6 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
         <!-- User Story 07 -->
         <tr>
             <td>US-07</td>
-            <td>Registro de nuevos insumos en el inventario</td>
-            <td>
-                Como vinicultor, quiero poder registrar nuevos insumos y materiales en el inventario, para mantener un control adecuado sobre los recursos disponibles para la producción.
-            </td>
-            <td>
-                <strong>Scenario 01: Registro exitoso de insumos</strong> <br>
-                Given un vinicultor autenticado en la plataforma, When añade un nuevo insumo o material al inventario, Then puede ingresar el nombre, la cantidad y la    descripción del insumo, y el sistema confirma el registro exitoso. <br><br>
-                <strong>Scenario 02: Validación de campos obligatorios</strong> <br>
-                Given un vinicultor agregando un nuevo insumo, When intenta guardar un insumo sin completar los campos obligatorios (nombre, cantidad), Then el     sistema muestra un mensaje de error solicitando completar los campos faltantes.
-            </td>
-            <td>Epic-01</td>
-        </tr>
-        <!-- User Story 08 -->
-        <tr>
-            <td>US-08</td>
             <td>Registro del estado de añejamiento </td>
             <td>
                 Como usuario con rol de vinicultor, quiero registrar las condiciones y fechas del añejamiento de mis vinos,
@@ -203,9 +188,9 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
             </td>
             <td>EPIC-02</td>
         </tr>
-        <!-- User Story 09 -->
+        <!-- User Story 08 -->
         <tr>
-            <td>US-09</td>
+            <td>US-08</td>
             <td>Registro del estado de embotellado </td>
             <td>
                 Como usuario con rol de vinicultor, quiero registrar el inicio y finalización del proceso de embotellado, incluyendo la cantidad de botellas producidas, para asegurar que esta etapa esté bien documentada y se refleje correctamente en los registros del lote. 
@@ -228,9 +213,9 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
             </td>
             <td>EPIC-02</td>
         </tr>
-        <!-- User Story 10 -->
+        <!-- User Story 09 -->
         <tr>
-            <td>US-10</td>
+            <td>US-09</td>
             <td>Reportes Personalizados</td>
             <td>
                 Como vinicultor, quiero poder crear reportes personalizados para analizar datos específicos de producción. 
@@ -247,9 +232,9 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
             </td>
             <td>EPIC-01</td>
         </tr>
-        <!-- User Story 11 -->
+        <!-- User Story 10 -->
         <tr> 
-            <td>US-11</td> 
+            <td>US-10</td> 
             <td>Visualizar Home de la Plataforma</td> 
             <td> 
                 Como usuario, quiero visualizar la página de inicio de la plataforma para acceder fácilmente a las principales funcionalidades. 
@@ -263,9 +248,9 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
             </td>
             <td>EPIC-03</td>
         </tr>
-        <!-- User Story 12 -->
+        <!-- User Story 11 -->
         <tr> 
-            <td>US-12</td> 
+            <td>US-11</td> 
             <td>Integración de Validadores en Formularios</td> 
             <td> 
                 Como usuario, quiero que los formularios tengan validadores para asegurar que los datos ingresados sean correctos. 
@@ -282,9 +267,9 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
             </td>
             <td>EPIC-03</td>
         </tr>
-        <!-- User Story 13 -->
+        <!-- User Story 12 -->
         <tr> 
-            <td>US-13</td> 
+            <td>US-12</td> 
             <td>Mejora de la Experiencia del Usuario</td> 
             <td> 
                 Como usuario, quiero que la aplicación sea intuitiva y fácil de navegar para mejorar mi experiencia general. 
@@ -381,64 +366,57 @@ En este punto, se encuentran una serie de historias de usuario que han sido crea
     </tr>
     <tr>
       <td>6</td>
-      <td>US-07</td>
-      <td>Registro de nuevos insumos en el inventario</td>
-      <td>Como vinicultor, quiero poder registrar nuevos insumos y materiales en el inventario, para mantener un control adecuado sobre los recursos disponibles para la producción.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>US-09</td>
+      <td>US-08</td>
       <td>Resgistro del estado de embotellado</td>
       <td>Como usuario con rol de vinicultor, quiero registrar el inicio y finalización del proceso de embotellado, incluyendo la cantidad de botellas producidas, para asegurar que esta etapa esté bien documentada y se refleje correctamente en los registros del lote.</td>
       <td>3</td>
     </tr>
     <tr>
-      <td>8</td>
-      <td>US-11</td>
+      <td>7</td>
+      <td>US-10</td>
       <td>Visualizar Home de la Plataforma</td>
       <td>Como usuario, quiero visualizar la página de inicio de la plataforma para acceder fácilmente a las principales funcionalidades.</td>
       <td>3</td>
     </tr>
     <tr>
-      <td>9</td>
+      <td>8</td>
       <td>US-04</td>
       <td>Registro del estado de fermentación</td>
       <td>Como usuario con rol de vinicultor,quiero registrar y monitorear el estado de la fermentación de mis lotes,para asegurar que las condiciones iniciales y los parámetros del proceso se controlen correctamente y queden documentados. </td>
       <td>5</td>
     </tr>
     <tr>
-      <td>10</td>
-      <td>US-08</td>
+      <td>9</td>
+      <td>US-07</td>
       <td>Registro del estado de añejamiento</td>
       <td>Como usuario con rol de vinicultor, quiero registrar las condiciones y fechas del añejamiento de mis vinos, para asegurar que el proceso se documente correctamente y monitorear la evolución del producto a lo largo del tiempo.
       </td>
       <td>5</td>
     </tr>
     <tr>
-      <td>11</td>
-      <td>US-12</td>
+      <td>10</td>
+      <td>US-11</td>
       <td>Integración de Validadores en Formularios</td>
       <td>Como usuario, quiero que los formularios tengan validadores para asegurar que los datos ingresados sean correctos.</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>12</td>
-      <td>US-13</td>
+      <td>11</td>
+      <td>US-12</td>
       <td>Mejora de la Experiencia del Usuario</td>
       <td>Como usuario, quiero que la aplicación sea intuitiva y fácil de navegar para mejorar mi experiencia general.</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>13</td>
+      <td>12</td>
       <td>US-14</td>
       <td>Implementación de Funcionalidad de Búsqueda</td>
       <td>Como usuario, quiero poder realizar búsquedas en la aplicación para encontrar rápidamente la información que necesito.</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>14</td>
-      <td>US-10</td>
+      <td>13</td>
+      <td>US-09</td>
       <td>Reportes Personalizados</td>
       <td>Como vinicultor, quiero poder crear reportes personalizados para analizar datos específicos de producción. </td>
       <td>8</td>
