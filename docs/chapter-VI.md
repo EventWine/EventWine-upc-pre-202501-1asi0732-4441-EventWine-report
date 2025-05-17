@@ -8,6 +8,30 @@ Los Core Entities Unit Tests son esenciales en el desarrollo de software, ya que
 correcto funcionamiento de las entidades centrales, previniendo errores y facilitando el mantenimiento
 del código.
 
+User Tests:
+![User Tests](../assets/img/chapter-VI/test-user.png)
+
+Profile Tests:
+![Profile Tests](../assets/img/chapter-VI/test-profile.png)
+
+Batch Tests:
+![Batch Tests](../assets/img/chapter-VI/test-batch.png)
+
+Fermentation Tests:
+![Fermentation Tests](../assets/img/chapter-VI/test-fermentation.png)
+
+Clarification Tests:
+![Clarification Tests](../assets/img/chapter-VI/test-clarification.png)
+
+Pressing Tests:
+![Pressing Tests](../assets/img/chapter-VI/test-pressing.png)
+
+Aging Tests:
+![Aging Tests](../assets/img/chapter-VI/test-aging.png)
+
+Bottling Tests:
+![Bottling Tests](../assets/img/chapter-VI/test-bottling.png)
+
 
 ## 6.1.2. Core Integration Tests.
 
