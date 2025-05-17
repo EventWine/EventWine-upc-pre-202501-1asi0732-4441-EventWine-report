@@ -254,10 +254,27 @@ Seccion "**Sobre Nosotros**"
 ### 4.4.2. Mobile Applications Wireflow Diagrams.
 ### 4.4.3. Mobile Applications Mock-ups.
 
+- Acceso a la aplicación
+- ![Mockup-mobile (1).png](../assets/img/chapter-IV/Mockup-mobile%20%281%29.png)
+
+- Acuerdos del Servicio (SaaS)  
+- ![Mockup-mobile (3).png](../assets/img/chapter-IV/Mockup-mobile%20%283%29.png)
+
+- Pantallas de Inicio
+- ![Mockup-mobile (2).png](../assets/img/chapter-IV/Mockup-mobile%20%282%29.png)
+
+- Proceso de Vinificación
+- ![mockup-mobile-process-vinification (1).png](../assets/img/chapter-IV/mockup-mobile-process-vinification%20%281%29.png) 
+- ![mockup-mobile-process-vinification (2).png](../assets/img/chapter-IV/mockup-mobile-process-vinification%20%282%29.png) 
+- ![mockup-mobile-process-vinification (3).png](../assets/img/chapter-IV/mockup-mobile-process-vinification%20%283%29.png) 
+- ![mockup-mobile-process-vinification (4).png](../assets/img/chapter-IV/mockup-mobile-process-vinification%20%284%29.png) 
+- ![mockup-mobile-process-vinification (5).png](../assets/img/chapter-IV/mockup-mobile-process-vinification%20%285%29.png) 
+- ![mockup-mobile-process-vinification (6).png](../assets/img/chapter-IV/mockup-mobile-process-vinification%20%286%29.png) 
+- 
 ### 4.4.4. Mobile Applications User Flow Diagrams.
 ### 4.5. Mobile Applications Prototyping.
 ### 4.5.1. Android Mobile Applications Prototyping.
-### 4.5.2. iOS Mobile Applications Prototyping.
+
 
 
 ## 4.6. Web Applications UX/UI Design.
