@@ -24,6 +24,44 @@ A continuación, se presentan las principales herramientas utilizadas:
 
 ### 7.1.2. Build & Test Suite Pipeline Components
 
+Durante el desarrollo del proyecto, se configuró un entorno de integración continua que permite ejecutar automáticamente la compilación del backend y la ejecución de las pruebas automatizadas. A continuación, se describen los componentes involucrados:
+
+**Herramientas utilizadas:**
+.NET SDK (v8 y v9): para compilar el backend y ejecutar pruebas.
+
+Rider IDE: como entorno de desarrollo con soporte integrado para ejecutar pruebas NUnit y SpecFlow.
+
+SpecFlow + NUnit: para pruebas de aceptación BDD basadas en archivos .feature.
+
+Terminal / PowerShell: para ejecutar pruebas vía dotnet test.
+
+Azure App Service: para despliegue del backend.
+
+GitHub: para control de versiones y documentación colaborativa.
+
+**Flujo del pipeline:**
+Compilación del Backend (dotnet build)
+
+Ejecución de pruebas automatizadas (dotnet test)
+
+Visualización de resultados en la terminal y en Rider (Test Explorer)
+
+**Tipos de pruebas integradas:**
+Unit Tests: (pendiente implementar para entidades principales)
+
+Integration Tests: (pendiente para futuras integraciones entre microservicios)
+
+BDD Tests: implementados para los siguientes módulos:
+
+US04 – Fermentación
+
+US05 – Clarificación
+
+US06 – Prensado
+
+US07 – Añejamiento
+
+US08 – Embotellado
 
 
 ### 7.2. Continuous Delivery
