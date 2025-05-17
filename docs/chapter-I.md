@@ -333,3 +333,4 @@ Para la elaboración de los Hypothesis Statements se utilizó el formato Lean UX
 El segmento objetivo principal son los **productores de vino**, especialmente aquellos que operan de manera artesanal, a pequeña escala o sin una organización formal establecida. Este grupo suele enfrentar desafíos en la gestión eficiente de su producción, el seguimiento de procesos como la fermentación, prensado, añejamiento y embotellado, y la generación de reportes para la toma de decisiones.
 
 *EventWine* está diseñado para ofrecerles una solución que simplifique y optimice estos procesos, permitiéndoles centrarse en la calidad de su producto mientras automatizan sus registros, mantienen una trazabilidad completa de cada lote y mejoran la eficiencia operativa general. La plataforma se adapta a las necesidades particulares de cada productor, brindando herramientas tecnológicas accesibles y efectivas para transformar su forma de trabajar.
+ 
