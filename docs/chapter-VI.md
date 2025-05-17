@@ -70,6 +70,19 @@ A continuación, se presentan las historias de usuario validadas con BDD y sus r
 Cada uno de estos escenarios fue ejecutado exitosamente mediante dotnet test, garantizando que el sistema responde correctamente ante flujos esperados y excepcionales. Este enfoque BDD permitió validar no solo funcionalidades individuales, sino también la coherencia del flujo de producción del vino en cada etapa.
 
 ## 6.1.4. Core System Tests.
+En esta seccion se realizo las diferentes auditorias usando las herramientas de [Selenium](https://chromewebstore.google.com/detail/mooikfkahbdckldjjndioackbalphokd?utm_source=item-share-cb) y [LightHouse](https://chromewebstore.google.com/detail/blipmdconlkpinefehnmjammfjpmpbjk?utm_source=item-share-cb) 
+![WhatsApp Image 2025-05-17 at 4.22.18 PM.jpeg](../assets/img/chapter-VI/WhatsApp%20Image%202025-05-17%20at%204.22.18%20PM.jpeg)
+![WhatsApp Image 2025-05-17 at 4.22.37 PM.jpeg](../assets/img/chapter-VI/WhatsApp%20Image%202025-05-17%20at%204.22.37%20PM.jpeg)
+![WhatsApp Image 2025-05-17 at 4.22.57 PM.jpeg](../assets/img/chapter-VI/WhatsApp%20Image%202025-05-17%20at%204.22.57%20PM.jpeg)
+![WhatsApp Image 2025-05-17 at 4.32.25 PM.jpeg](../assets/img/chapter-VI/WhatsApp%20Image%202025-05-17%20at%204.32.25%20PM.jpeg)
+![WhatsApp Image 2025-05-17 at 4.35.49 PM.jpeg](../assets/img/chapter-VI/WhatsApp%20Image%202025-05-17%20at%204.35.49%20PM.jpeg)
+![WhatsApp Image 2025-05-17 at 4.41.05 PM.jpeg](../assets/img/chapter-VI/WhatsApp%20Image%202025-05-17%20at%204.41.05%20PM.jpeg)
+![WhatsApp Image 2025-05-17 at 4.47.30 PM.jpeg](../assets/img/chapter-VI/WhatsApp%20Image%202025-05-17%20at%204.47.30%20PM.jpeg)
+![WhatsApp Image 2025-05-17 at 4.49.28 PM.jpeg](../assets/img/chapter-VI/WhatsApp%20Image%202025-05-17%20at%204.49.28%20PM.jpeg)
+![WhatsApp Image 2025-05-17 at 4.54.32 PM.jpeg](../assets/img/chapter-VI/WhatsApp%20Image%202025-05-17%20at%204.54.32%20PM.jpeg)
+![WhatsApp Image 2025-05-17 at 5.04.51 PM.jpeg](../assets/img/chapter-VI/WhatsApp%20Image%202025-05-17%20at%205.04.51%20PM.jpeg)
+![WhatsApp Image 2025-05-17 at 5.07.19 PM.jpeg](../assets/img/chapter-VI/WhatsApp%20Image%202025-05-17%20at%205.07.19%20PM.jpeg)
+![WhatsApp Image 2025-05-17 at 5.48.46 PM.jpeg](../assets/img/chapter-VI/WhatsApp%20Image%202025-05-17%20at%205.48.46%20PM.jpeg)
 # 6.2. Static testing & Verification
 ## 6.2.1. Static Code Analysis
 ### 6.2.1.1. Coding standard & Code conventions.
