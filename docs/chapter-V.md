@@ -201,8 +201,8 @@ En esta sección detallaremos la configuración requerida para llevar a cabo el 
             <td>Mostrar beneficios de la aplicación</td>
             <td>Diseñar e integrar la sección con la información de los beneficios.</td>
             <td>2</td>
-            <td>July</td>
-            <td>To-do</td>
+            <td>July Paico</td>
+            <td>Done</td>
         </tr>
         <tr>
             <td>US-03</td>
@@ -212,7 +212,7 @@ En esta sección detallaremos la configuración requerida para llevar a cabo el 
             <td>Diseñar e integrar el footer con la información de contacto y enlaces relevantes.</td>
             <td>4</td>
             <td>Deybbi Crisanto</td>
-            <td>To-do</td>
+            <td>Done</td>
         </tr>
         <tr>
             <td>US-05</td>
@@ -222,7 +222,7 @@ En esta sección detallaremos la configuración requerida para llevar a cabo el 
             <td>Crear el formulario y la lógica para registrar el estado de clarificación de lotes.</td>
             <td>6</td>
             <td>Moises Donayre</td>
-            <td>To-do</td>
+            <td>Done</td>
         </tr>
         <tr>
             <td>US-06</td>
@@ -232,7 +232,7 @@ En esta sección detallaremos la configuración requerida para llevar a cabo el 
             <td>Crear el formulario y la lógica para registrar el estado de prensado de lotes.</td>
             <td>6</td>
             <td>Gustavo Huanca</td>
-            <td>To-do</td>
+            <td>Done</td>
         </tr>
         <tr>
             <td>US-08</td>
@@ -242,7 +242,7 @@ En esta sección detallaremos la configuración requerida para llevar a cabo el 
             <td>Crear el formulario y la lógica para registrar el estado de embotellado.</td>
             <td>5</td>
             <td>Moises Donayre</td>
-            <td>To-do</td>
+            <td>Done</td>
         </tr>
         <tr>
             <td>US-10</td>
@@ -252,7 +252,7 @@ En esta sección detallaremos la configuración requerida para llevar a cabo el 
             <td>Desarrollar la página de inicio con sus elementos principales.</td>
             <td>7</td>
             <td>Gustavo Huanca</td>
-            <td>To-do</td>
+            <td>Done</td>
         </tr>
         <tr>
             <td>US-04</td>
@@ -262,7 +262,7 @@ En esta sección detallaremos la configuración requerida para llevar a cabo el 
             <td>Crear el formulario y la lógica para registrar el estado de fermentación de lotes.</td>
             <td>7</td>
             <td>Moises Donayre</td>
-            <td>To-do</td>
+            <td>Done</td>
         </tr>
         <tr>
             <td>US-07</td>
@@ -272,7 +272,7 @@ En esta sección detallaremos la configuración requerida para llevar a cabo el 
             <td>Crear el formulario y la lógica para registrar el estado de añejamiento de vinos.</td>
             <td>7</td>
             <td>Gustavo Huanca</td>
-            <td>To-do</td>
+            <td>Done</td>
         </tr>
         <tr>
             <td>US-11</td>
@@ -282,7 +282,7 @@ En esta sección detallaremos la configuración requerida para llevar a cabo el 
             <td>Integrar validadores para asegurar la correcta entrada de datos en los formularios.</td>
             <td>5</td>
             <td>Moises Donayre</td>
-            <td>To-do</td>
+            <td>Done</td>
         </tr>
         <tr>
             <td>US-12</td>
@@ -292,17 +292,17 @@ En esta sección detallaremos la configuración requerida para llevar a cabo el 
             <td>Realizar ajustes para mejorar la usabilidad e intuitividad de la aplicación.</td>
             <td>5</td>
             <td>Deybbi Crisanto</td>
-            <td>To-do</td>
+            <td>Done</td>
         </tr>
         <tr>
-            <td>US-14</td>
+            <td>US-13</td>
             <td>Implementación de Funcionalidad de Búsqueda</td>
             <td>T12</td>
             <td>Implementar funcionalidad de búsqueda</td>
             <td>Desarrollar la barra y la lógica para realizar búsquedas en la aplicación.</td>
             <td>6</td>
             <td>July Paico</td>
-            <td>To-do</td>
+            <td>Done</td>
         </tr>
         <tr>
             <td>US-09</td>
@@ -312,7 +312,7 @@ En esta sección detallaremos la configuración requerida para llevar a cabo el 
             <td>Desarrollar la funcionalidad para crear y visualizar reportes personalizados.</td>
             <td>6</td>
             <td>Gustavo Huanca</td>
-            <td>To-do</td>
+            <td>Done</td>
         </tr>
     </tbody>
 </table>
@@ -345,12 +345,17 @@ La aplicación se divide en varias secciones, cada una de las cuales se encarga 
 Link de la Web App: https://event-wine-front.vercel.app/home/sign-in 
 
 ![home1.png](../assets/img/chapter-V/home1.png) 
+
 ![signIn.png](../assets/img/chapter-V/signIn.png)
 
 ![home.png](../assets/img/chapter-V/home.png)
+
 ![Batches.png](../assets/img/chapter-V/Batches.png)
+
 ![fermentacion.png](../assets/img/chapter-V/fermentacion.png)
+
 ![clarification.png](../assets/img/chapter-V/clarification.png)
+
 ![pressings.png](../assets/img/chapter-V/pressings.png)
 
 
@@ -358,59 +363,99 @@ Link de la Web App: https://event-wine-front.vercel.app/home/sign-in
 
 **Objetivo y Alcance**
 El presente Acuerdo de Servicio SaaS establece los términos y condiciones legales que rigen el uso de la plataforma EventWine, un software como servicio (SaaS) especializado en la gestión de procesos de vinificación. Este documento constituye un contrato legalmente vinculante entre EventWine (en adelante, "el Proveedor") y cualquier persona o entidad que acceda o utilice la plataforma (en adelante, "el Usuario").
+
 **1. Descripción del Servicio**
    EventWine proporciona una plataforma de software como servicio (SaaS) para la gestión integral de procesos de vinificación. El servicio incluye herramientas para seguimiento de lotes, fermentación, clarificación, prensado, añejamiento y embotellado. La plataforma se proporciona "tal cual" y el Proveedor se reserva el derecho de modificar las funcionalidades ofrecidas, previa notificación a los Usuarios.
-**2. Términos de Suscripción**
+
+**2. Términos de Suscripción**<br>
    **2.1 Planes y Facturación**
    El servicio EventWine se ofrece mediante planes de suscripción con diferentes características y limitaciones. La facturación se realiza mensualmente, con la opción de pago anual con un descuento del 10%. Los precios están sujetos a modificaciones, con un preaviso mínimo de 30 días.
+
    **2.2 Período de Prueba**
    Los nuevos usuarios pueden acceder a un período de prueba de 14 días sin compromiso. Una vez finalizado este período, se requerirá la selección de un plan de suscripción para continuar utilizando la plataforma.
+
    **2.3 Modificación y Cancelación**
    Los Usuarios pueden cambiar de plan o cancelar su suscripción en cualquier momento. Los cambios de plan se aplicarán a partir del siguiente período de facturación. En caso de cancelación, el acceso a la plataforma se mantendrá hasta el final del período facturado.
-**3. Privacidad y Datos**
+
+**3. Privacidad y Datos**<br>
    **3.1 Confidencialidad**
    El Proveedor se compromete a mantener la confidencialidad de los datos proporcionados por los Usuarios. La información no será compartida con terceros sin consentimiento expreso, excepto cuando sea requerido por ley.
+
    **3.2 Propiedad de los Datos**
    Los datos ingresados por el Usuario en la plataforma son y permanecen propiedad del Usuario. El Proveedor no adquiere ningún derecho sobre dichos datos más allá de los necesarios para prestar el servicio.
+
    **3.3 Seguridad**
    El Proveedor implementa medidas de seguridad de nivel empresarial, incluyendo encriptación de 256 bits para todas las transmisiones de datos y copias de seguridad diarias. Sin embargo, ningún sistema puede garantizar una seguridad absoluta, por lo que se recomienda a los Usuarios mantener copias de seguridad de su información crítica.
-**4. Responsabilidades del Usuario**
+
+**4. Responsabilidades del Usuario**<br>
    **4.1 Acceso y Credenciales**
    Los Usuarios son responsables de mantener la confidencialidad de sus credenciales de acceso y de todas las actividades realizadas bajo su cuenta. Cualquier uso no autorizado debe ser reportado inmediatamente al Proveedor.
+
    **4.2 Uso Autorizado**
    El Usuario se compromete a utilizar la plataforma de manera ética y legal, sin intentar acceder a funcionalidades no autorizadas o interferir con el funcionamiento normal del servicio.
+
    **4.3 Cumplimiento Normativo**
    El Usuario es responsable de asegurar que su uso de la plataforma cumple con todas las leyes y regulaciones aplicables en su jurisdicción, particularmente aquellas relacionadas con la industria vitivinícola.
-**5. Propiedad Intelectual**
+
+**5. Propiedad Intelectual**<br>
    **5.1 Derechos del Proveedor**
    Todos los derechos de propiedad intelectual relacionados con la plataforma, incluyendo pero no limitado a software, diseño, logotipos y documentación, son propiedad exclusiva del Proveedor.
+
    **5.2 Licencia de Uso**
    El Proveedor otorga al Usuario una licencia no exclusiva, no transferible y revocable para utilizar la plataforma durante la vigencia de la suscripción, únicamente para los fines descritos en este Acuerdo.
-**6. Limitación de Responsabilidad**
+
+**6. Limitación de Responsabilidad**<br>
    **6.1 Disponibilidad del Servicio**
    El Proveedor se esfuerza por mantener una disponibilidad del servicio del 99.9%, excluyendo mantenimientos programados. Sin embargo, no se garantiza el funcionamiento ininterrumpido de la plataforma.
+
    **6.2 Exención de Garantías**
    El servicio se proporciona "tal cual", sin garantías de ningún tipo, expresas o implícitas. El Proveedor no garantiza que el servicio satisfará los requisitos específicos del Usuario o que funcionará libre de errores.
+
    **6.3 Limitación de Daños**
    En ningún caso el Proveedor será responsable por daños indirectos, incidentales, especiales o consecuentes, incluyendo pérdida de beneficios o datos, incluso si ha sido advertido de la posibilidad de tales daños.
-**7. Terminación**
+
+**7. Terminación**<br>
    **7.1 Por el Usuario**
    El Usuario puede terminar este Acuerdo en cualquier momento cancelando su suscripción desde su panel de control.
+
    **7.2 Por el Proveedor**
    El Proveedor puede suspender o terminar el acceso del Usuario a la plataforma sin previo aviso en caso de violación de los términos de este Acuerdo o por falta de pago.
+
    **7.3 Consecuencias**
    Tras la terminación, el Usuario perderá el acceso a la plataforma y a sus datos. El Proveedor mantendrá los datos por un período de 30 días, durante el cual el Usuario podrá solicitar una copia.
-**8. Misceláneos**
+
+**8. Misceláneos**<br>
    **8.1 Ley Aplicable**
    Este Acuerdo se regirá e interpretará de acuerdo con las leyes del país donde el Proveedor tiene su sede principal, sin dar efecto a principios de conflicto de leyes.
+
    **8.2 Resolución de Disputas**
    Cualquier disputa derivada de este Acuerdo se resolverá mediante negociación de buena fe. Si no se alcanza una solución, las partes acuerdan someterse a mediación antes de iniciar acciones legales.
+
    **8.3 Modificaciones al Acuerdo**
    El Proveedor se reserva el derecho de modificar este Acuerdo en cualquier momento. Los cambios sustanciales serán notificados a los Usuarios con al menos 30 días de antelación. El uso continuado de la plataforma tras dicha notificación constituirá la aceptación de los nuevos términos.
 
 
 ### 5.2.5. Implemented Native-Mobile Application Evidence
 
+![Mobile Init](/assets/img/chapter-V/mobile-init.png)
+
+![Mobile Register](/assets/img/chapter-V/mobile-register.png)
+
+![Mobile Login](/assets/img/chapter-V/mobile-login.png)
+
+![Mobile Home](/assets/img/chapter-V/mobile-home.png)
+
+![Mobile Batches](/assets/img/chapter-V/mobile-batches.png)
+
+![Mobile Fermentation](/assets/img/chapter-V/mobile-fermentation.png)
+
+![Mobile Clarification](/assets/img/chapter-V/mobile-clarification.png)
+
+![Mobile Pressing](/assets/img/chapter-V/mobile-pressing.png)
+
+![Mobile Aging](/assets/img/chapter-V/mobile-aging.png)
+
+![Mobile Bottling](/assets/img/chapter-V/mobile-bottling.png)
 
 ### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 En este proyecto, se optó por utilizar una API RESTful para la comunicación entre el frontend y el backend. Para ello, se utilizó el framework ASP.NET Core para el backend.
