@@ -340,6 +340,19 @@ Link del Landing Page: https://eventwine.github.io/EventWine-Landing-Page/index.
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
+La aplicación web fue desarrollada utilizando Vue.js, un framework progresivo para construir interfaces de usuario. La arquitectura de la aplicación se basa en componentes reutilizables, lo que facilita el mantenimiento y la escalabilidad.
+La aplicación se divide en varias secciones, cada una de las cuales se encarga de una parte específica del proceso de vinificación. A continuación, se presentan algunas capturas de pantalla que ilustran la funcionalidad y el diseño de la aplicación.
+Link de la Web App: https://event-wine-front.vercel.app/home/sign-in 
+
+![home1.png](../assets/img/chapter-V/home1.png) 
+![signIn.png](../assets/img/chapter-V/signIn.png)
+
+![home.png](../assets/img/chapter-V/home.png)
+![Batches.png](../assets/img/chapter-V/Batches.png)
+![fermentacion.png](../assets/img/chapter-V/fermentacion.png)
+![clarification.png](../assets/img/chapter-V/clarification.png)
+![pressings.png](../assets/img/chapter-V/pressings.png)
+
 
 ### 5.2.4. Acuerdo de Servicio - SaaS
 
