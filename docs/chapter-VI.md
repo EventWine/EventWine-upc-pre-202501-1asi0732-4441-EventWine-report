@@ -9,27 +9,35 @@ correcto funcionamiento de las entidades centrales, previniendo errores y facili
 del código.
 
 User Tests:
+
 ![User Tests](../assets/img/chapter-VI/test-user.png)
 
 Profile Tests:
+
 ![Profile Tests](../assets/img/chapter-VI/test-profile.png)
 
 Batch Tests:
+
 ![Batch Tests](../assets/img/chapter-VI/test-batch.png)
 
 Fermentation Tests:
+
 ![Fermentation Tests](../assets/img/chapter-VI/test-fermentation.png)
 
 Clarification Tests:
+
 ![Clarification Tests](../assets/img/chapter-VI/test-clarification.png)
 
 Pressing Tests:
+
 ![Pressing Tests](../assets/img/chapter-VI/test-pressing.png)
 
 Aging Tests:
+
 ![Aging Tests](../assets/img/chapter-VI/test-aging.png)
 
 Bottling Tests:
+
 ![Bottling Tests](../assets/img/chapter-VI/test-bottling.png)
 
 
@@ -41,6 +49,13 @@ de error, estas pruebas garantizan que el sistema maneje adecuadamente situacion
 responda con los códigos de estado correctos. Esto mejora la experiencia del usuario, facilita la
 depuración y contribuye a desarrollar un software confiable y de alta calidad.
 
+Profile Controller:
+
+![Profile Controller](../assets/img/chapter-VI/test-profile-controller.png)
+
+Batch Controller:
+
+![Batch Controller](../assets/img/chapter-VI/test-batch-controller.png)
 
 ## 6.1.3. Core Behavior-Driven Development
 
@@ -69,14 +84,26 @@ A continuación, se presentan las historias de usuario validadas con BDD y sus r
 
 Cada uno de estos escenarios fue ejecutado exitosamente mediante dotnet test, garantizando que el sistema responde correctamente ante flujos esperados y excepcionales. Este enfoque BDD permitió validar no solo funcionalidades individuales, sino también la coherencia del flujo de producción del vino en cada etapa.
 
-
-
-
-
-
 ## 6.1.4. Core System Tests.
 
+Tests en Selenium:
 
+![test1](../assets/img/chapter-VI/test1.jpg)
 
+![test2](../assets/img/chapter-VI/test2.jpg)
 
+![test3](../assets/img/chapter-VI/test3.jpg)
 
+![test4](../assets/img/chapter-VI/test4.jpg)
+
+![test5](../assets/img/chapter-VI/test5.jpg)
+
+Tests en Lighthouse:
+
+![test6](../assets/img/chapter-VI/test6.jpg)
+
+![test7](../assets/img/chapter-VI/test7.jpg)
+
+![test8](../assets/img/chapter-VI/test8.jpg)
+
+![test9](../assets/img/chapter-VI/test9.jpg)
