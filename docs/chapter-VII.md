@@ -17,7 +17,6 @@ A continuación, se presentan las principales herramientas utilizadas:
 | Herramienta | Tipo                           | Descripción                                                                                                                                   | Propósito                                                                                                        |
 |-------------|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
 | NUnit       | Herramienta para pruebas (TDD) | Framework de pruebas unitarias para .NET que permite verificar funcionalidades específicas de manera automática y aislada.                    | Facilita la detección de errores en funciones individuales y garantiza que los módulos funcionen como se espera. |
-| Moq         | Herramienta de simulaciones    | Librería que permite crear objetos simulados (mocks) para reemplazar dependencias durante las pruebas.                                        | Simula el comportamiento de objetos externos para realizar pruebas sin depender de implementaciones reales.      |
 | SpecFlow    | Herramienta de BDD             | Herramienta basada en Gherkin que permite escribir escenarios comprensibles por todos y vincularlos con código C# para pruebas automatizadas. | Permite desarrollar pruebas centradas en el comportamiento esperado por el usuario final o el negocio.           |
 
 
@@ -79,8 +78,6 @@ En el desarrollo del proyecto con tecnologías .NET, seguimos un enfoque de Entr
 - **GitHub Actions**: Se utiliza para automatizar los flujos de integración y entrega. Permite compilar, probar y dejar lista la aplicación para su despliegue. Sin embargo, el paso a producción se realiza manualmente para asegurar un mayor control.
 
 - **Trello**: Se emplea para organizar tareas y gestionar el proceso de aprobación del despliegue. Luego de completar el pipeline de validación, se requiere que un miembro del equipo apruebe manualmente el despliegue a producción.
-
-- **Docker**: Se utiliza para contenerizar la aplicación, asegurando que los entornos de desarrollo, staging y producción sean coherentes. Esto facilita la validación de los cambios en entornos intermedios antes del despliegue final.
 
 #### Prácticas aplicadas
 
