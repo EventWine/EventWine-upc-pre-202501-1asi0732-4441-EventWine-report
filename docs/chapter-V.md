@@ -1149,3 +1149,9 @@ Backend:
 
 ## 5.3. Video About-the-Product
 
+
+![](../assets/img/chapter-V/about%20the%20product.png)
+
+Link de microsoft stream: https://upcedupe-my.sharepoint.com/personal/u202215285_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202215285%5Fupc%5Fedu%5Fpe%2FDocuments%2Fabout%20the%20product%2Emkv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Efdd2133c%2D922d%2D4294%2Da1b8%2D4ebb51cfb446
+
+link youtube: https://youtu.be/kOWvTZxiSvE
