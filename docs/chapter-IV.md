@@ -235,6 +235,22 @@ Seccion "**Sobre Nosotros**"
 
 ### 4.4. Mobile Applications UX/UI Design.
 ### 4.4.1. Mobile Applications Wireframes.
+
+- Acceso a la aplicación
+- ![wireframe-mobile (1).png](../assets/img/chapter-IV/wireframe-mobile%20%281%29.png)
+
+- Acuerdos del Servicio (SaaS)
+- ![wireframe-mobile (5).png](../assets/img/chapter-IV/wireframe-mobile%20%285%29.png)
+
+- Pantallas de Inicio
+- ![wireframe-mobile (4).png](../assets/img/chapter-IV/wireframe-mobile%20%284%29.png)
+- 
+
+- Proceso de Vinificación
+- ![wireframe-mobile (3).png](../assets/img/chapter-IV/wireframe-mobile%20%283%29.png)
+- ![wireframe-mobile (2).png](../assets/img/chapter-IV/wireframe-mobile%20%282%29.png)
+- ![wireframe-mobile (6).png](../assets/img/chapter-IV/wireframe-mobile%20%286%29.png)
+
 ### 4.4.2. Mobile Applications Wireflow Diagrams.
 ### 4.4.3. Mobile Applications Mock-ups.
 
