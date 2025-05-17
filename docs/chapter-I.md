@@ -101,7 +101,7 @@ EventWine Optamos por este nombre por su capacidad para transmitir la idea de un
 
 **Product Description:**
 
-Nuestra solución tecnológica, EventWine, está diseñada para optimizar el proceso productivo en la industria vitivinícola y de pisco. El software ofrece una plataforma integral que abarca desde la gestión de vinificación, control de inventario e insumos, hasta el seguimiento de etapas clave del proceso como la fermentación, clarificación, prensado, añejamiento y embotellado.
+Nuestra solución tecnológica, EventWine, está diseñada para optimizar el proceso productivo en la industria vitivinícola y de pisco. El software ofrece una plataforma integral que abarca desde la gestión de vinificación, hasta el seguimiento de etapas clave del proceso como la fermentación, clarificación, prensado, añejamiento y embotellado.
 
 Con características avanzadas como reportes en tiempo real, análisis de datos productivos y una interfaz intuitiva, EventWine permite a los productores mejorar la eficiencia operativa, reducir el desperdicio, asegurar la trazabilidad y mantener altos estándares de calidad. La solución está pensada para adaptarse a operaciones de distintos tamaños y puede integrarse con sistemas existentes para facilitar una implementación sin fricciones.
 
@@ -114,11 +114,11 @@ Implementamos un modelo de suscripción basado en distintos niveles de servicio.
 
 ### Antecedentes
 
-El estado actual de **la gestión del proceso productivo en la industria vitivinícola y de pisco** se ha centrado principalmente en **soluciones fragmentadas y sistemas manuales que no ofrecen una integración completa entre la vinificación, el control de inventarios y la administración de insumos y etapas del proceso**.
+El estado actual de **la gestión del proceso productivo en la industria vitivinícola y de pisco** se ha centrado principalmente en **soluciones fragmentadas y sistemas manuales que no ofrecen una integración completa entre la vinificación y la administración de insumos y etapas del proceso**.
 
 Lo que los productos/servicios existentes no logran abordar es **una plataforma integral que centralice todas estas funciones en un único sistema, permitiendo una coordinación efectiva y una visibilidad en tiempo real de todos los aspectos del proceso productivo**.
 
-Nuestro producto/servicio abordará esta brecha mediante **el desarrollo e implementación de EventWine, un software integral que unifica la gestión del proceso de vinificación, incluyendo etapas como fermentación, clarificación, prensado, añejamiento y embotellado, así como el registro de entrada de insumos y el control de inventarios. La solución estará diseñada para adaptarse a diferentes tamaños de operación y necesidades específicas de los usuarios, ofreciendo herramientas avanzadas y una interfaz intuitiva**.
+Nuestro producto/servicio abordará esta brecha mediante **el desarrollo e implementación de EventWine, un software integral que unifica la gestión del proceso de vinificación, incluyendo etapas como fermentación, clarificación, prensado, añejamiento y embotellado, así como el registro de entrada de insumos. La solución estará diseñada para adaptarse a diferentes tamaños de operación y necesidades específicas de los usuarios, ofreciendo herramientas avanzadas y una interfaz intuitiva**.
 
 Nuestro enfoque inicial será **el mercado de productores de vinos y pisco en América Latina, donde la necesidad de una solución centralizada y eficiente es particularmente evidente**.
 
@@ -134,7 +134,7 @@ Sabremos que tenemos éxito cuando veamos **una mejora significativa en la efici
 
 - **¿Cuál es el problema?**
 
-El problema central radica en la gestión fragmentada e ineficiente de los procesos productivos en la industria vitivinícola y de pisco. Los métodos tradicionales, que a menudo son manuales y poco integrados, generan múltiples desafíos, como inconsistencias en la calidad del producto, desajustes en los inventarios y falta de visibilidad en tiempo real sobre las operaciones. Estos problemas afectan negativamente la productividad, la eficiencia operativa y la capacidad de respuesta ante la demanda del mercado.
+El problema central radica en la gestión fragmentada e ineficiente de los procesos productivos en la industria vitivinícola y de pisco. Los métodos tradicionales, que a menudo son manuales y poco integrados, generan múltiples desafíos, como inconsistencias en la calidad del producto, y falta de visibilidad en tiempo real sobre las operaciones. Estos problemas afectan negativamente la productividad, la eficiencia operativa y la capacidad de respuesta ante la demanda del mercado.
 
 - **¿Cuál es la relación con la persona en cuestión?**
  
@@ -194,7 +194,7 @@ El crecimiento de la industria y la creciente demanda del mercado exigen proceso
 
 - **¿Cuántos problemas se dan en un día? ¿En una semana? ¿En un mes? ¿Cuánto dinero están implicando?**
 
-Dependiendo del tamaño del productor, los problemas relacionados con la gestión manual pueden surgir diariamente. Esto puede traducirse en pérdidas significativas por lotes mal procesados, errores de inventario o tiempos muertos en la producción. Se estima que estos errores pueden generar pérdidas mensuales que oscilan entre cientos y miles de dólares, afectando directamente la rentabilidad y sostenibilidad del negocio.
+Dependiendo del tamaño del productor, los problemas relacionados con la gestión manual pueden surgir diariamente. Esto puede traducirse en pérdidas significativas por lotes mal procesados, errores de tiempos muertos en la producción. Se estima que estos errores pueden generar pérdidas mensuales que oscilan entre cientos y miles de dólares, afectando directamente la rentabilidad y sostenibilidad del negocio.
 
 
 ### 1.2.2 Lean UX Process.
@@ -226,7 +226,7 @@ Sabremos que tenemos éxito cuando veamos **[these behaviors in our target audie
 
 - **ReStyle Lean UX Problem Statements:**
 
-El estado actual de **la gestión del proceso productivo en la industria vitivinícola y de pisco** se ha centrado principalmente en **soluciones fragmentadas y sistemas manuales que no ofrecen una integración completa entre las distintas etapas de vinificación y el control de inventarios**.  
+El estado actual de **la gestión del proceso productivo en la industria vitivinícola y de pisco** se ha centrado principalmente en **soluciones fragmentadas y sistemas manuales que no ofrecen una integración completa entre las distintas etapas de vinificación**.  
 
 Lo que los productos/servicios existentes no logran abordar es **una plataforma integral que centralice todas estas funciones en un único sistema, permitiendo una coordinación efectiva y una visibilidad en tiempo real de todo el proceso productivo**.  
 
@@ -274,7 +274,7 @@ Sabremos que tenemos éxito cuando veamos **una mejora significativa en la efici
       Proporcionar una solución integral que permita a los productores gestionar y controlar todos los aspectos del proceso de vinificación, mejorar la calidad del producto y facilitar el crecimiento sostenible de su operación.
 
     - **¿Qué funcionalidades destacan en nuestra aplicación?**  
-      Las funcionalidades destacadas incluyen el registro de insumos, monitoreo de etapas clave (fermentación, clarificación, prensado, etc.), generación de reportes automáticos, control de inventarios y visualización del estado del proceso productivo en tiempo real.
+      Las funcionalidades destacadas incluyen el registro de insumos, monitoreo de etapas clave (fermentación, clarificación, prensado, etc.), generación de reportes automáticos y visualización del estado del proceso productivo en tiempo real.
 
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
@@ -291,11 +291,11 @@ Para la elaboración de los Hypothesis Statements se utilizó el formato Lean UX
 
 - **Hipótesis 2:**
 
-  **Creemos que** si facilitamos un sistema de gestión de inventarios de insumos y productos terminados dentro de nuestra plataforma, entonces **esto logrará** mejorar la trazabilidad y reducir los errores de control de stock.
+  **Creemos que** si facilitamos un sistema de insumos y productos terminados dentro de nuestra plataforma, entonces **esto logrará** mejorar la trazabilidad y reducir los errores de control de stock.
 
   **Sabremos que** estamos en lo cierto.
 
-  **Cuando** veamos una reducción del 25% en las incidencias por desabastecimiento y una mejora del 30% en la precisión de los registros de inventario durante los primeros seis meses de uso de la plataforma.
+  **Cuando** veamos una reducción del 25% en las incidencias por desabastecimiento y una mejora del 30% en la precisión durante los primeros seis meses de uso de la plataforma.
 
 - **Hipótesis 3:**
 
@@ -330,6 +330,6 @@ Para la elaboración de los Hypothesis Statements se utilizó el formato Lean UX
 
 ## 1.3. Segmentos objetivo
 
-El segmento objetivo principal son los **productores de vino**, especialmente aquellos que operan de manera artesanal, a pequeña escala o sin una organización formal establecida. Este grupo suele enfrentar desafíos en la gestión eficiente de su producción, el control de inventarios, el seguimiento de procesos como la fermentación, prensado, añejamiento y embotellado, y la generación de reportes para la toma de decisiones.
+El segmento objetivo principal son los **productores de vino**, especialmente aquellos que operan de manera artesanal, a pequeña escala o sin una organización formal establecida. Este grupo suele enfrentar desafíos en la gestión eficiente de su producción, el seguimiento de procesos como la fermentación, prensado, añejamiento y embotellado, y la generación de reportes para la toma de decisiones.
 
 *EventWine* está diseñado para ofrecerles una solución que simplifique y optimice estos procesos, permitiéndoles centrarse en la calidad de su producto mientras automatizan sus registros, mantienen una trazabilidad completa de cada lote y mejoran la eficiencia operativa general. La plataforma se adapta a las necesidades particulares de cada productor, brindando herramientas tecnológicas accesibles y efectivas para transformar su forma de trabajar.
