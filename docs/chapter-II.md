@@ -2,7 +2,7 @@
 
 ## 2.1. Competidores
 
-En este punto el equipo realizó investigaciones sobre los potenciales competidores en el mercado de soluciones tecnológicas para la producción vinícola. El análisis se centra en plataformas que ofrecen herramientas para la gestión integral del proceso productivo (desde la recepción de lotes hasta el embotellado) y el control de inventario, enfocándose exclusivamente en las necesidades del vinicultor.
+En este punto el equipo realizó investigaciones sobre los potenciales competidores en el mercado de soluciones tecnológicas para la producción vinícola. El análisis se centra en plataformas que ofrecen herramientas para la gestión integral del proceso productivo (desde la recepción de lotes hasta el embotellado), enfocándose exclusivamente en las necesidades del vinicultor.
 
 ### 2.1.1. Análisis competitivo
 
@@ -33,13 +33,13 @@ Se realizó un análisis competitivo de las 3 principales plataformas identifica
             <th rowspan="2"> <strong> Perfil </strong> </th>
             <td>Overview</td>
             <td>
-                ElixirControl es una solución integral diseñada para la gestión del proceso productivo de vinos. Ofrece herramientas avanzadas para la administración de la producción y el control de inventario, optimizando recursos y facilitando la toma de decisiones, dirigido especialmente a vinicultores que desean digitalizar y centralizar sus procesos.
+                ElixirControl es una solución integral diseñada para la gestión del proceso productivo de vinos. Ofrece herramientas avanzadas para la administración de la producción, optimizando recursos y facilitando la toma de decisiones, dirigido especialmente a vinicultores que desean digitalizar y centralizar sus procesos.
             </td>
             <td>
                 Vinotec es un software que optimiza la producción vinícola y la gestión de ventas, enfocado en mejorar el seguimiento del proceso productivo mediante informes y análisis, aunque con menor profundidad en etapas específicas.
             </td>
             <td>
-                WineManager ofrece soluciones integradas para la industria vitivinícola, permitiendo la gestión de inventarios y análisis de ventas. Su fortaleza reside en la integración de datos, aunque puede resultar complejo para pequeños productores.
+                WineManager ofrece soluciones integradas para la industria vitivinícola y análisis de ventas. Su fortaleza reside en la integración de datos, aunque puede resultar complejo para pequeños productores.
             </td>
             <td>
                 VinTrace se especializa en la trazabilidad y el control de calidad en la producción vinícola, proporcionando herramientas para la planificación agrícola y la documentación detallada, con un enfoque específico en el cumplimiento normativo.
@@ -48,7 +48,7 @@ Se realizó un análisis competitivo de las 3 principales plataformas identifica
         <tr>
             <td>Ventaja competitiva<br>¿Qué valor ofrece a los clientes?</td>
             <td>
-                Ofrece una solución integral que abarca todas las etapas de la producción, permitiendo un control exhaustivo del proceso productivo y optimizando la gestión de inventario.
+                Ofrece una solución integral que abarca todas las etapas de la producción, permitiendo un control exhaustivo del proceso productivo.
             </td>
             <td>
                 Se centra en la optimización del proceso productivo con herramientas analíticas, aunque carece de módulos muy especializados para el seguimiento detallado de cada fase.
@@ -65,7 +65,7 @@ Se realizó un análisis competitivo de las 3 principales plataformas identifica
             <th rowspan="2"> <strong> Perfil de Marketing </strong> </th>
             <td>Mercado objetivo</td>
             <td colspan="4">
-                Vinicultores artesanales y productores de vino que buscan optimizar cada etapa del proceso de producción y mejorar la gestión de inventario a través de soluciones digitales integrales.
+                Vinicultores artesanales y productores de vino que buscan optimizar cada etapa del proceso de producción a través de soluciones digitales integrales.
             </td>
         </tr>
         <tr>
@@ -79,7 +79,7 @@ Se realizó un análisis competitivo de las 3 principales plataformas identifica
             <th rowspan="3"> <strong> Perfil del producto </strong> </th>
             <td>Producto & Servicios</td>
             <td>
-                Incluye control de inventario, gestión de clientes y herramientas para la vinificación y gestión integral del viñedo, abarcando desde la recepción de lotes, fermentación, clarificación, prensado, añejamiento y embotellado.
+                Incluye gestión de clientes y herramientas para la vinificación y gestión integral del viñedo, abarcando desde la recepción de lotes, fermentación, clarificación, prensado, añejamiento y embotellado.
             </td>
             <td>
                 Ofrece herramientas para la gestión de la producción con énfasis en ventas, pero con menor cobertura en el detalle de procesos críticos de vinificación.
@@ -441,7 +441,7 @@ A partir de las entrevistas realizadas a productores de vinos artesanales, se id
 
 La identificación profunda de las necesidades del vinicultor es crucial para el éxito de ElixirLine. A través de observaciones y entrevistas, se han identificado los siguientes puntos críticos:
 
-- **Necesidad de Centralización:** Los productores requieren un sistema único que integre el control de inventario y el seguimiento de cada etapa del proceso productivo.
+- **Necesidad de Centralización:** Los productores requieren un sistema único que integre el seguimiento de cada etapa del proceso productivo.
 - **Automatización y Visibilidad:** Existe demanda de automatización en la gestión de datos y la obtención de reportes en tiempo real para mejorar la toma de decisiones.
 - **Facilidad de Uso:** Se valora una interfaz intuitiva que permita a los productores utilizar la herramienta sin la necesidad de conocimientos técnicos avanzados.
 
@@ -457,7 +457,6 @@ La identificación profunda de las necesidades del vinicultor es crucial para el
 |----------------------------------------|------------|-------------|
 | Control de calidad de uvas             | Alta       | Alta        |
 | Supervisión de fermentación            | Alta       | Alta        |
-| Registro y control de inventario       | Alta       | Alta        |
 | Documentación de clarificación         | Media      | Alta        |
 | Control del proceso de prensado         | Media      | Alta        |
 | Monitoreo del añejamiento              | Alta       | Alta        |
@@ -492,16 +491,16 @@ Actualmente, Rubén utiliza métodos tradicionales (Excel y cuadernos) de forma 
 
 El uso de un lenguaje común es fundamental para asegurar la coherencia en el desarrollo y la comunicación del sistema. A continuación, se definen algunos términos clave:
 
-| Término                         | Definición                                                                 |
-|---------------------------------|---------------------------------------------------------------------------|
-| **Gestión de Inventario**       | Registro y control de insumos, materias primas y productos terminados.    |
+| Término           | Definición                                                                 |
+|-------------------|---------------------------------------------------------------------------|
+| **Gestión**       | Registro y control de insumos, materias primas y productos terminados.    |
 | **Control de Calidad del Vino** | Verificación de parámetros para asegurar que el vino cumpla con estándares óptimos en cada etapa. |
-| **Fermentación**                | Etapa en la que se transforman los azúcares en alcohol; requiere monitoreo constante. |
-| **Clarificación**               | Proceso de filtrado y estabilización para eliminar impurezas del vino.    |
-| **Prensado**                    | Extracción del jugo de la uva para maximizar el rendimiento y eficiencia.  |
-| **Añejamiento**                 | Período de almacenamiento controlado para el desarrollo de aromas y sabores.|
-| **Embotellado**                 | Fase final que prepara el vino para su comercialización, garantizando trazabilidad. |
-| **Reportes Personalizados**     | Informes adaptados a las necesidades del productor para el análisis y mejora del proceso. |
-| **Validadores de Formulario**   | Mecanismos que aseguran la correcta entrada de datos en la aplicación.      |
-| **Experiencia de Usuario**      | Facilidad e intuición en la interacción con la aplicación.                 |
-| **Búsqueda**                    | Funcionalidad para localizar información y registros dentro del sistema.   |
+| **Fermentación**  | Etapa en la que se transforman los azúcares en alcohol; requiere monitoreo constante. |
+| **Clarificación** | Proceso de filtrado y estabilización para eliminar impurezas del vino.    |
+| **Prensado**      | Extracción del jugo de la uva para maximizar el rendimiento y eficiencia.  |
+| **Añejamiento**   | Período de almacenamiento controlado para el desarrollo de aromas y sabores.|
+| **Embotellado**   | Fase final que prepara el vino para su comercialización, garantizando trazabilidad. |
+| **Reportes Personalizados** | Informes adaptados a las necesidades del productor para el análisis y mejora del proceso. |
+| **Validadores de Formulario** | Mecanismos que aseguran la correcta entrada de datos en la aplicación.      |
+| **Experiencia de Usuario** | Facilidad e intuición en la interacción con la aplicación.                 |
+| **Búsqueda**      | Funcionalidad para localizar información y registros dentro del sistema.   |
