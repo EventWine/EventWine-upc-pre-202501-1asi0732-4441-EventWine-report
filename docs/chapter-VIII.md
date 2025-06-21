@@ -159,10 +159,156 @@ ___
 
 ## 8.2. Experiment Design
 ### 8.2.1. Hypotheses.
+
+
+| Campo | Hipótesis |
+|-------|-----------|
+| **Question** | ¿En qué medida los productores artesanales de vino están preparados tecnológicamente y dispuestos a migrar de sus métodos actuales a una plataforma digital integral? |
+| **Belief** | Los productores artesanales muestran interés en la digitalización debido a la frustración con la ineficiencia de sus métodos actuales, y pueden adaptarse a interfaces intuitivas con capacitación básica. |
+| **Hypothesis** | El 70% de los productores artesanales están dispuestos a adoptar una solución digital que simplifique sus procesos, y el 85% pueden usar efectivamente una interfaz intuitiva después de 2 horas de capacitación básica. |
+| **Null Hypothesis** | Menos del 50% de los productores artesanales están dispuestos a adoptar soluciones digitales, y menos del 60% pueden usar efectivamente la interfaz después de la capacitación básica. |
+
+
+
+
+| Campo | Hipótesis |
+|-------|-----------|
+| **Question** | ¿Cómo impacta la implementación de EventWine en la eficiencia operativa y calidad del producto en cada etapa del proceso de vinificación comparado con métodos manuales? |
+| **Belief** | La automatización y validaciones del sistema EventWine eliminan procesos manuales propensos a error, generando mejoras significativas en eficiencia y reducción de errores. |
+| **Hypothesis** | EventWine reducirá el tiempo de gestión administrativa de 3-4 horas semanales a menos de 1 hora (75% reducción) y disminuirá errores de registro del 5% al 0.5% (90% reducción). |
+| **Null Hypothesis** | EventWine no generará reducciones significativas en tiempo de gestión (menos del 25%) ni en errores de registro (menos del 30% de reducción). |
+
+
+
+
+| Campo | Hipótesis |
+|-------|-----------|
+| **Question** | ¿Cuál es la curva de aprendizaje real de productores con experiencia tecnológica limitada al usar EventWine y qué elementos de UX más contribuyen a una adopción exitosa? |
+| **Belief** | El diseño enfocado en simplicidad y flujos familiares, similar a aplicaciones conocidas, facilitará la adopción por parte de usuarios con experiencia tecnológica limitada. |
+| **Hypothesis** | Los productores podrán completar tareas básicas (registrar lote, actualizar fermentación) en menos de 5 minutos después de 1 hora de capacitación, y el 90% considerará la interfaz "fácil de usar" después de 1 semana de uso. |
+| **Null Hypothesis** | Los productores necesitarán más de 10 minutos para completar tareas básicas después de la capacitación, y menos del 60% considerará la interfaz fácil de usar después de una semana. |
+
+
+
+
+| Campo | Hipótesis |
+|-------|-----------|
+| **Question** | ¿Qué modelo de pricing genera mayor adopción entre productores artesanales manteniendo unit economics positivos para EventWine? |
+| **Belief** | Un modelo de suscripción escalonada permite acceso inicial a productores pequeños mientras captura mayor valor de operaciones más grandes, optimizando adopción y rentabilidad. |
+| **Hypothesis** | El modelo de suscripción escalonada ($25 básico, $50 intermedio, $100 avanzado) generará un 40% de adoption rate en plan básico y 25% upgrade a planes premium. |
+| **Null Hypothesis** | El modelo de suscripción escalonada no generará más del 20% de adoption rate en plan básico ni más del 10% de upgrade a planes premium. |
+
+
+
+
+| Campo | Hipótesis |
+|-------|-----------|
+| **Question** | ¿Cuáles son los canales de adquisición más efectivos para alcanzar y convertir productores artesanales en usuarios activos de EventWine? |
+| **Belief** | Los productores artesanales valoran altamente las recomendaciones peer-to-peer y la validación por autoridades del sector, haciendo que referencias y partnerships sean más efectivos. |
+| **Hypothesis** | Las referencias directas de productores existentes generarán el menor CAC ($50 vs $150 promedio otros canales) y mayor LTV ($800+), mientras que partnerships con asociaciones proporcionarán el mayor volumen de leads calificados. |
+| **Null Hypothesis** | No habrá diferencias significativas en CAC entre canales (variación menor al 20%), y las referencias directas no generarán LTV superior al 15% comparado con otros canales. |
+
 ### 8.2.2. Measures.
+
+
+| Campo | Contenido |
+|-------|-----------|
+| **Question** | ¿En qué medida los productores artesanales de vino están preparados tecnológicamente y dispuestos a migrar de sus métodos actuales a una plataforma digital integral? |
+| **Measure** | Medir el nivel de preparación tecnológica mediante encuestas de infraestructura actual, análisis de herramientas digitales utilizadas, y evaluación de disposición al cambio a través de entrevistas estructuradas. Complementar con pruebas de usabilidad cronometradas para evaluar capacidad de adopción efectiva de la plataforma. |
+
+
+| Campo | Contenido |
+|-------|-----------|
+| **Question** | ¿Cómo impacta la implementación de EventWine en la eficiencia operativa y calidad del producto en cada etapa del proceso de vinificación comparado con métodos manuales? |
+| **Measure** | Medir tiempo de gestión administrativa semanal antes y después de implementar EventWine, registrar número de errores en el proceso de vinificación, y evaluar métricas de calidad del producto mediante análisis comparativo entre grupo experimental y grupo control durante un ciclo completo de producción. |
+
+
+| Campo | Contenido |
+|-------|-----------|
+| **Question** | ¿Cuál es la curva de aprendizaje real de productores con experiencia tecnológica limitada al usar EventWine y qué elementos de UX más contribuyen a una adopción exitosa? |
+| **Measure** | Medir el tiempo requerido para completar tareas específicas (registrar lote, actualizar fermentación) mediante sesiones de testing cronometradas, evaluar satisfacción de usabilidad con escalas de valoración, y identificar puntos de fricción a través de análisis de interacciones y feedback cualitativo durante sesiones de uso real. |
+
+
+| Campo | Contenido |
+|-------|-----------|
+| **Question** | ¿Qué modelo de pricing genera mayor adopción entre productores artesanales manteniendo unit economics positivos para EventWine? |
+| **Measure** | Medir tasas de conversión para cada modelo de pricing (freemium, suscripción fija, pago por uso), evaluar retención de usuarios por plan, analizar willingness to pay mediante encuestas de precio, y calcular métricas de unit economics (CAC, LTV, churn rate) para cada segmento de pricing durante el período de prueba. |
+
+
+| Campo | Contenido |
+|-------|-----------|
+| **Question** | ¿Cuáles son los canales de adquisición más efectivos para alcanzar y convertir productores artesanales en usuarios activos de EventWine? |
+| **Measure** | Medir el CAC (Customer Acquisition Cost) por canal de adquisición, evaluar conversion rate de leads a usuarios activos, analizar calidad de leads mediante scoring de engagement y retention, y calcular LTV (Lifetime Value) para usuarios adquiridos por cada canal durante un período de 6 meses de campañas paralelas. |
+
 ### 8.2.3. Conditions.
+
+
+| Campo | Contenido |
+|-------|-----------|
+| **Question** | ¿En qué medida los productores artesanales de vino están preparados tecnológicamente y dispuestos a migrar de sus métodos actuales a una plataforma digital integral? |
+| **Measure** | Medir el nivel de preparación tecnológica mediante encuestas de infraestructura actual, análisis de herramientas digitales utilizadas, y evaluación de disposición al cambio a través de entrevistas estructuradas. Complementar con pruebas de usabilidad cronometradas para evaluar capacidad de adopción efectiva de la plataforma. |
+
+
+
+| Campo | Contenido |
+|-------|-----------|
+| **Question** | ¿Cómo impacta la implementación de EventWine en la eficiencia operativa y calidad del producto en cada etapa del proceso de vinificación comparado con métodos manuales? |
+| **Measure** | Medir tiempo de gestión administrativa semanal antes y después de implementar EventWine, registrar número de errores en el proceso de vinificación, y evaluar métricas de calidad del producto mediante análisis comparativo entre grupo experimental y grupo control durante un ciclo completo de producción. |
+
+
+
+| Campo | Contenido |
+|-------|-----------|
+| **Question** | ¿Cuál es la curva de aprendizaje real de productores con experiencia tecnológica limitada al usar EventWine y qué elementos de UX más contribuyen a una adopción exitosa? |
+| **Measure** | Medir el tiempo requerido para completar tareas específicas (registrar lote, actualizar fermentación) mediante sesiones de testing cronometradas, evaluar satisfacción de usabilidad con escalas de valoración, y identificar puntos de fricción a través de análisis de interacciones y feedback cualitativo durante sesiones de uso real. |
+
+
+
+| Campo | Contenido |
+|-------|-----------|
+| **Question** | ¿Qué modelo de pricing genera mayor adopción entre productores artesanales manteniendo unit economics positivos para EventWine? |
+| **Measure** | Medir tasas de conversión para cada modelo de pricing (freemium, suscripción fija, pago por uso), evaluar retención de usuarios por plan, analizar willingness to pay mediante encuestas de precio, y calcular métricas de unit economics (CAC, LTV, churn rate) para cada segmento de pricing durante el período de prueba. |
+
+
+
+| Campo | Contenido |
+|-------|-----------|
+| **Question** | ¿Cuáles son los canales de adquisición más efectivos para alcanzar y convertir productores artesanales en usuarios activos de EventWine? |
+| **Measure** | Medir el CAC (Customer Acquisition Cost) por canal de adquisición, evaluar conversion rate de leads a usuarios activos, analizar calidad de leads mediante scoring de engagement y retention, y calcular LTV (Lifetime Value) para usuarios adquiridos por cada canal durante un período de 6 meses de campañas paralelas. |
+
 ### 8.2.4. Scale Calculations and Decisions.
+
+Se utiliza un enfoque basado en métricas para validar nuestras hipótesis de producto de forma rigurosa y alineada con el comportamiento real de los usuarios. Cada hipótesis se vincula a una métrica clave que nos permite medir su impacto. Si el resultado alcanza el valor objetivo, consideramos que la hipótesis se cumple de forma óptima. Si el resultado se encuentra entre un mínimo aceptable y el ideal, lo evaluamos como satisfactorio, pero sujeto a posibles ajustes. En cambio, si el desempeño queda por debajo del umbral mínimo, interpretamos que la hipótesis no se valida y es necesario replantearla.
+
+Adicionalmente, cuando una métrica supera el objetivo previsto en un 25% o más, lo consideramos un éxito sobresaliente, que puede señalar oportunidades no previstas para potenciar el producto. Este enfoque nos permite tomar decisiones basadas en datos concretos, ajustando o reforzando nuestras estrategias de desarrollo, especialmente en áreas críticas como la captación de productores artesanales, la fidelización de asistentes a eventos y la mejora de la experiencia general en la plataforma.
+
+## Tabla de Scale Calculations y Decisiones
+
+| Scale Calculation                                                                                                                                                                                                                                                                                                                                                                                                 | Decision                                                                                                                                                                                       | Factor                                                |               |           |               |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|---------------|-----------|---------------|
+|                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                | **Desfavorable**                                      | **Aceptable** | **Ideal** | **Excelente** |
+| **Creemos que** realizar focus group con productores y pruebas de usabilidad con productores artesanales **causará** una validación clara de su disposición tecnológica y capacidad de adopción de EventWine. **Sabremos que esto es cierto cuando** observemos que al menos el 70% muestra disposición a adoptar la plataforma y el 85% puede usar efectivamente la interfaz después de 2 horas de capacitación. | Implementar un programa de capacitación tecnológica escalonado que permita a los productores adaptarse gradualmente a la plataforma digital, mejorando así la comodidad y confianza en el uso. | < 50% disposición y < 60% efectividad                 | x             |           |               |
+| **Creemos que** implementar EventWine en bodegas piloto durante un ciclo completo de producción **causará** mejoras significativas en eficiencia operativa y reducción de errores comparado con métodos manuales. **Sabremos que esto es cierto cuando** observemos una reducción del 75% en tiempo de gestión administrativa y del 90% en errores de registro.                                                   | Desarrollar un sistema de automatización integral que optimice los procesos de vinificación, reduciendo la carga administrativa y minimizando errores humanos en el registro de datos.         | < 25% reducción tiempo y < 30% reducción errores      | x             |           |               |
+| **Creemos que** optimizar la interfaz y flujo de usuario específicamente para productores con experiencia tecnológica limitada **causará** una curva de aprendizaje acelerada y alta satisfacción de usabilidad. **Sabremos que esto es cierto cuando** los productores completen tareas básicas en menos de 5 minutos después de 1 hora de capacitación y el 90% considere la interfaz fácil de usar.            | Implementar un diseño de UX intuitivo con elementos familiares y flujos simplificados que faciliten la adopción por parte de usuarios con experiencia tecnológica limitada.                    | > 10 minutos para tareas básicas y < 60% satisfacción |               |           | x             |
+| **Creemos que** implementar un modelo de suscripción escalonada ($25, $50, $100) **causará** mayor adopción entre productores artesanales manteniendo unit economics positivos. **Sabremos que esto es cierto cuando** logremos un 40% de adoption rate en plan básico y 25% de upgrade a planes premium.                                                                                                         | Establecer una estrategia de pricing diferenciada que balancee accesibilidad para productores pequeños con captura de valor de operaciones más grandes, optimizando la penetración de mercado. | < 20% adoption básico y < 10% upgrade premium         |               |           | x             |
+| **Creemos que** ejecutar campañas de adquisición enfocadas en referencias directas y partnerships con asociaciones **causará** menor CAC y mayor LTV comparado con otros canales. **Sabremos que esto es cierto cuando** las referencias generen CAC de $50 vs $150 promedio y LTV de $800+, mientras partnerships proporcionen el mayor volumen de leads calificados.                                            | Desarrollar una estrategia de go-to-market centrada en referencias peer-to-peer y validación por autoridades del sector, aprovechando la confianza inherente en estas relaciones comerciales.  | CAC > $150 y LTV < $400                               | x             |           |               |
+
+
 ### 8.2.5. Methods Selection.
+
+
+Al momento de elegir la escala para los experimentos de EventWine, se ajustará el nivel de significancia estadística al 5% estándar para minimizar los errores atribuibles al azar. Se determinará el efecto mínimo detectable (MDE) para establecer la magnitud de la diferencia que debe identificarse en cada métrica. Se seleccionará un nivel de potencia estadística del 80-95% para reducir la probabilidad de errores Tipo II. Finalmente, se utilizarán datos representativos de productores artesanales para asegurar que los hallazgos sean aplicables al target market.
+
+**Considerando los factores identificados en Scale Calculations**, donde se esperan resultados desfavorables en adopción tecnológica y eficiencia operativa, aceptables en penetración de mercado, y excelentes en UX y pricing, la selección de herramientas debe priorizarse según la criticidad de cada experimento.
+
+| Herramienta               | Selenium                                                                                                                                                                     | Survey Analytics                                                                                                                             | RedLine13 - AWS                                                                                      | Financial Analytics                                                                                                                  |
+|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Precio**                | Open source gratuito, costos de infraestructura para ejecución                                                                                                               | Herramientas gratuitas (Google Forms) y premium (Typeform $25/mes)                                                                           | Gratuito con limitaciones, planes basados en uso de AWS                                              | Plan gratuito, herramientas especializadas desde $100/mes                                                                            |
+| **Capacidad de Análisis** | Automatización de pruebas funcionales, validación de workflows críticos y testing de regresión para verificar funcionalidades de EventWine                                   | Análisis descriptivo e inferencial de respuestas, segmentación demográfica y correlaciones                                                   | Análisis orientado a pruebas de carga y rendimiento de aplicaciones bajo condiciones de tráfico real | Análisis financiero exhaustivo de CAC, LTV, churn rate y unit economics                                                              |
+| **Sencillez**             | Requiere conocimientos técnicos para scripting y configuración, pero altamente flexible                                                                                      | Interface intuitiva, fácil creación de encuestas y análisis automático                                                                       | Información detallada y resumida sobre rendimiento de la plataforma                                  | Requiere configuración de tracking financiero y métricas personalizadas                                                              |
+| **Ventajas**              | Esencial para validar automáticamente funcionalidades clave que impactan adopción tecnológica y eficiencia operativa. Permite testing continuo de workflows de vinificación  | Fundamental para entender factores desfavorables en disposición tecnológica y optimizar elementos que ya muestran potencial excelente (UX)   | Validar escalabilidad técnica cuando otros experimentos alcancen niveles aceptables o superiores     | Optimizar elementos excelentes (pricing) y mejorar factores aceptables (penetración de mercado) mediante análisis de ROI detallado   |
+
+
 ### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
 ### 8.2.7. Web and Mobile Tracking Plan.
 ## 8.3. Experimentation
@@ -171,23 +317,23 @@ ___
 ### 8.3.1. To-Be User Stories
 
 
-| **Story ID** | **Título** | **Descripción** | **Criterios de Aceptación** | **Relacionado con (Epic ID)** |
-|-------------|------------|----------------|----------------------------|-------------------------------|
-| **US-14** | **Registro de múltiples fermentaciones por lote** | Como vinicultor, quiero registrar varias fermentaciones para un mismo lote cuando se usan distintos tanques. | **Escenario 1:** Agregar segunda fermentación.<br>Given un lote con fermentación ya registrada,<br>When hago clic en "Añadir fermentación",<br>Then el sistema permite ingresar nuevos datos.<br>**Escenario 2:** Límite de fermentaciones.<br>When intento agregar una tercera fermentación,<br>Then el sistema muestra alerta "Máximo 2 por lote". | EPIC-02 |
-| **US-15** | **Editar clarificaciones registradas** | Como asistente, quiero corregir errores en los datos de clarificación antes de completar la etapa. | **Escenario 1:** Editar agente clarificante.<br>Given una clarificación no finalizada,<br>When cambio el tipo de agente,<br>Then el sistema actualiza el registro.<br>**Escenario 2:** Editar fecha inválida.<br>When ingreso una fecha futura,<br>Then el sistema muestra error. | EPIC-02 |
-| **US-16** | **Ver historial completo de un lote** | Como productor, quiero ver todas las etapas de un lote (fermentación, prensado, etc.) en una sola pantalla. | **Escenario 1:** Visualizar resumen.<br>Given un lote completado,<br>When hago clic en "Ver historial",<br>Then el sistema muestra una línea de tiempo con todas las etapas.<br>**Escenario 2:** Lote incompleto.<br>When un lote está en progreso,<br>Then las etapas faltantes aparecen como "Pendientes". | EPIC-02 |
-| **US-17** | **Exportar datos a Excel** | Como enólogo, quiero exportar los datos de fermentación y clarificación a Excel para análisis externo. | **Escenario 1:** Exportar lote específico.<br>Given un lote seleccionado,<br>When hago clic en "Exportar a Excel",<br>Then se descarga un archivo .xlsx con los datos.<br>**Escenario 2:** Exportar vacío.<br>When no hay datos registrados,<br>Then el Excel incluye solo los encabezados. | EPIC-02 |
-| **US-18** | **Filtrar lotes por tipo de uva** | Como técnico, quiero filtrar los lotes por variedad de uva para comparar procesos. | **Escenario 1:** Filtrar por Malbec.<br>Given 10 lotes (3 de Malbec),<br>When aplico el filtro "Malbec",<br>Then solo muestran esos 3.<br>**Escenario 2:** Reiniciar filtros.<br>When hago clic en "Limpiar filtros",<br>Then se muestran todos los lotes. | EPIC-02 |
+| **Story ID**   | **Título**                                        | **Descripción**                                                                                              | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                          | **Relacionado con (Epic ID)**   |
+|----------------|---------------------------------------------------|--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| **US-14**      | **Registro de múltiples fermentaciones por lote** | Como vinicultor, quiero registrar varias fermentaciones para un mismo lote cuando se usan distintos tanques. | **Escenario 1:** Agregar segunda fermentación.<br>Given un lote con fermentación ya registrada,<br>When hago clic en "Añadir fermentación",<br>Then el sistema permite ingresar nuevos datos.<br>**Escenario 2:** Límite de fermentaciones.<br>When intento agregar una tercera fermentación,<br>Then el sistema muestra alerta "Máximo 2 por lote". | EPIC-02                         |
+| **US-15**      | **Editar clarificaciones registradas**            | Como asistente, quiero corregir errores en los datos de clarificación antes de completar la etapa.           | **Escenario 1:** Editar agente clarificante.<br>Given una clarificación no finalizada,<br>When cambio el tipo de agente,<br>Then el sistema actualiza el registro.<br>**Escenario 2:** Editar fecha inválida.<br>When ingreso una fecha futura,<br>Then el sistema muestra error.                                                                    | EPIC-02                         |
+| **US-16**      | **Ver historial completo de un lote**             | Como productor, quiero ver todas las etapas de un lote (fermentación, prensado, etc.) en una sola pantalla.  | **Escenario 1:** Visualizar resumen.<br>Given un lote completado,<br>When hago clic en "Ver historial",<br>Then el sistema muestra una línea de tiempo con todas las etapas.<br>**Escenario 2:** Lote incompleto.<br>When un lote está en progreso,<br>Then las etapas faltantes aparecen como "Pendientes".                                         | EPIC-02                         |
+| **US-17**      | **Exportar datos a Excel**                        | Como enólogo, quiero exportar los datos de fermentación y clarificación a Excel para análisis externo.       | **Escenario 1:** Exportar lote específico.<br>Given un lote seleccionado,<br>When hago clic en "Exportar a Excel",<br>Then se descarga un archivo .xlsx con los datos.<br>**Escenario 2:** Exportar vacío.<br>When no hay datos registrados,<br>Then el Excel incluye solo los encabezados.                                                          | EPIC-02                         |
+| **US-18**      | **Filtrar lotes por tipo de uva**                 | Como técnico, quiero filtrar los lotes por variedad de uva para comparar procesos.                           | **Escenario 1:** Filtrar por Malbec.<br>Given 10 lotes (3 de Malbec),<br>When aplico el filtro "Malbec",<br>Then solo muestran esos 3.<br>**Escenario 2:** Reiniciar filtros.<br>When hago clic en "Limpiar filtros",<br>Then se muestran todos los lotes.                                                                                           | EPIC-02                         |
 
 ### 8.3.2. To-Be Product Backlog
 
-| **Orden** | **User Story Id** | **Título** | **Descripción** | **Story Points** |
-|-----------|------------------|------------|----------------|------------------|
-| 1 | US-14 | Registro de múltiples fermentaciones | Permite agregar hasta 2 fermentaciones por lote. | 5 |
-| 2 | US-15 | Editar clarificaciones | Corregir datos de clarificación antes de finalizar. | 3 |
-| 3 | US-16 | Historial completo de lote | Muestra todas las etapas . | 8 |
-| 4 | US-17 | Exportar a Excel | Genera archivos Excel por lote. | 5 |
-| 5 | US-18 | Filtrar por tipo de uva | Filtrado básico por variedad de uva. | 3 |
-| 6 | US-19 | Validación de fechas | Impide registrar fechas incoherentes (ej: embotellado antes de fermentación). | 5 |
-| 8 | US-21 | Búsqueda por ID de lote | Buscar lotes ingresando su ID exacto. | 2 |
-| 10 | US-23 | Notificaciones de etapas críticas | Alertas web cuando una etapa supera el tiempo estimado. | 8 |
+| **Orden**   | **User Story Id**  | **Título**                           | **Descripción**                                                               | **Story Points**   |
+|-------------|--------------------|--------------------------------------|-------------------------------------------------------------------------------|--------------------|
+| 1           | US-14              | Registro de múltiples fermentaciones | Permite agregar hasta 2 fermentaciones por lote.                              | 5                  |
+| 2           | US-15              | Editar clarificaciones               | Corregir datos de clarificación antes de finalizar.                           | 3                  |
+| 3           | US-16              | Historial completo de lote           | Muestra todas las etapas .                                                    | 8                  |
+| 4           | US-17              | Exportar a Excel                     | Genera archivos Excel por lote.                                               | 5                  |
+| 5           | US-18              | Filtrar por tipo de uva              | Filtrado básico por variedad de uva.                                          | 3                  |
+| 6           | US-19              | Validación de fechas                 | Impide registrar fechas incoherentes (ej: embotellado antes de fermentación). | 5                  |
+| 8           | US-21              | Búsqueda por ID de lote              | Buscar lotes ingresando su ID exacto.                                         | 2                  |
+| 10          | US-23              | Notificaciones de etapas críticas    | Alertas web cuando una etapa supera el tiempo estimado.                       | 8                  |
