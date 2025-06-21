@@ -111,9 +111,90 @@ Tests en Lighthouse:
 
 ## 6.2. Static testing & Verification
 ### 6.2.1. Static Code Analysis
+Esta sección se centra en los métodos de prueba estática y verificación del código, asegurando que el 
+software cumpla con los estándares de calidad y seguridad antes de su ejecución. Estos métodos permiten 
+identificar defectos en una fase temprana del ciclo de vida del desarrollo. 
+El análisis de código estático implica la revisión del código fuente sin necesidad de ejecutarlo, utilizando 
+herramientas automatizadas y revisiones manuales. Este enfoque ayuda a detectar errores, 
+vulnerabilidades de seguridad y oportunidades de mejora en el código, lo que contribuye a aumentar la 
+calidad general del software y a reducir el costo de las correcciones en etapas posteriores del desarrollo. 
+
 #### 6.2.1.1. Coding standard & Code conventions.
+Las normas de codificación y las convenciones son directrices que los desarrolladores deben seguir para 
+garantizar un código legible, mantenible y coherente. A continuación, se aplican los siguientes 
+principios: 
+
+- Clean Code: Es fundamental utilizar nombres claros y descriptivos para variables, funciones y 
+clases. Las funciones deben ser cortas y enfocarse en una sola responsabilidad, eliminando el 
+código muerto y los comentarios innecesarios. Este enfoque contribuye a una mayor comprensión 
+y facilita la colaboración entre desarrolladores.
+
+- Domain-Driven Design (DDD): Se debe emplear un lenguaje ubicuo que refleje los términos del 
+negocio. Es esencial dividir el sistema en bounded contexts y utilizar entidades y objetos de valor 
+de manera apropiada. Además, la lógica del dominio debe ser gestionada a través de servicios de 
+dominio y repositorios, lo que promueve una arquitectura más organizada y alineada con los 
+objetivos del negocio. 
+
 #### 6.2.1.2. Code Quality & Code Security.
+
+La calidad del código y la seguridad son fundamentales para garantizar un desarrollo robusto, mantenible y libre de errores críticos.
+
+- Calidad del Código:
+Durante el desarrollo en C# y .NET utilizando JetBrains Rider, se ha aplicado una combinación de análisis estático, pruebas automatizadas y herramientas de inspección para asegurar una alta calidad del código:
+
+  - Inspecciones de Rider y ReSharper: Rider incluye inspecciones en tiempo real que ayudan a detectar problemas de estilo, errores potenciales, código innecesario o duplicado, así como sugerencias de refactorización. Estas inspecciones se basan tanto en el motor de ReSharper como en los analizadores de Roslyn.
+
+  - Analyzers de Roslyn: Incluidos en el SDK de .NET, proporcionan advertencias y recomendaciones sobre buenas prácticas, rendimiento y seguridad del código.
+
+  - dotCover: Se utiliza para medir la cobertura de pruebas unitarias, identificando las partes del código que no están siendo cubiertas por las pruebas. Esto permite mejorar la confiabilidad del software al asegurar que los flujos críticos estén debidamente validados.
+
+- Seguridad del Código:
+Para minimizar riesgos de seguridad, se siguen principios de codificación segura, incluyendo la validación de entradas, el uso de ORMs como Entity Framework para evitar inyecciones SQL, y un manejo adecuado de excepciones.
+
+  - Se ha integrado el análisis de código con SonarQube, mediante la herramienta dotnet-sonarscanner, lo que permite identificar vulnerabilidades comunes, problemas de calidad y violaciones a estándares de codificación.
+
+  - Además, se han realizado revisiones manuales de código y pruebas orientadas a detectar errores lógicos y de seguridad, fomentando una cultura de revisión colaborativa.
+
+- Integración en el Entorno de Desarrollo:
+Gracias a las inspecciones integradas en JetBrains Rider, y herramientas como dotCover y SonarQube, es posible mantener un monitoreo constante de la calidad y seguridad desde la etapa de desarrollo. Esto permite identificar y corregir problemas antes de que lleguen a fases críticas del ciclo de vida del software.
+
+![Prueba](/assets/img/chapter-VI/pruebaCalidad.png)
+
 ### 6.2.2. Reviews
+Las revisiones de código son esenciales para garantizar la calidad, mantenibilidad y seguridad del software. En este proyecto, se implementa un proceso de revisión que incluye tanto métodos manuales como automáticos, con el objetivo de cumplir con estándares establecidos y reducir errores desde etapas tempranas del desarrollo.
+
+**Tipos de Revisiones:**
+- Revisión de Código por Pares: Cada desarrollador revisa el código de otro antes de que se integre a la rama principal. Esto permite detectar problemas de lógica, estilo o estructura, y promueve la transferencia de conocimiento dentro del equipo.
+
+- Revisión Formal: En casos críticos o módulos complejos, se realiza una revisión estructurada basada en una lista de verificación (checklist) que considera aspectos como claridad, modularidad, validación de entradas y manejo de excepciones.
+
+- Revisión Automática: Se utiliza SonarQube, integrado mediante dotnet-sonarscanner, para realizar análisis estático del código. Esta herramienta identifica vulnerabilidades, errores comunes y malas prácticas que podrían afectar la calidad y seguridad. Adicionalmente, las inspecciones integradas de Rider y ReSharper ayudan a detectar problemas en tiempo real mientras se programa.
+
+**Proceso de Revisión:**
+- Pull Requests (PR): Todos los cambios deben ser enviados a través de pull requests. Cada PR debe incluir una descripción clara de las modificaciones y, en lo posible, las pruebas asociadas.
+
+- Checklist de Revisión: Se sigue una lista de verificación que contempla:
+
+  - Claridad y legibilidad del código.
+
+  - Cobertura de pruebas mediante dotCover.
+
+  - Manejo correcto de errores y validación de entradas.
+
+  - Cumplimiento de principios SOLID y convenciones de estilo.
+
+- Comentarios y Feedback: Los revisores deben dejar comentarios específicos y constructivos. Todo problema detectado debe ser resuelto antes de aprobar el PR.
+
+- Aprobación de PR: Un PR debe ser aprobado por al menos un revisor (distinto del autor) antes de ser fusionado con la rama principal.
+
+**Criterios de Aceptación:**
+- Calidad y Seguridad del Código: El código debe cumplir con las reglas definidas en SonarQube y no debe introducir vulnerabilidades ni comprometer el rendimiento del sistema.
+
+- Cobertura de Pruebas: Se exige una cobertura mínima del 80%, medida con dotCover, asegurando que el nuevo código esté debidamente probado.
+
+**Frecuencia de Revisiones:**<br>
+Las revisiones de código se realizan de manera continua durante el desarrollo. Idealmente, se ejecutan al finalizar cada funcionalidad o tarea, y de forma obligatoria al cierre de cada sprint, garantizando así una evolución constante y controlada del código fuente.
+
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de entrevistas
 
