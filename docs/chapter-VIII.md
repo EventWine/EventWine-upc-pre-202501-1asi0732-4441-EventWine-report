@@ -310,7 +310,59 @@ Al momento de elegir la escala para los experimentos de EventWine, se ajustará 
 
 
 ### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
+Se llevaron a cabo pruebas de rendimiento, accesibilidad y mejores prácticas con Lighthouse en nuestra 
+aplicación EventWine para evaluar su desempeño y optimizar la experiencia de usuario. 
+
+![1](/assets/img/chapter-VIII/l1.png)
+
+![2](/assets/img/chapter-VIII/l2.png)
+
+![3](/assets/img/chapter-VIII/l3.png)
+
+![4](/assets/img/chapter-VIII/l4.png)
+
+![5](/assets/img/chapter-VIII/l5.png)
+
+![6](/assets/img/chapter-VIII/l6.png)
+
 ### 8.2.7. Web and Mobile Tracking Plan.
+Para EventWine, nuestro objetivo es optimizar y monitorear tanto la aplicación web como la futura versión móvil, con el fin de facilitar la gestión operativa de los productores de vino y mejorar su experiencia dentro de la plataforma. A medida que avancemos hacia las etapas finales del desarrollo, estableceremos un plan de seguimiento riguroso que nos permitirá evaluar de forma efectiva las mejoras implementadas.
+
+**Etapas de Monitoreo de Funcionalidades**<br>
+1. Implementación Inicial
+Durante esta fase, nos enfocaremos en el despliegue de nuevas funcionalidades, así como en la recopilación de datos iniciales que sirvan como línea base para futuras comparaciones.
+
+**Recopilación de Datos:**
+
+- Métricas de Uso: Se registrarán indicadores clave como el número de usuarios activos, duración promedio de sesiones, uso de formularios y frecuencia de exportación de datos (por ejemplo, a Excel).
+
+- Interacciones de los Usuarios: Se recopilará información sobre el comportamiento de los usuarios, como clics en botones de guardado, navegación por las etapas del proceso productivo y acciones críticas como eliminación de registros.
+
+- Feedback de Usuarios: A través de encuestas breves y herramientas de retroalimentación dentro de la plataforma, se recogerán opiniones relacionadas a la usabilidad, claridad del diseño y satisfacción general con las nuevas funcionalidades.
+
+**Análisis Comparativo:**
+
+Los datos recopilados durante esta etapa se contrastarán con registros anteriores a las actualizaciones, para evaluar el impacto directo de las mejoras implementadas.
+
+2. Seguimiento Continuo
+Tras la implementación inicial, se establecerá un sistema continuo de seguimiento para evaluar el rendimiento de la plataforma y realizar ajustes evolutivos según sea necesario.
+
+**Recopilación de Datos:**
+
+- Métricas en Tiempo Real: Se emplearán herramientas de análisis web para monitorear el uso en tiempo real y detectar rápidamente cualquier problema de usabilidad o cuellos de botella.
+
+- Segmentación de Usuarios: La actividad será segmentada por tipo de usuario (por ejemplo, productores principiantes vs. expertos), para identificar necesidades específicas y optimizar la experiencia de cada perfil.
+
+- Tasa de Retención: Se analizará cuántos usuarios regresan a la plataforma después de su primer uso, y si las nuevas funcionalidades influyen positivamente en el compromiso a largo plazo.
+
+**Evaluación y Ajustes:**
+
+- Informes Periódicos: Se elaborarán informes mensuales que resuman el comportamiento del usuario, problemas detectados y oportunidades de mejora.
+
+- Iteración Basada en Datos: Las decisiones sobre rediseño o ajustes funcionales se basarán directamente en los datos recopilados y en la retroalimentación de los usuarios, garantizando que EventWine evolucione de forma centrada en el usuario.
+
+Este enfoque permitirá que EventWine continúe mejorando de manera continua, basada en datos objetivos y necesidades reales del usuario, asegurando así una plataforma robusta, funcional y alineada con las expectativas del sector vitivinícola.
+
 ## 8.3. Experimentation
 
 
