@@ -115,13 +115,21 @@ Tests en Lighthouse:
 #### 6.2.1.2. Code Quality & Code Security.
 ### 6.2.2. Reviews
 ## 6.3. Validation Interviews.
-### 6.3.1. Diseño de Entrevistas.
+### 6.3.1. Diseño de entrevistas
 
-A continuación se muestran las preguntas de validación que se utilizarán en las sesiones de entrevista con productores de vino. El objetivo es comprobar que la landing page y la aplicación web de **EventWine** resultan claras, intuitivas y coherentes con el flujo de trabajo real de los usuarios, así como identificar oportunidades de mejora.
+A continuación se presentan las preguntas de **validación** utilizadas durante las entrevistas con productores de vino. Estas se dividen en dos bloques: uno enfocado en la **landing page** y otro en la **aplicación web**, con el propósito de evaluar la comprensión, usabilidad y coherencia de cada parte con el flujo de trabajo de los usuarios.
+
+
+#### Preguntas sobre la Landing Page
 
 - Al navegar por primera vez en EventWine, ¿logras identificar rápidamente cuál es su función principal?
-- ¿La distribución de elementos en pantalla te permite ubicar fácilmente las opciones que necesitas?
+- ¿La distribución de elementos en la landing page te permite ubicar fácilmente las opciones que necesitas?
 - ¿El vocabulario técnico utilizado corresponde con los términos que manejas en tu proceso cotidiano?
+- ¿Percibes uniformidad en el diseño de la página de inicio con el resto del sistema?
+- ¿Hay elementos que esperarías encontrar en cierta ubicación pero están en otra parte?
+
+#### Preguntas sobre la Aplicación Web
+
 - ¿El orden de las etapas productivas (lotes, fermentación, clarificación, etc.) refleja tu secuencia real de trabajo?
 - ¿La forma de registrar datos de cada proceso te resulta intuitiva comparada con tus métodos actuales?
 - ¿Puedes identificar claramente cómo acceder a la información histórica de tus producciones anteriores?
@@ -129,9 +137,9 @@ A continuación se muestran las preguntas de validación que se utilizarán en l
 - ¿Te resulta evidente cuándo has completado exitosamente una tarea o registro?
 - ¿El proceso para crear tu cuenta y acceder al sistema te parece directo?
 - ¿Percibes uniformidad en el diseño mientras navegas entre diferentes secciones?
-- ¿Hay elementos que esperarías encontrar en cierta ubicación pero están en otra parte?
 - ¿Qué aspecto de la plataforma consideras que podría generar mayor dificultad a productores como tú?
 - ¿Cuál sería la modificación más importante que harías para mejorar tu experiencia de uso?
+
 
 
 ### 6.3.2. Registro de Entrevistas.
