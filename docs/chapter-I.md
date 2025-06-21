@@ -75,18 +75,7 @@ Nos enfocamos en ofrecer soluciones personalizadas que se ajusten a las necesida
                 Conocimientos en análisis de requerimientos, diseño UX/UI, HTML, CSS, Python y herramientas de prototipado. Facilidad para la comunicación y trabajo colaborativo.
             </td>
         </tr>
-        <tr>
-            <td>
-                <img src="../assets/img/chapter-I/foto-Fernando.png.jpeg" height="120" alt="Jesús Paucar"><br>
-                Jesús Fernando Paucar Zenteno - U202316687
-            </td>
-            <td>
-                Soy estudiante de Ingeniería de Software, curioso por naturaleza, me enfoco en encontrar soluciones simples a problemas complejos. Me interesa el desarrollo de productos digitales con impacto.
-            </td>
-            <td>
-                Experiencia con diseño de interfaces, desarrollo web, gestión de proyectos y redacción técnica. Conocimientos en JavaScript, Python, herramientas no-code y UX writing.
-            </td>
-        </tr>
+       
     </tbody>
 </table>
 
