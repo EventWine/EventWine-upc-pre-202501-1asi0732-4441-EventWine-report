@@ -227,7 +227,7 @@ A continuación se presentan las preguntas de validación utilizadas durante las
 
 **Segmento Objetivo: Productor de Vino**
 
-<u>Entrevita01</u> <br>
+<u>Entrevista 01</u> <br>
 
 **Nombres:** Rusbell  
 
