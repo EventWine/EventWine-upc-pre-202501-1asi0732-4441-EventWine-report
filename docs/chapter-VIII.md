@@ -166,5 +166,28 @@ ___
 ### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
 ### 8.2.7. Web and Mobile Tracking Plan.
 ## 8.3. Experimentation
-### 8.3.1. To-Be User Stories.
+
+
+### 8.3.1. To-Be User Stories
+
+
+| **Story ID** | **Título** | **Descripción** | **Criterios de Aceptación** | **Relacionado con (Epic ID)** |
+|-------------|------------|----------------|----------------------------|-------------------------------|
+| **US-14** | **Registro de múltiples fermentaciones por lote** | Como vinicultor, quiero registrar varias fermentaciones para un mismo lote cuando se usan distintos tanques. | **Escenario 1:** Agregar segunda fermentación.<br>Given un lote con fermentación ya registrada,<br>When hago clic en "Añadir fermentación",<br>Then el sistema permite ingresar nuevos datos.<br>**Escenario 2:** Límite de fermentaciones.<br>When intento agregar una tercera fermentación,<br>Then el sistema muestra alerta "Máximo 2 por lote". | EPIC-02 |
+| **US-15** | **Editar clarificaciones registradas** | Como asistente, quiero corregir errores en los datos de clarificación antes de completar la etapa. | **Escenario 1:** Editar agente clarificante.<br>Given una clarificación no finalizada,<br>When cambio el tipo de agente,<br>Then el sistema actualiza el registro.<br>**Escenario 2:** Editar fecha inválida.<br>When ingreso una fecha futura,<br>Then el sistema muestra error. | EPIC-02 |
+| **US-16** | **Ver historial completo de un lote** | Como productor, quiero ver todas las etapas de un lote (fermentación, prensado, etc.) en una sola pantalla. | **Escenario 1:** Visualizar resumen.<br>Given un lote completado,<br>When hago clic en "Ver historial",<br>Then el sistema muestra una línea de tiempo con todas las etapas.<br>**Escenario 2:** Lote incompleto.<br>When un lote está en progreso,<br>Then las etapas faltantes aparecen como "Pendientes". | EPIC-02 |
+| **US-17** | **Exportar datos a Excel** | Como enólogo, quiero exportar los datos de fermentación y clarificación a Excel para análisis externo. | **Escenario 1:** Exportar lote específico.<br>Given un lote seleccionado,<br>When hago clic en "Exportar a Excel",<br>Then se descarga un archivo .xlsx con los datos.<br>**Escenario 2:** Exportar vacío.<br>When no hay datos registrados,<br>Then el Excel incluye solo los encabezados. | EPIC-02 |
+| **US-18** | **Filtrar lotes por tipo de uva** | Como técnico, quiero filtrar los lotes por variedad de uva para comparar procesos. | **Escenario 1:** Filtrar por Malbec.<br>Given 10 lotes (3 de Malbec),<br>When aplico el filtro "Malbec",<br>Then solo muestran esos 3.<br>**Escenario 2:** Reiniciar filtros.<br>When hago clic en "Limpiar filtros",<br>Then se muestran todos los lotes. | EPIC-02 |
+
 ### 8.3.2. To-Be Product Backlog
+
+| **Orden** | **User Story Id** | **Título** | **Descripción** | **Story Points** |
+|-----------|------------------|------------|----------------|------------------|
+| 1 | US-14 | Registro de múltiples fermentaciones | Permite agregar hasta 2 fermentaciones por lote. | 5 |
+| 2 | US-15 | Editar clarificaciones | Corregir datos de clarificación antes de finalizar. | 3 |
+| 3 | US-16 | Historial completo de lote | Muestra todas las etapas . | 8 |
+| 4 | US-17 | Exportar a Excel | Genera archivos Excel por lote. | 5 |
+| 5 | US-18 | Filtrar por tipo de uva | Filtrado básico por variedad de uva. | 3 |
+| 6 | US-19 | Validación de fechas | Impide registrar fechas incoherentes (ej: embotellado antes de fermentación). | 5 |
+| 8 | US-21 | Búsqueda por ID de lote | Buscar lotes ingresando su ID exacto. | 2 |
+| 10 | US-23 | Notificaciones de etapas críticas | Alertas web cuando una etapa supera el tiempo estimado. | 8 |
