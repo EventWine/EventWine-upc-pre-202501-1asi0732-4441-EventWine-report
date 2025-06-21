@@ -177,3 +177,95 @@ Una vez validadas las migraciones y el estado de la base de datos, el backend se
 Este flujo garantiza un proceso ágil y confiable de entrega continua, manteniendo sincronizados el backend, la base de datos y el frontend en sus respectivas plataformas de despliegue.
 
 
+# 7.4. Continuous Monitoring
+
+
+## 7.4.1. Tools and Practices
+
+Para lograr un monitoreo continuo y eficaz de nuestra aplicación, se emplearán las siguientes herramientas y prácticas:
+
+- **Pruebas de Carga y Estrés**: Herramientas como **JMeter** permiten simular cargas de usuarios y condiciones extremas, asegurando que la aplicación mantenga un rendimiento óptimo incluso bajo alta demanda.
+
+- **Monitoreo de Experiencia del Usuario**:
+    - **Google Analytics** recopila datos sobre el uso y la navegabilidad del sistema, permitiendo entender mejor cómo interactúan los usuarios y optimizar la usabilidad.
+    - **Datadog**, especialmente en su versión gratuita, ofrece monitoreo en tiempo real de métricas clave como tiempos de respuesta y latencia. También permite capturar eventos del usuario, como los tiempos de carga de página, brindando una visión clara de cómo el rendimiento impacta la experiencia del usuario y facilitando la detección temprana de problemas.
+
+- **Supervisión de APIs**: Es fundamental monitorear la disponibilidad y tiempos de respuesta de las APIs internas y externas. Herramientas como **Postman** y **Pingdom** proporcionan métricas en tiempo real para verificar su correcto funcionamiento.
+
+- **Auditorías de Calidad Web**:
+    - **Google Lighthouse** permite evaluar aspectos como accesibilidad, SEO y rendimiento de la aplicación web, ayudando a mejorar la experiencia del usuario.
+    - **Catchpoint** realiza pruebas de rendimiento desde múltiples ubicaciones y dispositivos, asegurando una experiencia consistente en distintos entornos.
+
+
+## 7.4.2. Monitoring Pipeline Components
+
+Un pipeline de monitoreo constante está compuesto por varias etapas clave que permiten mantener la calidad y el rendimiento de una aplicación. Estas etapas incluyen:
+
+- **Recopilación de datos**
+- **Almacenamiento**
+- **Análisis**
+- **Visualización**
+
+En este proceso, herramientas como **Google Lighthouse** y **Catchpoint** desempeñan un papel fundamental al ofrecer evaluaciones complementarias que ayudan a comprender y optimizar la experiencia del usuario.
+
+- **Google Lighthouse**  
+  Es una herramienta ideal para realizar auditorías de calidad en sitios web. Proporciona análisis detallados sobre:
+    - Accesibilidad
+    - Buenas prácticas
+    - SEO
+    - Rendimiento
+
+  Gracias a estos reportes, los equipos pueden identificar problemas que afectan directamente la experiencia del usuario, como los largos tiempos de carga o los cambios inesperados en el diseño.
+
+- **Catchpoint**  
+  Se especializa en el monitoreo de la experiencia digital desde diversas ubicaciones y dispositivos. Ofrece datos en tiempo real sobre:
+    - Latencia de red
+    - Tiempos de respuesta del servidor
+    - Disponibilidad
+    - Métricas de rendimiento bajo distintas condiciones
+
+  Su enfoque centrado en la experiencia del usuario permite detectar y resolver problemas antes de que afecten a los usuarios finales.
+
+
+
+## 7.4.3. Alerting Pipeline Components
+
+El componente de alertas dentro de un pipeline de monitoreo es esencial para la detección temprana y la respuesta rápida ante problemas de rendimiento o disponibilidad de la aplicación. Gracias a este sistema, el equipo puede ser notificado de inmediato cuando ocurren eventos críticos o anomalías que requieren atención.
+
+Para implementar un sistema de alertas eficaz, se emplean herramientas como **Prometheus con Alertmanager** y **Grafana**:
+
+- **Prometheus con Alertmanager**
+    - **Prometheus** es una herramienta de monitoreo que recopila y almacena métricas de rendimiento en tiempo real. Permite definir umbrales para métricas clave como el uso de CPU, memoria o latencia de red.
+    - Cuando se superan estos límites, Prometheus genera alertas que son enviadas a **Alertmanager**.
+    - **Alertmanager** se encarga de gestionar y distribuir las notificaciones a través de distintos canales como correo electrónico, Slack o Microsoft Teams, según la gravedad y configuración definida por el equipo.
+    - Además, permite:
+        - Agrupar alertas similares
+        - Silenciarlas temporalmente durante mantenimientos
+        - Redirigirlas a los destinatarios adecuados
+
+- **Grafana**
+    - Es una herramienta de visualización avanzada que permite crear paneles personalizados con alertas visuales.
+    - Grafana facilita la configuración de notificaciones basadas en eventos críticos o patrones anómalos.
+    - Gracias a su integración con Prometheus y otras fuentes de datos, ofrece una interfaz intuitiva para monitorear el rendimiento y recibir alertas en tiempo real.
+
+La combinación de **Prometheus**, **Alertmanager** y **Grafana** proporciona un sistema de alertas robusto y proactivo. Esto permite al equipo actuar de forma inmediata ante incidentes, reduciendo tiempos de inactividad y mejorando significativamente la experiencia del usuario final.
+
+
+## 7.4.4. Notification Pipeline Components.
+
+La notificación automática de resultados en un pipeline es esencial para mantener informado al equipo sobre el estado de las pruebas y facilitar una respuesta oportuna ante cualquier fallo.
+
+**Jenkins** desempeña un rol clave en este proceso, ya que permite configurar notificaciones detalladas sobre el progreso y los resultados de cada fase del pipeline de pruebas.
+
+- Las notificaciones pueden ser enviadas automáticamente al finalizar cada **build** o etapa del pipeline.
+- Estos mensajes informan sobre:
+    - El **éxito o fallo** de las pruebas
+    - El **tiempo de ejecución**
+    - Los **problemas específicos** detectados
+
+Gracias a esto, el equipo recibe alertas en tiempo real sobre cualquier incidente o anomalía, lo que permite una intervención rápida y efectiva.
+
+Además, Jenkins permite:
+
+- **Generar reportes detallados** sobre cada ejecución
+- **Automatizar el envío de resúmenes periódicos**, proporcionando una visión completa y continua del estado de calidad del software en cada ciclo de pruebas
