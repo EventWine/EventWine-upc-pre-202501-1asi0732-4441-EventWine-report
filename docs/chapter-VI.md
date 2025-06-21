@@ -224,6 +224,41 @@ A continuación se presentan las preguntas de validación utilizadas durante las
 
 
 ### 6.3.2. Registro de Entrevistas.
+
+**Segmento Objetivo: Productor de Vino**
+
+<u>Entrevita01</u> <br>
+
+**Nombres:** Rusbell  
+
+**Apellidos:** Verde Porras
+
+**Edad:** 30 años
+
+**Ciudad:** Ica
+
+**Evidencia de la reunión:**
+![entrevista01.jpeg](../assets/img/chapter-VI/entrevista01.jpeg)
+Enlace de entrevista: [https://youtu.be/XHuBVR8w830](https://youtu.be/XHuBVR8w830)
+
+**Resumen de la entrevista :**
+
+<p align="justify">
+Rusbell Verde Porras, productor de vino con más de 10 años de experiencia, compartió sus impresiones sobre la plataforma EventWine. En primer lugar, destacó que la landing page le resultó clara, fácil de navegar y coherente en su diseño y terminología. Esta familiaridad con los términos técnicos utilizados le permitió sentirse cómodo desde el inicio, facilitando su interacción con la herramienta.
+</p>
+
+<p align="justify">
+Durante su experiencia con la aplicación web, Rusbell valoró positivamente el orden lógico con el que están organizadas las etapas del proceso productivo. Mencionó que los formularios son sencillos de completar y permiten registrar información de manera rápida y eficiente, lo cual es clave para optimizar el trabajo diario en la bodega. Además, señaló que la opción de exportar datos a Excel funciona correctamente, lo que le ayuda a gestionar mejor la información almacenada.
+</p>
+
+<p align="justify">
+Sin embargo, también identificó algunas áreas de mejora. Entre ellas, sugirió reforzar la retroalimentación visual al guardar cambios, ya que en algunos casos no quedaba claro si una acción se había completado correctamente. También recomendó mostrar de forma más evidente el estado del sistema durante los procesos, para brindar mayor seguridad al usuario. En cuanto al diseño visual, propuso mejorar la combinación de colores de ciertos elementos para lograr una estética más armónica. Asimismo, consideró importante incluir mensajes de confirmación antes de ejecutar acciones importantes, como la eliminación de registros, con el fin de evitar errores accidentales.
+</p>
+
+<p align="justify">
+En resumen, Rusbell expresó que EventWine es una plataforma práctica, funcional y con gran potencial para facilitar el trabajo de los productores de vino. Reconoció que, con las mejoras sugeridas, la herramienta podría perfeccionarse aún más y ofrecer una experiencia de usuario aún más robusta y atractiva.
+</p>
+
 ### 6.3.3. Evaluaciones según heurísticas.
 ## 6.4. Auditoría de Experiencias de Usuario.
 ### 6.4.1. Auditoría realizada.
