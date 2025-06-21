@@ -1,6 +1,6 @@
 <center>
 
-# Universidad Peruana De Ciencas Aplicadas
+# Universidad Peruana De Ciencias Aplicadas
 ## 4441 Diseño de Experimentos de Ingeniería de Software - Ingeniería de Software
 
 </center>
@@ -23,7 +23,7 @@
 * **Deybbi Anderson Crisanto Calle       U202120569**
 * **July Zelmira Paico Calderon     U20211D760**
 * **Gustavo Esau Huanca Navarro     U202215285**
-* **Jesús Fernando Paucar Zenteno     U202316687**
+
 
 
 
@@ -63,7 +63,7 @@ Github Collaboration Insights proporciona un cronograma que muestra las principa
 * Deybbi Anderson Crisanto Calle (Dacc03)
 * July Zelmira Paico Calderon(u20211d760)
 * Gustavo Esau Huanca Navarro (petitavo)
-* Jesús Fernando Paucar Zenteno  (devFernando22)
+
 
 Se dividieron las siguientes ramas para la colaboración en el proyecto:
 
