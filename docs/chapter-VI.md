@@ -117,7 +117,7 @@ Tests en Lighthouse:
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de entrevistas
 
-A continuación se presentan las preguntas de **validación** utilizadas durante las entrevistas con productores de vino. Estas se dividen en dos bloques: uno enfocado en la **landing page** y otro en la **aplicación web**, con el propósito de evaluar la comprensión, usabilidad y coherencia de cada parte con el flujo de trabajo de los usuarios.
+A continuación se presentan las preguntas de validación utilizadas durante las entrevistas con productores de vino. Estas se dividen en dos bloques: uno enfocado en la **landing page** y otro en la **aplicación web**, con el propósito de evaluar la comprensión, usabilidad y coherencia de cada parte con el flujo de trabajo de los usuarios.
 
 
 #### Preguntas sobre la Landing Page
