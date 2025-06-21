@@ -260,6 +260,59 @@ En resumen, Rusbell expresó que EventWine es una plataforma práctica, funciona
 </p>
 
 ### 6.3.3. Evaluaciones según heurísticas.
+Aplicación para evaluar: EventWine
+Tareas que evaluar:
+➢ Validar que al guardar información se muestre retroalimentación clara sobre el éxito de la operación.
+➢ Confirmar que existan mensajes antes de eliminar datos importantes.
+➢ Evaluar la combinación de colores y diseño visual general.
+➢ Verificar si el estado del sistema se comunica adecuadamente durante procesos como carga o exportación.
+➢ Revisar si hay claridad y organización en las etapas del proceso productivo.
+
+Tabla de resumen:<br>
+Escala de Severidad
+| 1 | 2 | 3 | 4 | 5 |
+| --- | --- | --- | --- | --- |
+| No tan grave | Leve | Moderado | Grave | Muy grave |
+
+| #	| Problema	| Escala de Severidad	| Heurística / Principio violado |
+| ---	| ---	| ---	| ---	|
+| 1	| No se muestra un mensaje claro al guardar cambios	| 4	| Visibilidad del estado del sistema |
+| 2	| El estado del sistema no es evidente durante procesos (como carga/exportación)	| 4	| Visibilidad del estado del sistema |
+| 3	| Las etapas del proceso productivo están bien organizadas	| 1	| Correspondencia entre el sistema y el mundo real |
+| 4	| No hay confirmación antes de eliminar registros	| 2	| Prevención de errores |
+| 5	| Algunos elementos presentan una combinación de colores poco armoniosa	| 3	| Diseño estético y minimalista |
+
+**Heurísticas y Recomendaciones:**
+
+Visibilidad del estado del sistema<br>
+Problema #1: No se muestra un mensaje claro al guardar cambios.<br>
+Heurística violada: Visibilidad del estado del sistema<br>
+Descripción: El usuario no puede saber si los datos fueron guardados correctamente.<br>
+Recomendación: Incluir mensajes como "Cambios guardados exitosamente" y/o indicadores visuales (snackbars o alertas).
+
+Problema #2: El estado del sistema no es evidente durante procesos como carga o exportación.<br>
+Heurística violada: Visibilidad del estado del sistema<br>
+Descripción: No se muestran indicadores de carga ni confirmaciones, lo que genera incertidumbre.<br>
+Recomendación: Implementar indicadores visuales (spinners o barras de progreso) y mensajes al finalizar la operación.
+
+Prevención de errores
+Problema #3: No hay confirmación antes de eliminar registros.<br>
+Heurística violada: Prevención de errores<br>
+Descripción: El sistema permite eliminar datos sin verificar la intención del usuario, lo que puede causar pérdidas accidentales.<br>
+Recomendación: Agregar cuadros de diálogo de confirmación antes de ejecutar acciones destructivas.
+
+Diseño estético y minimalista
+Problema #4: Algunos elementos presentan una combinación de colores poco armoniosa.<br>
+Heurística violada: Diseño estético y minimalista<br>
+Descripción: La estética visual se ve afectada, lo que puede perjudicar la percepción de profesionalismo.<br>
+Recomendación: Revisar la paleta de colores y aplicar una armonía visual que respete principios de contraste y balance.
+
+Correspondencia entre el sistema y el mundo real<br>
+Problema #5: Las etapas del proceso productivo están bien organizadas.<br>
+Heurística evaluada: Correspondencia entre el sistema y el mundo real<br>
+Descripción: El flujo y la terminología son familiares para el usuario experto en el rubro.<br>
+Recomendación: Mantener esta estructura clara y coherente al ampliar funciones.
+
 ## 6.4. Auditoría de Experiencias de Usuario.
 ### 6.4.1. Auditoría realizada.
 #### 6.4.1.1. Información del grupo auditado.
