@@ -295,13 +295,13 @@ Heurística violada: Visibilidad del estado del sistema<br>
 Descripción: No se muestran indicadores de carga ni confirmaciones, lo que genera incertidumbre.<br>
 Recomendación: Implementar indicadores visuales (spinners o barras de progreso) y mensajes al finalizar la operación.
 
-Prevención de errores
+Prevención de errores<br>
 Problema #3: No hay confirmación antes de eliminar registros.<br>
 Heurística violada: Prevención de errores<br>
 Descripción: El sistema permite eliminar datos sin verificar la intención del usuario, lo que puede causar pérdidas accidentales.<br>
 Recomendación: Agregar cuadros de diálogo de confirmación antes de ejecutar acciones destructivas.
 
-Diseño estético y minimalista
+Diseño estético y minimalista<br>
 Problema #4: Algunos elementos presentan una combinación de colores poco armoniosa.<br>
 Heurística violada: Diseño estético y minimalista<br>
 Descripción: La estética visual se ve afectada, lo que puede perjudicar la percepción de profesionalismo.<br>
