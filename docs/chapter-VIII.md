@@ -417,6 +417,22 @@ Este enfoque permitirá que EventWine continúe mejorando de manera continua, ba
 ## 8.4. Experiment Aftermath & Analysis
 ### 8.4.1. Analysis and Interpretation of Results
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+| **Prioridad (1,2,3,5,8)** | **Pregunta** |
+|---------------------------|--------------|
+| **1** | ¿Adoptarán los productores artesanales EventWine reemplazando sus métodos manuales actuales (Excel, cuadernos) por una plataforma digital integral? |
+| **1** | ¿Podrán productores con experiencia tecnológica limitada usar EventWine efectivamente con mínima capacitación? |
+| **2** | ¿Mejorará EventWine la eficiencia operativa y calidad del producto en cada etapa de vinificación vs métodos manuales? |
+| **3** | ¿Qué modelo de pricing (básico $25, intermedio $50, premium $100) optimiza adopción y revenue para EventWine? |
+| **3** | ¿Cuáles canales de adquisición (referidos, asociaciones, eventos) son más efectivos para reach productores artesanales? |
+
+**Cambios realizados:**<br>
+- **Capaciad de uso con poca capacitación -> Subido a prioridad 1** <br>
+Porque aunque quieran adoptarlo, si no lo entienden o no lo usan bien, lo abandonarán. Es un riesgo crítico en este público con baja alfabetización digital.
+
+- **Eficiencia operativa y calidad del producto -> Bajado a prioridad 2** <br>
+Porque aunque EventWine no sea mucho más eficiente al inicio, si reemplaza algo manual y engorroso, la adopción puede igual darse. Se puede mejorar la eficiencia con el tiempo.
+
 ## 8.5. Continuous Learning
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
 ## 8.6. To-Be Software Platform Pre-launch
