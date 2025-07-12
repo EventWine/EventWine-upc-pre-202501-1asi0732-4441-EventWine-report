@@ -434,6 +434,30 @@ Este enfoque permitirá que EventWine continúe mejorando de manera continua, ba
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 #### 8.3.3.6. Team Collaboration Insights 
 
+**Report:**
+
+![team-insight](/assets/img/chapter-VIII/team-insight.png) 
+
+![team-insight-2](/assets/img/chapter-VIII/mobile-insight.png)
+
+**Team Members:**
+
+**Deybbi Crisanto**
+
+![insight-dacc](/assets/img/chapter-VIII/insight-dacc.png)
+
+**Moisés Donayre**
+
+![insight-moises](/assets/img/chapter-VIII/mobile-insight-moises.png)
+
+**Gustavo Huanca**
+
+![insight-gustavo](/assets/img/chapter-VIII/web-insight-gustavo.png)
+
+**July Paico**
+
+![insight-july](/assets/img/chapter-VIII/web-insight-july.png)
+
 
 
 ### 8.3.4. To-Be Validation Interviews 
