@@ -504,7 +504,7 @@ Footer con datos de contacto y enlaces a políticas (privacidad, cookies, etc.).
 ![mobile-4.png](../assets/img/chapter-VIII/excel.png)
 
 **Buscar lotes por tipo de uva**
-![mobile-5.png](../assets/img/chapter-VIII/mobile-5.png)
+![mobile-5.png](../assets/img/chapter-VIII/lotes.png)
 
 **Implementar menús desplegables preestablecidos**
 ![mobile-6.png](../assets/img/chapter-VIII/dropdown.jpg)
