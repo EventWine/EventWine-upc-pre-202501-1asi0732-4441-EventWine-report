@@ -432,6 +432,52 @@ Este enfoque permitirá que EventWine continúe mejorando de manera continua, ba
 
 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+- **US-14** - Registro de múltiples fermentaciones por lote
+
+![](../assets/img/chapter-VIII/US-14-1.png)
+
+![](../assets/img/chapter-VIII/US-14-2.png)
+
+![](../assets/img/chapter-VIII/US-14-3.png)
+
+
+- **US-15** - Editar clarificaciones registradas
+
+![](../assets/img/chapter-VIII/US-15-1.png)
+
+![](../assets/img/chapter-VIII/US-15-2.png)
+
+![](../assets/img/chapter-VIII/US-15-3.png)
+
+
+- **US-17** - Exportar datos a Excel
+
+![](../assets/img/chapter-VIII/US-17-1.png)
+
+![](../assets/img/chapter-VIII/US-17-2.png)
+
+![](../assets/img/chapter-VIII/US-17-3.png)
+
+
+- **US-18** - Buscar lotes por tipo de uva
+
+![](../assets/img/chapter-VIII/US-18-1.png)
+
+![](../assets/img/chapter-VIII/US-18-2.png)
+
+
+- **US-25** - Integración de video about the product
+
+![](../assets/img/chapter-VIII/US-25-1.png)
+
+
+
+- **US-26** - Implementar menús desplegables preestablecidos
+
+![](../assets/img/chapter-VIII/US-26-1.png)
+
+
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 #### 8.3.3.6. Team Collaboration Insights 
