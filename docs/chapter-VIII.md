@@ -430,6 +430,20 @@ Este enfoque permitirá que EventWine continúe mejorando de manera continua, ba
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
+US-01 Hipervínculos en el encabezado	
+Navegación mediante hipervínculos en el header para secciones de la landing.
+
+![Hipervínculos.png](../assets/img/chapter-VIII/img.png)
+![Sobre nosotros.png](../assets/img/chapter-VIII/sobre-nosotros.png)
+
+US-02	Información sobre beneficios de la app	
+Introducción clara que comunique el propósito y beneficios de la aplicación.
+![Información de Eventwine.png](../assets/img/chapter-VIII/info-app-web.png)
+
+US-03	Información útil en el footer	
+Footer con datos de contacto y enlaces a políticas (privacidad, cookies, etc.).
+
+![img.png](../assets/img/chapter-VIII/footer-information.png)
 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
