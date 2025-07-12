@@ -543,7 +543,18 @@ Porque aunque quieran adoptarlo, si no lo entienden o no lo usan bien, lo abando
 Porque aunque EventWine no sea mucho más eficiente al inicio, si reemplaza algo manual y engorroso, la adopción puede igual darse. Se puede mejorar la eficiencia con el tiempo.
 
 ## 8.5. Continuous Learning
+
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+Encuesta de Google Forms: Se utilizó una encuesta creada en Google Forms para recopilar el feedback
+de los usuarios y validar las hipótesis planteadas durante el diseño. Esta encuesta permitió evaluar la
+experiencia del usuario y recopilar datos que respaldan las decisiones tomadas en la mejora de la
+aplicación.
+
+Enlace encuesta:https://forms.gle/ayk9Q1Ax2ZB6GUjv9
+
+
+
 ## 8.6. To-Be Software Platform Pre-launch
 ### 8.6.1. About-the-Product Intro Video
 En esta sección, se presenta el video introductorio sobre EventWine, diseñado para captar la atención de los productores artesanales y explicar de manera clara y concisa las funcionalidades clave de la plataforma. El video destaca cómo EventWine simplifica la gestión de procesos vinícolas, mejora la trazabilidad y reduce el tiempo dedicado a tareas administrativas.
