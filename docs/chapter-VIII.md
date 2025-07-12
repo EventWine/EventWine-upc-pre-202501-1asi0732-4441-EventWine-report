@@ -427,6 +427,20 @@ Este enfoque permitirá que EventWine continúe mejorando de manera continua, ba
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
+US-01 Hipervínculos en el encabezado	
+Navegación mediante hipervínculos en el header para secciones de la landing.
+
+![Hipervínculos.png](../assets/img/chapter-VIII/img.png)
+![Sobre nosotros.png](../assets/img/chapter-VIII/sobre-nosotros.png)
+
+US-02	Información sobre beneficios de la app	
+Introducción clara que comunique el propósito y beneficios de la aplicación.
+![Información de Eventwine.png](../assets/img/chapter-VIII/info-app-web.png)
+
+US-03	Información útil en el footer	
+Footer con datos de contacto y enlaces a políticas (privacidad, cookies, etc.).
+
+![img.png](../assets/img/chapter-VIII/footer-information.png)
 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 
@@ -478,6 +492,30 @@ Este enfoque permitirá que EventWine continúe mejorando de manera continua, ba
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 #### 8.3.3.6. Team Collaboration Insights 
+
+**Report:**
+
+![team-insight](/assets/img/chapter-VIII/team-insight.png) 
+
+![team-insight-2](/assets/img/chapter-VIII/mobile-insight.png)
+
+**Team Members:**
+
+**Deybbi Crisanto**
+
+![insight-dacc](/assets/img/chapter-VIII/insight-dacc.png)
+
+**Moisés Donayre**
+
+![insight-moises](/assets/img/chapter-VIII/mobile-insight-moises.png)
+
+**Gustavo Huanca**
+
+![insight-gustavo](/assets/img/chapter-VIII/web-insight-gustavo.png)
+
+**July Paico**
+
+![insight-july](/assets/img/chapter-VIII/web-insight-july.png)
 
 
 
