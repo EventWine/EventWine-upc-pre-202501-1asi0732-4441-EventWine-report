@@ -389,3 +389,21 @@ Este enfoque permitirá que EventWine continúe mejorando de manera continua, ba
 | 6           | US-19              | Validación de fechas                 | Impide registrar fechas incoherentes (ej: embotellado antes de fermentación). | 5                  |
 | 8           | US-21              | Búsqueda por ID de lote              | Buscar lotes ingresando su ID exacto.                                         | 2                  |
 | 10          | US-23              | Notificaciones de etapas críticas    | Alertas web cuando una etapa supera el tiempo estimado.                       | 8                  |
+
+### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+#### 8.3.3.1. To-Be Sprint Backlogs
+#### 8.3.3.2. Implemented To-Be Landing Page Evidence
+#### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+#### 8.3.3.6. Team Collaboration Insights
+### 8.3.4. To-Be Validation Interviews
+#### 8.3.4.1. Diseño de Entrevistas.
+#### 8.3.4.2. Registro de Entrevistas.
+## 8.4. Experiment Aftermath & Analysis
+### 8.4.1. Analysis and Interpretation of Results
+### 8.4.2. Re-scored and Re-prioritized Question Backlog
+## 8.5. Continuous Learning
+### 8.5.1. Shareback Session Artifacts: Learning Workflow
+## 8.6. To-Be Software Platform Pre-launch
+### 8.6.1. About-the-Product Intro Video
