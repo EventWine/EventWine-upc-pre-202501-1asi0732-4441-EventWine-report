@@ -242,56 +242,55 @@ ___
 
 ### 8.2.3. Conditions.
 
+## Experimento 1: Technology Adoption Readiness
 
 | Campo | Contenido |
 |-------|-----------|
 | **Question** | ¿En qué medida los productores artesanales de vino están preparados tecnológicamente y dispuestos a migrar de sus métodos actuales a una plataforma digital integral? |
-| **Measure** | Medir el nivel de preparación tecnológica mediante encuestas de infraestructura actual, análisis de herramientas digitales utilizadas, y evaluación de disposición al cambio a través de entrevistas estructuradas. Complementar con pruebas de usabilidad cronometradas para evaluar capacidad de adopción efectiva de la plataforma. |
+| **Condición Experimental** | Los productores artesanales recibirán acceso a EventWine con video about the product, 2 horas de capacitación básica, soporte técnico durante 2 semanas, y acceso a tutoriales interactivos para facilitar la adopción de la plataforma digital. |
+| **Condición de Control** | Los productores artesanales continuarán usando sus métodos actuales de gestión (papel, hojas de cálculo, sistemas manuales) sin acceso a EventWine ni capacitación digital. |
 
+---
 
+## Experimento 2: Process Efficiency Impact
 
 | Campo | Contenido |
 |-------|-----------|
 | **Question** | ¿Cómo impacta la implementación de EventWine en la eficiencia operativa y calidad del producto en cada etapa del proceso de vinificación comparado con métodos manuales? |
-| **Measure** | Medir tiempo de gestión administrativa semanal antes y después de implementar EventWine, registrar número de errores en el proceso de vinificación, y evaluar métricas de calidad del producto mediante análisis comparativo entre grupo experimental y grupo control durante un ciclo completo de producción. |
+| **Condición Experimental** | Las bodegas implementarán EventWine para gestionar todas las etapas del proceso de vinificación, incluyendo registro automatizado, validaciones del sistema, y reportes digitales durante un ciclo completo de producción. |
+| **Condición de Control** | Las bodegas mantendrán sus procesos manuales tradicionales de gestión y registro sin usar EventWine, continuando con métodos de papel, hojas de cálculo y sistemas analógicos. |
 
+---
 
+## Experimento 3: User Experience Optimization
 
 | Campo | Contenido |
 |-------|-----------|
 | **Question** | ¿Cuál es la curva de aprendizaje real de productores con experiencia tecnológica limitada al usar EventWine y qué elementos de UX más contribuyen a una adopción exitosa? |
-| **Measure** | Medir el tiempo requerido para completar tareas específicas (registrar lote, actualizar fermentación) mediante sesiones de testing cronometradas, evaluar satisfacción de usabilidad con escalas de valoración, y identificar puntos de fricción a través de análisis de interacciones y feedback cualitativo durante sesiones de uso real. |
+| **Condición Experimental** | Los productores con experiencia tecnológica limitada usarán EventWine con interfaz optimizada, flujos simplificados, y elementos de UX diseñados específicamente para facilitar la adopción, con sesiones de testing y feedback continuo. |
+| **Condición de Control** | Los productores con experiencia tecnológica limitada usarán una versión genérica de EventWine sin optimizaciones específicas de UX, manteniendo interfaces estándar y flujos tradicionales. |
 
+---
 
+## Experimento 4: Pricing Model Validation
 
 | Campo | Contenido |
 |-------|-----------|
 | **Question** | ¿Qué modelo de pricing genera mayor adopción entre productores artesanales manteniendo unit economics positivos para EventWine? |
-| **Measure** | Medir tasas de conversión para cada modelo de pricing (freemium, suscripción fija, pago por uso), evaluar retención de usuarios por plan, analizar willingness to pay mediante encuestas de precio, y calcular métricas de unit economics (CAC, LTV, churn rate) para cada segmento de pricing durante el período de prueba. |
+| **Condición Experimental** | Los productores tendrán acceso a diferentes modelos de pricing (freemium, suscripción fija de $25-$100, pago por uso) con funcionalidades específicas para cada tier y opciones de upgrade disponibles. |
+| **Condición de Control** | Los productores tendrán acceso a un modelo de pricing único y estándar sin opciones de escalamiento, planes diferenciados o funcionalidades variables según el nivel de pago. |
 
+---
 
+## Experimento 5: Market Penetration Effectiveness
 
 | Campo | Contenido |
 |-------|-----------|
 | **Question** | ¿Cuáles son los canales de adquisición más efectivos para alcanzar y convertir productores artesanales en usuarios activos de EventWine? |
-| **Measure** | Medir el CAC (Customer Acquisition Cost) por canal de adquisición, evaluar conversion rate de leads a usuarios activos, analizar calidad de leads mediante scoring de engagement y retention, y calcular LTV (Lifetime Value) para usuarios adquiridos por cada canal durante un período de 6 meses de campañas paralelas. |
+| **Condición Experimental** | Los productores serán contactados y adquiridos a través de múltiples canales específicos (referidos directos, asociaciones, eventos del sector, redes sociales, partnerships) con mensajes y estrategias adaptadas para cada canal. |
+| **Condición de Control** | Los productores serán contactados únicamente a través de un canal genérico de marketing digital sin segmentación específica ni personalización de mensajes por tipo de audiencia. |
 
 ### 8.2.4. Scale Calculations and Decisions.
-
-Se utiliza un enfoque basado en métricas para validar nuestras hipótesis de producto de forma rigurosa y alineada con el comportamiento real de los usuarios. Cada hipótesis se vincula a una métrica clave que nos permite medir su impacto. Si el resultado alcanza el valor objetivo, consideramos que la hipótesis se cumple de forma óptima. Si el resultado se encuentra entre un mínimo aceptable y el ideal, lo evaluamos como satisfactorio, pero sujeto a posibles ajustes. En cambio, si el desempeño queda por debajo del umbral mínimo, interpretamos que la hipótesis no se valida y es necesario replantearla.
-
-Adicionalmente, cuando una métrica supera el objetivo previsto en un 25% o más, lo consideramos un éxito sobresaliente, que puede señalar oportunidades no previstas para potenciar el producto. Este enfoque nos permite tomar decisiones basadas en datos concretos, ajustando o reforzando nuestras estrategias de desarrollo, especialmente en áreas críticas como la captación de productores artesanales, la fidelización de asistentes a eventos y la mejora de la experiencia general en la plataforma.
-
-## Tabla de Scale Calculations y Decisiones
-
-| Scale Calculation                                                                                                                                                                                                                                                                                                                                                                                                 | Decision                                                                                                                                                                                       | Factor                                                |               |           |               |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|---------------|-----------|---------------|
-|                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                | **Desfavorable**                                      | **Aceptable** | **Ideal** | **Excelente** |
-| **Creemos que** realizar focus group con productores y pruebas de usabilidad con productores artesanales **causará** una validación clara de su disposición tecnológica y capacidad de adopción de EventWine. **Sabremos que esto es cierto cuando** observemos que al menos el 70% muestra disposición a adoptar la plataforma y el 85% puede usar efectivamente la interfaz después de 2 horas de capacitación. | Implementar un programa de capacitación tecnológica escalonado que permita a los productores adaptarse gradualmente a la plataforma digital, mejorando así la comodidad y confianza en el uso. | < 50% disposición y < 60% efectividad                 | x             |           |               |
-| **Creemos que** implementar EventWine en bodegas piloto durante un ciclo completo de producción **causará** mejoras significativas en eficiencia operativa y reducción de errores comparado con métodos manuales. **Sabremos que esto es cierto cuando** observemos una reducción del 75% en tiempo de gestión administrativa y del 90% en errores de registro.                                                   | Desarrollar un sistema de automatización integral que optimice los procesos de vinificación, reduciendo la carga administrativa y minimizando errores humanos en el registro de datos.         | < 25% reducción tiempo y < 30% reducción errores      | x             |           |               |
-| **Creemos que** optimizar la interfaz y flujo de usuario específicamente para productores con experiencia tecnológica limitada **causará** una curva de aprendizaje acelerada y alta satisfacción de usabilidad. **Sabremos que esto es cierto cuando** los productores completen tareas básicas en menos de 5 minutos después de 1 hora de capacitación y el 90% considere la interfaz fácil de usar.            | Implementar un diseño de UX intuitivo con elementos familiares y flujos simplificados que faciliten la adopción por parte de usuarios con experiencia tecnológica limitada.                    | > 10 minutos para tareas básicas y < 60% satisfacción |               |           | x             |
-| **Creemos que** implementar un modelo de suscripción escalonada ($25, $50, $100) **causará** mayor adopción entre productores artesanales manteniendo unit economics positivos. **Sabremos que esto es cierto cuando** logremos un 40% de adoption rate en plan básico y 25% de upgrade a planes premium.                                                                                                         | Establecer una estrategia de pricing diferenciada que balancee accesibilidad para productores pequeños con captura de valor de operaciones más grandes, optimizando la penetración de mercado. | < 20% adoption básico y < 10% upgrade premium         |               |           | x             |
-| **Creemos que** ejecutar campañas de adquisición enfocadas en referencias directas y partnerships con asociaciones **causará** menor CAC y mayor LTV comparado con otros canales. **Sabremos que esto es cierto cuando** las referencias generen CAC de $50 vs $150 promedio y LTV de $800+, mientras partnerships proporcionen el mayor volumen de leads calificados.                                            | Desarrollar una estrategia de go-to-market centrada en referencias peer-to-peer y validación por autoridades del sector, aprovechando la confianza inherente en estas relaciones comerciales.  | CAC > $150 y LTV < $400                               | x             |           |               |
 
 
 ### 8.2.5. Methods Selection.
