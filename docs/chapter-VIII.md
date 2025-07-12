@@ -429,6 +429,8 @@ Este enfoque permitirá que EventWine continúe mejorando de manera continua, ba
 
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
+
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
@@ -468,7 +470,7 @@ Este enfoque permitirá que EventWine continúe mejorando de manera continua, ba
 #### 8.3.4.2. Registro de Entrevistas.
 Entrevista N.º 1: Productor Artesanal de Vino
 
-![img_2.png](img_2.png)
+![img_2.png](../assets/img/chapter-VI/img_2.png)
 
 **Resumen de la entrevista:**
 
@@ -498,3 +500,7 @@ Porque aunque EventWine no sea mucho más eficiente al inicio, si reemplaza algo
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
 ## 8.6. To-Be Software Platform Pre-launch
 ### 8.6.1. About-the-Product Intro Video
+En esta sección, se presenta el video introductorio sobre EventWine, diseñado para captar la atención de los productores artesanales y explicar de manera clara y concisa las funcionalidades clave de la plataforma. El video destaca cómo EventWine simplifica la gestión de procesos vinícolas, mejora la trazabilidad y reduce el tiempo dedicado a tareas administrativas.
+
+[Video about the Product](https://youtu.be/NHieAQr42cE)
+![about-the-product.png](../assets/img/chapter-VI/img.png)
