@@ -117,7 +117,7 @@ Según las entrevistas realizadas, los productores actualmente:
 | **Question** | ¿En qué medida los productores artesanales de vino están preparados tecnológicamente y dispuestos a migrar de sus métodos actuales a una plataforma digital integral? |
 | **Why** | Para validar si existe receptividad real hacia la digitalización entre nuestro target market y identificar barreras específicas de adopción tecnológica que debemos abordar en el diseño del producto. |
 | **What** | Realizar entrevistas en profundidad con 30 productores artesanales, análisis de su infraestructura tecnológica actual, y pruebas de usabilidad con prototipos de EventWine durante 2 semanas. |
-| **Hypothesis** | Creemos que el 70% de los productores artesanales están dispuestos a adoptar una solución digital que simplifique sus procesos, y que el 85% pueden usar efectivamente una interfaz intuitiva después de 2 horas de capacitación básica, ya que las entrevistas iniciales mostraron interés y los métodos actuales generan frustración por su ineficiencia. |
+| **Hypothesis** | **Creemos que** al menos el 70% de los productores artesanales encuestados indicarán, mediante pregunta cerrada antes y después del piloto, estar dispuestos a migrar a una plataforma digital, y que al menos el 85% podrán completar tareas básicas (como registrar un lote o actualizar fermentación) en menos de 5 minutos tras una capacitación de 2 horas, **ya que** las entrevistas iniciales revelaron frustración con los métodos actuales y apertura a soluciones tecnológicas más simples.|
 
 #### Experiment Card 2: Process Efficiency Impact
 
@@ -126,7 +126,7 @@ Según las entrevistas realizadas, los productores actualmente:
 | **Question** | ¿Cómo impacta la implementación de EventWine en la eficiencia operativa y calidad del producto en cada etapa del proceso de vinificación comparado con métodos manuales? |
 | **Why** | Para cuantificar el valor real que EventWine aporta a los productores y validar nuestras afirmaciones sobre mejora en eficiencia (25%) y reducción de errores (90%) para justificar la propuesta de valor. |
 | **What** | Implementar EventWine en 10 bodegas piloto durante un ciclo completo de producción (3-6 meses), midiendo tiempo de gestión, errores de registro, y métricas de calidad vs grupo control usando métodos tradicionales. |
-| **Hypothesis** | Creemos que EventWine reducirá el tiempo de gestión administrativa de 3-4 horas semanales a menos de 1 hora (75% reducción) y disminuirá errores de registro del 5% al 0.5% (90% reducción), ya que la automatización y validaciones del sistema eliminan procesos manuales propensos a error. |
+| **Hypothesis** | **Creemos que** EventWine reducirá en al menos un 75% el tiempo total de gestión administrativa, medido por la suma de los tiempos cronometrados por etapa (registro de lote, verificación, embotellado, etc.), **ya que** el sistema automatiza procesos repetitivos que actualmente se realizan de forma manual y dispersa en planillas o cuadernos.|
 
 #### Experiment Card 3: User Experience Optimization
 
@@ -135,7 +135,7 @@ Según las entrevistas realizadas, los productores actualmente:
 | **Question** | ¿Cuál es la curva de aprendizaje real de productores con experiencia tecnológica limitada al usar EventWine y qué elementos de UX más contribuyen a una adopción exitosa? |
 | **Why** | Para optimizar la interfaz y flujo de usuario específicamente para nuestro target (productores artesanales con experiencia tecnológica limitada) y minimizar barreras de adopción relacionadas con usabilidad. |
 | **What** | Realizar sesiones de testing de usabilidad con 20 productores, medir tiempo de completar tareas clave, identificar puntos de fricción, y iterar el diseño basado en feedback directo durante 4 semanas. |
-| **Hypothesis** | Creemos que los productores podrán completar tareas básicas (registrar lote, actualizar fermentación) en menos de 5 minutos después de 1 hora de capacitación, y que el 90% considerará la interfaz "fácil de usar" después de 1 semana de uso, ya que el diseño se enfoca en simplicidad y flujos familiares similar a aplicaciones que ya conocen. |
+| **Hypothesis** | **Creemos que** al menos el 90% de los productores con experiencia tecnológica limitada calificarán la interfaz como “fácil de usar” (escala Likert 4 o 5) luego de una semana de uso, y podrán completar al menos 3 tareas clave (registrar lote, actualizar fermentación, emitir reporte) en menos de 5 minutos cada una tras una capacitación de 1 hora, **ya que** el diseño de EventWine está basado en principios de simplicidad y patrones visuales similares a aplicaciones conocidas por el usuario.|
 
 #### Experiment Card 4: Pricing Model Validation
 
@@ -144,16 +144,16 @@ Según las entrevistas realizadas, los productores actualmente:
 | **Question** | ¿Qué modelo de pricing genera mayor adopción entre productores artesanales manteniendo unit economics positivos para EventWine? |
 | **Why** | Para determinar la estrategia de monetización óptima que balancee accesibilidad para productores pequeños con viabilidad económica de EventWine, validando nuestra estrategia de pricing escalonado. |
 | **What** | Testear 3 modelos de pricing diferentes (freemium vs suscripción fija vs pago por uso) con 60 productores divididos en grupos, midiendo conversion rate, retention y willingness to pay durante 3 meses. |
-| **Hypothesis** | Creemos que el modelo de suscripción escalonada ($25 básico, $50 intermedio, $100 avanzado) generará un 40% de adoption rate en plan básico y 25% upgrade a planes premium, ya que permite acceso inicial a productores pequeños mientras captura mayor valor de operaciones más grandes. |
+| **Hypothesis** | **Creemos que** el modelo de suscripción escalonada ($25 básico, $50 intermedio, $100 avanzado) generará al menos un 40% de adopción en el plan básico y un 25% de upgrade a planes premium, **ya que** permite a productores pequeños iniciar con una inversión accesible mientras que aquellos con mayor volumen perciben valor en las funciones avanzadas, según validaciones previas y disposición de pago reportada.|
 
 #### Experiment Card 5: Market Penetration Effectiveness
 
-| **Campo** | **Contenido** |
-|-----------|---------------|
-| **Question** | ¿Cuáles son los canales de adquisición más efectivos para alcanzar y convertir productores artesanales en usuarios activos de EventWine? |
+| **Campo** | **Contenido**                                                                                                                                                                                                                        |
+|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Question** | ¿Cuáles son los canales de adquisición más efectivos para alcanzar y convertir productores artesanales en usuarios activos de EventWine?                                                                                             |
 | **Why** | Para desarrollar una estrategia de go-to-market eficiente que minimice el CAC (Customer Acquisition Cost) y maximice la conversión de prospects a usuarios activos, especialmente considerando el target de productores artesanales. |
-| **What** | Ejecutar campañas paralelas en 5 canales diferentes (referidos directos, asociaciones, eventos del sector, redes sociales, partnerships con proveedores) midiendo CAC, conversion rate y calidad de leads durante 6 meses. |
-| **Hypothesis** | Creemos que las referencias directas de productores existentes generarán el menor CAC ($50 vs $150 promedio otros canales) y mayor LTV ($800+), mientras que partnerships con asociaciones de productores proporcionarán el mayor volumen de leads calificados, ya que este mercado valora altamente las recomendaciones peer-to-peer y la validación por autoridades del sector. |
+| **What** | Ejecutar campañas paralelas en 5 canales diferentes (referidos directos, asociaciones, eventos del sector, redes sociales, partnerships con proveedores) midiendo CAC, conversion rate y calidad de leads durante 6 meses.           |
+| **Hypothesis** | **Creemos que** las referencias directas de productores existentes generarán un CAC al menos 30% menor que el promedio de otros canales y un LTV superior al 25%, **ya que** los productores artesanales valoran las recomendaciones de pares y la validación por asociaciones del sector, lo cual influye directamente en su decisión de adopción de tecnología.|
 
 ___
 
@@ -165,8 +165,8 @@ ___
 |-------|-----------|
 | **Question** | ¿En qué medida los productores artesanales de vino están preparados tecnológicamente y dispuestos a migrar de sus métodos actuales a una plataforma digital integral? |
 | **Belief** | Los productores artesanales muestran interés en la digitalización debido a la frustración con la ineficiencia de sus métodos actuales, y pueden adaptarse a interfaces intuitivas con capacitación básica. |
-| **Hypothesis** | El 70% de los productores artesanales están dispuestos a adoptar una solución digital que simplifique sus procesos, y el 85% pueden usar efectivamente una interfaz intuitiva después de 2 horas de capacitación básica. |
-| **Null Hypothesis** | Menos del 50% de los productores artesanales están dispuestos a adoptar soluciones digitales, y menos del 60% pueden usar efectivamente la interfaz después de la capacitación básica. |
+| **Hypothesis** | **Creemos que** al menos el 70% de los productores artesanales encuestados indicarán, mediante pregunta cerrada antes y después del piloto, estar dispuestos a migrar a una plataforma digital, y que al menos el 85% podrán completar tareas básicas (como registrar un lote o actualizar fermentación) en menos de 5 minutos tras una capacitación de 2 horas, **ya que** las entrevistas iniciales revelaron frustración con los métodos actuales y apertura a soluciones tecnológicas más simples.|
+| **Null Hypothesis** | Menos del 50% de los productores artesanales encuestados estarán dispuestos a adoptar una plataforma digital, y menos del 60% podrán completar tareas clave en la plataforma (registrar lote, actualizar fermentación) en menos de 5 minutos, incluso después de una capacitación de 2 horas.|
 
 
 
@@ -175,8 +175,8 @@ ___
 |-------|-----------|
 | **Question** | ¿Cómo impacta la implementación de EventWine en la eficiencia operativa y calidad del producto en cada etapa del proceso de vinificación comparado con métodos manuales? |
 | **Belief** | La automatización y validaciones del sistema EventWine eliminan procesos manuales propensos a error, generando mejoras significativas en eficiencia y reducción de errores. |
-| **Hypothesis** | EventWine reducirá el tiempo de gestión administrativa de 3-4 horas semanales a menos de 1 hora (75% reducción) y disminuirá errores de registro del 5% al 0.5% (90% reducción). |
-| **Null Hypothesis** | EventWine no generará reducciones significativas en tiempo de gestión (menos del 25%) ni en errores de registro (menos del 30% de reducción). |
+| **Hypothesis** | **Creemos que** EventWine reducirá en al menos un 75% el tiempo total de gestión administrativa, medido por la suma de los tiempos cronometrados por etapa (registro de lote, verificación, embotellado, etc.), **ya que** el sistema automatiza procesos repetitivos que actualmente se realizan de forma manual y dispersa en planillas o cuadernos.|
+| **Null Hypothesis** | La implementación de EventWine no reducirá el tiempo total de gestión administrativa en más del 25%, y la disminución en errores de registro será menor al 30% comparado con los métodos manuales.|
 
 
 
@@ -185,8 +185,8 @@ ___
 |-------|-----------|
 | **Question** | ¿Cuál es la curva de aprendizaje real de productores con experiencia tecnológica limitada al usar EventWine y qué elementos de UX más contribuyen a una adopción exitosa? |
 | **Belief** | El diseño enfocado en simplicidad y flujos familiares, similar a aplicaciones conocidas, facilitará la adopción por parte de usuarios con experiencia tecnológica limitada. |
-| **Hypothesis** | Los productores podrán completar tareas básicas (registrar lote, actualizar fermentación) en menos de 5 minutos después de 1 hora de capacitación, y el 90% considerará la interfaz "fácil de usar" después de 1 semana de uso. |
-| **Null Hypothesis** | Los productores necesitarán más de 10 minutos para completar tareas básicas después de la capacitación, y menos del 60% considerará la interfaz fácil de usar después de una semana. |
+| **Hypothesis** | **Creemos que** al menos el 90% de los productores con experiencia tecnológica limitada calificarán la interfaz como “fácil de usar” (escala Likert 4 o 5) luego de una semana de uso, y podrán completar al menos 3 tareas clave (registrar lote, actualizar fermentación, emitir reporte) en menos de 5 minutos cada una tras una capacitación de 1 hora, **ya que** el diseño de EventWine está basado en principios de simplicidad y patrones visuales similares a aplicaciones conocidas por el usuario.|
+| **Null Hypothesis** | Menos del 60% de los usuarios calificarán la plataforma como “fácil de usar” (escala Likert 4 o 5) después de una semana de uso, y más del 40% tardarán más de 10 minutos en completar tareas básicas, incluso después de una hora de capacitación.|
 
 
 
@@ -195,8 +195,8 @@ ___
 |-------|-----------|
 | **Question** | ¿Qué modelo de pricing genera mayor adopción entre productores artesanales manteniendo unit economics positivos para EventWine? |
 | **Belief** | Un modelo de suscripción escalonada permite acceso inicial a productores pequeños mientras captura mayor valor de operaciones más grandes, optimizando adopción y rentabilidad. |
-| **Hypothesis** | El modelo de suscripción escalonada ($25 básico, $50 intermedio, $100 avanzado) generará un 40% de adoption rate en plan básico y 25% upgrade a planes premium. |
-| **Null Hypothesis** | El modelo de suscripción escalonada no generará más del 20% de adoption rate en plan básico ni más del 10% de upgrade a planes premium. |
+| **Hypothesis** | **Creemos que** el modelo de suscripción escalonada ($25 básico, $50 intermedio, $100 avanzado) generará al menos un 40% de adopción en el plan básico y un 25% de upgrade a planes premium, **ya que** permite a productores pequeños iniciar con una inversión accesible mientras que aquellos con mayor volumen perciben valor en las funciones avanzadas, según validaciones previas y disposición de pago reportada.|
+| **Null Hypothesis** | El modelo de suscripción escalonada no generará una tasa de adopción superior al 20% en el plan básico ni más del 10% de upgrades a planes premium, durante el periodo de validación.|
 
 
 
@@ -205,8 +205,8 @@ ___
 |-------|-----------|
 | **Question** | ¿Cuáles son los canales de adquisición más efectivos para alcanzar y convertir productores artesanales en usuarios activos de EventWine? |
 | **Belief** | Los productores artesanales valoran altamente las recomendaciones peer-to-peer y la validación por autoridades del sector, haciendo que referencias y partnerships sean más efectivos. |
-| **Hypothesis** | Las referencias directas de productores existentes generarán el menor CAC ($50 vs $150 promedio otros canales) y mayor LTV ($800+), mientras que partnerships con asociaciones proporcionarán el mayor volumen de leads calificados. |
-| **Null Hypothesis** | No habrá diferencias significativas en CAC entre canales (variación menor al 20%), y las referencias directas no generarán LTV superior al 15% comparado con otros canales. |
+| **Hypothesis** | **Creemos que** las referencias directas de productores existentes generarán un CAC al menos 30% menor que el promedio de otros canales y un LTV superior al 25%, **ya que** los productores artesanales valoran las recomendaciones de pares y la validación por asociaciones del sector, lo cual influye directamente en su decisión de adopción de tecnología.|
+| **Null Hypothesis** | No habrá diferencias significativas en el CAC entre canales (variación menor al 10%), y las referencias directas no generarán un LTV superior al 10% comparado con otros canales como redes sociales o eventos.|
 
 ### 8.2.2. Measures.
 
