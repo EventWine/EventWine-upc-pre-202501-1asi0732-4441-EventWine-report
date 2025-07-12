@@ -400,6 +400,14 @@ Este enfoque permitirá que EventWine continúe mejorando de manera continua, ba
 ### 8.3.4. To-Be Validation Interviews
 #### 8.3.4.1. Diseño de Entrevistas.
 #### 8.3.4.2. Registro de Entrevistas.
+Entrevista N.º 1: Productor Artesanal de Vino
+
+![img_2.png](img_2.png)
+
+**Resumen de la entrevista:**
+
+Según la experiencia del entrevistado Rusbel. Su diseño intuitivo con menús jerárquicos y acceso rápido a funciones clave permite a los productores registrar cosechas (variedades, cantidades, fechas) con eficiencia operativa, mientras que el sistema de auditoría automatizado garantiza trazabilidad y control de calidad desde la uva hasta el embotellado, un aspecto que Ruzbel calificó como "fundamental para reducir errores y cumplir normativas". La capacidad de exportar datos a Excel emerge como un valor agregado para análisis externos, aunque el entrevistado subrayó que la interfaz, aunque clara, podría modernizarse con elementos visuales dinámicos (gráficos interactivos, paletas de colores actualizadas) para mejorar la experiencia en jornadas prolongadas. Finalmente, la propuesta de personalizar dashboards según roles como priorizar parámetros técnicos para enólogos versus métricas logísticas para administradores refleja una oportunidad para elevar la adaptabilidad de la herramienta, consolidándola no solo como un sistema de gestión, sino como un aliado estratégico en la transformación digital del sector.
+
 ## 8.4. Experiment Aftermath & Analysis
 ### 8.4.1. Analysis and Interpretation of Results
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
