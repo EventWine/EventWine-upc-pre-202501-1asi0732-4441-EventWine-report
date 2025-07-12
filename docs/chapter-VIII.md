@@ -432,9 +432,39 @@ Este enfoque permitirá que EventWine continúe mejorando de manera continua, ba
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
-#### 8.3.3.6. Team Collaboration Insights
-### 8.3.4. To-Be Validation Interviews
+#### 8.3.3.6. Team Collaboration Insights 
+
+
+
+### 8.3.4. To-Be Validation Interviews 
 #### 8.3.4.1. Diseño de Entrevistas.
+
+#### Preguntas de Validación para Entrevistas
+
+**1.** ¿Cuáles son los principales problemas que enfrenta actualmente en la gestión y registro de sus procesos de vinificación?
+
+**2.** ¿Cómo registra actualmente la información de sus lotes (fermentación, clarificación, prensado)? ¿Qué herramientas utiliza?
+
+**3.** ¿Cuánto tiempo dedica semanalmente a tareas administrativas relacionadas con el control de sus procesos de vinificación?
+
+**4.** ¿Ha considerado alguna vez migrar a una solución digital para gestionar sus procesos? ¿Qué lo ha detenido o motivado?
+
+**5.** Si tuviera una plataforma que automatice el registro de sus procesos, ¿cuáles serían las 3 funcionalidades más importantes que debería tener?
+
+**6.** ¿Qué tan cómodo se siente utilizando tecnología (aplicaciones, computadoras, tablets) en su trabajo diario?
+
+**7.** ¿Con qué frecuencia necesita revisar el historial completo de un lote específico? ¿Para qué propósitos?
+
+**8.** ¿Exporta o comparte datos de sus procesos con otras personas (asesores, clientes, socios)? ¿En qué formato?
+
+**9.** ¿Cuánto estaría dispuesto a invertir mensualmente en una herramienta que reduzca significativamente el tiempo de gestión administrativa?
+
+**10.** ¿Prefiere aprender nuevas herramientas a través de videos explicativos, capacitación presencial o documentación escrita?
+
+**11.** ¿Confía más en recomendaciones de otros productores o en información proporcionada directamente por proveedores de tecnología?
+
+**12.** Si existiera una plataforma como EventWine que simplifique sus procesos, ¿qué necesitaría ver o experimentar para decidir adoptarla en su bodega?
+
 #### 8.3.4.2. Registro de Entrevistas.
 ## 8.4. Experiment Aftermath & Analysis
 ### 8.4.1. Analysis and Interpretation of Results
