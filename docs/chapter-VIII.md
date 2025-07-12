@@ -433,7 +433,38 @@ Este enfoque permitirá que EventWine continúe mejorando de manera continua, ba
 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+
+**Registro de múltiples fermentaciones por lote**
+![mobile-1.png](../assets/img/chapter-VIII/fermentaciones.jpg)
+
+**Editar clarificaciones registradas**
+![mobile-2.png](../assets/img/chapter-VIII/editar_clarificacion.jpg)
+
+**Historial completo de un lote**
+![mobile-3.png](../assets/img/chapter-VIII/lotes.jpg)
+
+**Exportar datos a Excel**
+![mobile-4.png](../assets/img/chapter-VIII/excel.png)
+
+**Buscar lotes por tipo de uva**
+![mobile-5.png](../assets/img/chapter-VIII/mobile-5.png)
+
+**Implementar menús desplegables preestablecidos**
+![mobile-6.png](../assets/img/chapter-VIII/dropdown.jpg)
+![mobile-7.png](../assets/img/chapter-VIII/dropdown2.jpg)
+![mobile-8.png](../assets/img/chapter-VIII/dropdown3.jpg)
+
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+**Registro de múltiples fermentaciones por lote**
+![api-1.png](../assets/img/chapter-VIII/fermentation-get-batchId.png)
+
+**Editar clarificaciones registradas**
+![api-2.png](../assets/img/chapter-VIII/clarification-put.png)
+
+**Historial completo de un lote**
+![api-3.png](../assets/img/chapter-VIII/batch-get-all.png)
+
 #### 8.3.3.6. Team Collaboration Insights 
 
 
