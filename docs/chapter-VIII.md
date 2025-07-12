@@ -429,7 +429,55 @@ Este enfoque permitirá que EventWine continúe mejorando de manera continua, ba
 
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
+
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+- **US-14** - Registro de múltiples fermentaciones por lote
+
+![](../assets/img/chapter-VIII/US-14-1.png)
+
+![](../assets/img/chapter-VIII/US-14-2.png)
+
+![](../assets/img/chapter-VIII/US-14-3.png)
+
+
+- **US-15** - Editar clarificaciones registradas
+
+![](../assets/img/chapter-VIII/US-15-1.png)
+
+![](../assets/img/chapter-VIII/US-15-2.png)
+
+![](../assets/img/chapter-VIII/US-15-3.png)
+
+
+- **US-17** - Exportar datos a Excel
+
+![](../assets/img/chapter-VIII/US-17-1.png)
+
+![](../assets/img/chapter-VIII/US-17-2.png)
+
+![](../assets/img/chapter-VIII/US-17-3.png)
+
+
+- **US-18** - Buscar lotes por tipo de uva
+
+![](../assets/img/chapter-VIII/US-18-1.png)
+
+![](../assets/img/chapter-VIII/US-18-2.png)
+
+
+- **US-25** - Integración de video about the product
+
+![](../assets/img/chapter-VIII/US-25-1.png)
+
+
+
+- **US-26** - Implementar menús desplegables preestablecidos
+
+![](../assets/img/chapter-VIII/US-26-1.png)
+
+
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 #### 8.3.3.6. Team Collaboration Insights 
@@ -492,7 +540,7 @@ Este enfoque permitirá que EventWine continúe mejorando de manera continua, ba
 #### 8.3.4.2. Registro de Entrevistas.
 Entrevista N.º 1: Productor Artesanal de Vino
 
-![img_2.png](img_2.png)
+![img_2.png](../assets/img/chapter-VI/img_2.png)
 
 **Resumen de la entrevista:**
 
@@ -519,6 +567,21 @@ Porque aunque quieran adoptarlo, si no lo entienden o no lo usan bien, lo abando
 Porque aunque EventWine no sea mucho más eficiente al inicio, si reemplaza algo manual y engorroso, la adopción puede igual darse. Se puede mejorar la eficiencia con el tiempo.
 
 ## 8.5. Continuous Learning
+
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+Encuesta de Google Forms: Se utilizó una encuesta creada en Google Forms para recopilar el feedback
+de los usuarios y validar las hipótesis planteadas durante el diseño. Esta encuesta permitió evaluar la
+experiencia del usuario y recopilar datos que respaldan las decisiones tomadas en la mejora de la
+aplicación.
+
+Enlace encuesta:https://forms.gle/ayk9Q1Ax2ZB6GUjv9
+
+
+
 ## 8.6. To-Be Software Platform Pre-launch
 ### 8.6.1. About-the-Product Intro Video
+En esta sección, se presenta el video introductorio sobre EventWine, diseñado para captar la atención de los productores artesanales y explicar de manera clara y concisa las funcionalidades clave de la plataforma. El video destaca cómo EventWine simplifica la gestión de procesos vinícolas, mejora la trazabilidad y reduce el tiempo dedicado a tareas administrativas.
+
+[Video about the Product](https://youtu.be/NHieAQr42cE)
+![about-the-product.png](../assets/img/chapter-VI/img.png)
