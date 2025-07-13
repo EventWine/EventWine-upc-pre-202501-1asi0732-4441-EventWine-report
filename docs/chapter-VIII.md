@@ -590,6 +590,34 @@ Según la experiencia del entrevistado Rusbel. Su diseño intuitivo con menús j
 
 ## 8.4. Experiment Aftermath & Analysis
 ### 8.4.1. Analysis and Interpretation of Results
+
+En el estudio, las preguntas originales planteadas en las entrevistas iniciales fueron reformuladas y
+estructuradas con el objetivo de captar respuestas más claras y relevantes para el análisis de la
+experiencia del usuario con el producto. Este enfoque permitió identificar con mayor precisión las
+percepciones, preferencias y necesidades de los participantes respecto a las funcionalidades clave de la
+aplicación.
+Preguntas Formuladas
+En el estudio se realizaron las siguientes preguntas para evaluar la experiencia de los usuarios con el
+producto:
+
+ **¿Qué tan satisfecho estás con tu experiencia general usando EventWine?**
+
+
+
+**¿Recomendarías EventWine a otros vinicultores?**
+
+**¿Qué módulos has utilizado en EventWine?**
+
+**¿Qué tan útil te ha parecido cada módulo?**
+
+**¿Hubo alguna funcionalidad que no entendiste o te resultó difícil de usar?**
+
+**¿Deseas que nos contactemos contigo para conversar más sobre tus sugerencias?**
+
+
+
+
+
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
 
 | **Prioridad (1,2,3,5,8)** | **Pregunta** |
