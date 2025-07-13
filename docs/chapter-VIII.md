@@ -602,8 +602,6 @@ producto:
 
  **¿Qué tan satisfecho estás con tu experiencia general usando EventWine?**
 
-
-
 **¿Recomendarías EventWine a otros vinicultores?**
 
 **¿Qué módulos has utilizado en EventWine?**
@@ -613,6 +611,17 @@ producto:
 **¿Hubo alguna funcionalidad que no entendiste o te resultó difícil de usar?**
 
 **¿Deseas que nos contactemos contigo para conversar más sobre tus sugerencias?**
+
+
+![img_2.png](../assets/img/chapter-VIII/1.jpeg)
+
+![img_3.png](../assets/img/chapter-VIII/2.jpeg)
+
+![img_4.png](../assets/img/chapter-VIII/3.jpeg)
+
+![img_5.png](../assets/img/chapter-VIII/4.jpeg)
+
+![img_6.png](../assets/img/chapter-VIII/5.jpeg)
 
 
 
