@@ -265,10 +265,70 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
 ### 8.6.1. About-the-Product Intro Video
 
 # Conclusiones y recomendaciones
-# Video About-the-Team
-# Bibliografía
-# Anexos
+## Conclusiones
+A lo largo del desarrollo del laboratorio se logró comprender a fondo la importancia de aplicar el enfoque Experiment-Driven Product Development (EDPD) en el proceso de mejora de una plataforma tecnológica. Este enfoque permitió identificar hipótesis clave sobre el comportamiento de los usuarios y validar de forma estructurada las decisiones de diseño e implementación de nuevas funcionalidades.
 
+Asimismo, se evidenció la necesidad de formular experimentos medibles, con métricas claras y objetivos bien definidos, lo cual facilitó la evaluación de los cambios propuestos y su impacto real en los usuarios. La integración de herramientas como Figma para el prototipado y la documentación rigurosa mediante tarjetas de hipótesis fortaleció la toma de decisiones centrada en evidencia.
+
+En el plano técnico, la práctica de contenerización a través de Docker permitió adquirir competencias fundamentales para el despliegue eficiente y replicable de aplicaciones en ambientes controlados. Esta experiencia aportó valor tanto en el aspecto práctico del desarrollo como en la preparación para entornos productivos reales.
+
+En resumen, la aplicación conjunta de técnicas de experimentación orientadas al usuario y herramientas de infraestructura modernas refuerza la necesidad de un enfoque integral para el diseño y validación de productos digitales, poniendo al usuario en el centro sin descuidar la escalabilidad y calidad técnica del software.
+
+## Recomendaciones
+1. Continuar aplicando el enfoque EDPD de manera iterativa: Se recomienda seguir utilizando el ciclo de experimentación para futuras mejoras de la plataforma, validando cada cambio con métricas específicas y feedback real de los usuarios.
+
+2. Ampliar la base de usuarios para la validación: Las entrevistas y experimentos deben incluir una muestra más diversa de usuarios para obtener insights más representativos y asegurar que la plataforma cubre distintos perfiles y contextos de uso.
+
+3. Incorporar herramientas de analítica continua: Es recomendable integrar soluciones de monitoreo y analítica de comportamiento (como Hotjar, Google Analytics, entre otros) para complementar la experimentación con datos reales de uso en producción.
+
+4. Mejorar los procesos de documentación de experimentos: Documentar de forma más estandarizada las hipótesis, resultados y aprendizajes facilitará el traspaso de conocimiento y permitirá mantener la trazabilidad de las decisiones tomadas.
+
+5. Explorar automatización en el despliegue y validación: Invertir en pipelines de CI/CD más robustos y en pruebas automatizadas contribuirá a reducir errores humanos y mejorar la calidad de los entregables de software.
+
+7. Fomentar la formación del equipo en metodologías centradas en el usuario: Se recomienda que los miembros del equipo continúen capacitándose en UX Research, métricas de producto y metodologías ágiles para fortalecer el enfoque centrado en el usuario y la entrega de valor continuo.
+
+
+# Video About-the-Team
+https://youtu.be/M4WplmHk2gQ 
+![img.png](assets/img/about-the-team.png)
+# Bibliografía
+- Gothelf, J. (2022). *Lean UX: Designing Great Products with Agile Teams* (3ra ed.). O'Reilly Media.
+
+- Ries, E. (2011). *The Lean Startup: How Today’s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses*. Crown Business.
+
+- Krug, S. (2014). *Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability* (3ra ed.). New Riders.
+
+- Nielsen, J., & Molich, R. (1990). Heuristic Evaluation of User Interfaces. En *Proceedings of the SIGCHI Conference on Human Factors in Computing Systems* (pp. 249–256). ACM. https://doi.org/10.1145/97243.97281
+
+- Docker, Inc. (2024). *Docker Documentation*. Recuperado de https://docs.docker.com/
+
+- ISO/IEC/IEEE 29148:2018. (2018). *Systems and software engineering — Life cycle processes — Requirements engineering*. International Organization for Standardization.
+
+- Pressman, R. S., & Maxim, B. R. (2020). *Software Engineering: A Practitioner’s Approach* (9na ed.). McGraw-Hill Education.
+
+# Anexos
+## Anexo A. Products Deployed.
+
+Eventify Landing Page: https://eventwine.github.io/EventWine-Landing-Page/
+
+## Anexo B. Web Tools.
+
+Figma Landing Page: [Landing Page - EventWine](https://shorturl.at/Lx5IR)
+
+Web Application Prototyping: https://shorturl.at/Lx5IR
+
+Web Application Wireframes and Mockups: https://shorturl.at/Lx5IR
+
+## Anexo C. Github Repositories.
+
+Organization EventWine Url: https://github.com/AngelDevs-Open
+
+| Repositories             | Repository Url                                                                          |
+|--------------------------|-----------------------------------------------------------------------------------------|
+| EventWine Project Report | https://github.com/EventWine/EventWine-upc-pre-202501-1asi0732-4441-EventWine-report.git |
+| EventWine Landing page   | https://github.com/EventWine/EventWine-Landing-Page.git                                 |
+| EventWine Frontend       | https://github.com/EventWine/EventWine-FrontEnd.git                                     |
+| EventWine Backend          | https://github.com/EventWine/EventWine-Platform-.NET.git                                |
 
 ## Student Outcome
 
