@@ -39,18 +39,19 @@
 
 ## Registro de Versiones del Informe
 
-| Versión | Fecha    | Autor          | Descripción de Modificación               |
-|---------|----------|----------------|-------------------------------------------|
-| 1.0     | 24/04/25 | Aquí va nombre | Aquí va la descripción de la modificación |
-| 1.1     | 25/04/25 | Aquí va nombre | Aquí va la descripción de la modificación |
-| 1.2     | 25/04/25 | Aquí va nombre | Aquí va la descripción de la modificación |
-| 1.3     | 25/04/25 | Aquí va nombre | Aquí va la descripción de la modificación |
-| 1.4     | 25/04/25 | Aquí va nombre | Aquí va la descripción de la modificación |
-| 1.5     | 25/04/25 | Aquí va nombre | Aquí va la descripción de la modificación |
-| 1.6     | 25/04/25 | Aquí va nombre | Aquí va la descripción de la modificación |
-| 1.7     | 25/04/25 | Aquí va nombre | Aquí va la descripción de la modificación |
-| 1.8     | 25/04/25 | Aquí va nombre | Aquí va la descripción de la modificación |
-| 1.9     | 25/04/25 | Aquí va nombre | Aquí va la descripción de la modificación |
+| Versión | Fecha    | Autor                         | Descripción de Modificación                                                                 |
+|---------|----------|-------------------------------|----------------------------------------------------------------------------------------------|
+| 1.0     | 24/04/25 | Donayre Peña Moises Rodolfo   | Creación de la estructura inicial del documento e integración del contexto de arquitectura. |
+| 1.1     | 25/04/25 | Paico Calderon July Zelmira   | Redacción del Capítulo I (Startup Profile y Solution Profile).                              |
+| 1.2     | 25/04/25 | Huanca Navarro Gustavo Esau   | Análisis competitivo y benchmark con plataformas similares (Capítulo II).                   |
+| 1.3     | 25/04/25 | Crisanto Calle Deybbi Anderson| Redacción y definición del Lean UX Canvas y Hypothesis Statements.                          |
+| 1.4     | 25/04/25 | Paico Calderon July Zelmira   | Desarrollo de User Personas, Empathy Map y User Journey Mapping.                            |
+| 1.5     | 25/04/25 | Huanca Navarro Gustavo Esau   | Diseño UX/UI y prototipado de la versión web (Landing Page y Frontend).                     |
+| 1.6     | 25/04/25 | Donayre Peña Moises Rodolfo   | Implementación técnica de la arquitectura backend y contenedores Docker.                    |
+| 1.7     | 25/04/25 | Crisanto Calle Deybbi Anderson| Desarrollo y validación de experimentos + análisis de resultados (Capítulo VIII).           |
+| 1.8     | 25/04/25 | Paico Calderon July Zelmira   | Documentación del Shareback y de la auditoría de UX.                                        |
+| 1.9     | 25/04/25 | Todo el equipo                | Revisión final del documento, conclusiones, recomendaciones y referencias bibliográficas.   |
+
 
 
 ## Project Report Collaboration Insights
